@@ -1,0 +1,3031 @@
+<?xml version="1.0" ?>
+<resources>
+
+    <!--region 通用-->
+    <string name="app_name">星財富</string>
+
+    <string name="ok">確定</string>
+    <string name="confirm">確認</string>
+    <string name="cancel">取消</string>
+    <string name="alert">提示</string>
+    <string name="error_alert">錯誤提示</string>
+    <string name="i_know">已了解</string>
+    <string name="for_now">暫不</string>
+
+    <string name="fav_stock">自選</string>
+    <string name="market">市場</string>
+    <string name="quote">行情</string>
+    <string name="trade">交易</string>
+    <string name="mine">我的</string>
+    <string name="open_account">開戶</string>
+    <string name="finance">理財</string>
+    <string name="add_finance_advisor">添加理財顧問</string>
+    <string name="finance_advisor">專屬顧問</string>
+    <string name="news">資訊</string>
+    <string name="live">直播</string>
+    <string name="live_login_error">請求小鵝通異常</string>
+    <string name="discover">發現</string>
+
+    <string name="thousand_uint">千</string>
+    <string name="wan_unit">萬</string>
+    <string name="one_hundred_thousand_unit">十萬</string><!--TODO-->
+    <string name="million_unit">百萬</string><!--TODO-->
+    <string name="ten_million_unit">千萬</string><!--TODO-->
+    <string name="yi_unit">億</string>
+    <string name="billion_unit">十億</string><!--TODO-->
+    <string name="ten_billion_unit">百億</string><!--TODO-->
+    <string name="one_hundred_billion_unit">千億</string><!--TODO-->
+    <string name="trillion_unit">兆</string><!--TODO-->
+    <string name="shares_unit">股</string>
+    <string name="mavol_unit">萬股</string>
+    <string name="mavol_unit_cn">萬手</string>
+
+    <string name="day_unit">天</string>
+
+    <string name="pulling">下拉刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_refresh">釋放立即刷新</string>
+    <string name="load_more_finish">載入完成</string>
+    <string name="no_more_data">沒有更多了</string>
+    <string name="no_data">暫無數據</string>
+    <string name="no_network">無網絡</string>
+    <string name="error_retry">立即刷新</string><!--TODO-->
+    <string name="no_content">暫無內容</string>
+    <string name="no_data_holding">暫無持倉</string>
+    <string name="no_data_holding2">暫無持有</string>
+    <string name="no_data_order_related">無相關訂單</string>
+    <string name="no_data_conditions_order">暫無條件訂單</string>
+    <string name="no_data_order">暫無訂單</string>
+    <string name="no_data_stock">暫無股票</string>
+    <string name="goto_login">去登錄</string>
+
+
+    <string name="agin_back_exit">再按一次後退鍵退出程式</string>
+    <string name="exit">退出</string>
+    <string name="input_hint">請輸入信息</string>
+
+    <string name="loading_default">請稍候&#8230;</string>
+    <string name="loading_timeout_default">請求超時，請稍後重試!</string>
+    <string name="other">其他</string>
+
+    <string name="skip">跳過</string>
+    <string name="see_detail">查看詳情</string>
+    <string name="loading">載入中...</string>
+    <string name="request_failed">請求失敗</string>
+
+    <string name="stock_name">股票名稱</string>
+    <string name="stock_code">股票代碼</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+
+    <string-array name="week">
+        <item>週日</item>
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+    </string-array>
+
+    <string-array name="single_week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+
+    <string name="yesterday">昨日</string>
+    <string name="day">日</string>
+    <string name="week">週</string>
+    <string name="single_today">今</string>
+
+    <string name="sign_percent">%</string>
+    <string name="add">添加</string>
+    <string name="notification_channel_name">普通消息</string>
+    <string name="history">歷史</string>
+    <string name="share_link">分享鏈接</string>
+    <string name="share_img">分享圖片</string>
+    <string name="fo_sun_verify">復星認證</string>
+    <!--endregion-->
+
+    <!--region个人中心-->
+    <string name="deposit_money">存入資金</string>
+    <string name="withdraw_money">提取資金</string>
+    <string name="currency_exchange">貨幣兌換</string>
+    <string name="help_center">幫助中心</string>
+    <string name="complaint_feedback">意見回饋</string>
+    <string name="about_us">關於我們</string>
+    <string name="login_or_register">登錄/註冊</string>
+    <string name="click_login_or_register">一個賬戶，投資全球</string>
+    <string name="user_session_error_tips">您的登錄已失效，請重新登錄</string>
+    <string name="user_session_kicked_tips">您的賬號已在其他地方登錄，請確認是否為本人操作。如非本人操作，請重新登錄當前賬號或聯繫客服</string>
+    <string name="user_session_kicked_title">登錄安全提醒</string>
+    <string name="hani_number_title">星財號：</string>
+    <string name="phone_num">手機號</string>
+    <string name="email">郵箱</string>
+    <string name="third_account_bind">第三方賬號綁定</string>
+    <string name="login_device_mgr">登錄設備管理</string>
+    <string name="auto_login">自動登錄</string>
+    <string name="asset_privacy_protection">資產隱私保護</string>
+    <string name="asset_privacy_protection_open_account">您未開通證券賬號，請開戶後再使用資產隱私保護</string>
+    <string name="trade_mim_setting">交易密碼設置</string>
+    <string name="recommend_have_gift">推薦有禮</string>
+    <string name="invited_tip">邀好友，最高領600HKD/人</string>
+    <string name="tmt_text">認證專區</string>
+    <string name="tmt_text_tip">專屬身份權益</string>
+    <string name="click_get">立即領取</string>
+    <string name="delete_account">注銷賬號</string>
+    <string name="icp_info">ICP備案號：粤ICP备2022032998号-4A</string>
+
+
+    <string name="login">登錄</string>
+    <string name="login_success">登錄成功</string>
+    <string name="please_input_email_or_phone">請輸入郵箱地址/星財號</string>
+    <string name="please_input_login_mim">請輸入登錄密碼</string>
+    <string name="phone_direct_login">本機號碼一鍵登錄</string>
+    <string name="phone_direct_login_poptip">一鍵登錄</string>
+    <string name="phone_direct_login_or_register">本機號碼一鍵登錄/註冊</string>
+    <string name="phone_verify_login">短訊驗證碼登錄</string>
+    <string name="forget_mim">忘記密碼</string>
+    <string name="forget_mim_with_mark">忘記密碼?</string>
+    <string name="forget_login_mim">忘記登錄密碼</string>
+    <string name="account_mim_login">賬號密碼登錄</string>
+    <string name="phone_mim_login">手機號密碼登錄</string>
+    <string name="resend">重新發送</string>
+    <string name="phone_login">短訊驗證登錄</string>
+    <string name="verify_code_has_been_to">已發送短訊驗證碼至：</string>
+    <string name="input_sms_verify_code">輸入短訊驗證碼</string>
+    <string name="first_login_auto_register">首次登錄自動註冊賬號</string>
+    <string name="please_input_phone">請輸入手機號碼</string>
+    <string name="get_verify_code">發送驗證碼</string>
+    <string name="wx_or_other_way_login">微信及其他方式登錄</string>
+    <string name="login_with_phone_mim">手機密碼登錄</string>
+    <string name="captcha">驗證碼</string>
+    <string name="mim">密碼</string>
+    <string name="mim_login_with_phone">手機號</string>
+    <string name="mim_login_with_acc">郵箱/星財號</string>
+
+    <string name="user_agreement_head">我已閱讀並同意</string>
+    <string name="user_agreement_tail">並授權星財富獲得本機號碼</string>
+    <string name="and">和</string>
+    <string name="login_bottom_user_agreement_format">我已閱讀並同意%s、%s和%s</string>
+
+    <string name="more_login_way">更多登錄方式</string>
+    <string name="switch_phone_num">切換</string>
+
+    <string name="user_agreement">用戶協議</string>
+    <string name="privacy_statement">隱私聲明</string>
+    <string name="disclaimer">免責聲明</string>
+    <string name="login_bottom_user_agreement_uncheck_tip">請閱讀並勾選用戶協議</string>
+
+    <string name="phone_invalid_tip">請輸入正確的手機號</string>
+    <string name="phone_input_format_invalid">手機格式不正確, 請重新輸入。</string>
+    <string name="email_invalid_tip">郵箱錯誤，請確認後重試</string>
+    <string name="account_invalid_tip">請正確輸入郵箱/手機號</string>
+    <string name="verify_code_send_failed">驗證碼發送失敗</string>
+    <string name="send_email_failed">發送郵件異常</string>
+    <string name="login_loading">正在登錄...</string>
+    <string name="login_failed">登錄失敗，請稍後重試</string>
+    <string name="login_failed_account_or_mim_invalid">登錄失敗，請確認用戶名、密碼是否正確</string>
+    <string name="login_failed_mim_locked">該賬戶登錄出錯已達上限，請於3小時後重試</string>
+    <string name="mim_verify_failed_locked">登錄密碼錯誤次數已達上限，您將在3小時內無法驗證登錄密碼。</string>
+    <string name="login_failed_remain_count_format">賬戶名與密碼不匹配，您還有%d次機會</string>
+    <string name="account_status_error">賬戶狀態異常</string>
+    <string name="phone_direct_login_failed">一鍵登錄登錄失敗！</string>
+    <string name="get_userinfo_failed">獲取用戶信息失敗</string>
+    <string name="account_lock_content">
+        %s
+        \n如有疑問，可聯繫客服進行賬戶查詢或解鎖。
+        \n內地客服：%s
+        \n香港客服：%s
+    </string>
+    <string name="retrieve_mim">找回密碼</string>
+
+    <string name="mim_locked_tip">密碼已被鎖定，請聯繫客服解鎖</string>
+    <string name="contact_customer_service">聯繫客服</string>
+    <string name="online_customer_service">在線客服</string>
+    <string name="verify_code_error">驗證碼錯誤，請確認後重試</string>
+    <string name="sync_error">同步失敗</string>
+    <string name="verify_code_expired">驗證碼已過期，請重新發送</string>
+    <string name="please_input_phone_to_reset_mim">請輸入手機號，重置您的密碼完成登錄</string>
+    <string name="please_input_email_to_reset_mim">請輸入郵箱，重置登錄密碼</string>
+    <string name="please_input_email_hint">請輸入郵箱</string>
+    <string name="send_email_verify_code">發送郵箱驗證碼</string>
+    <string name="send_verify_email">發送驗證郵件</string>
+    <string name="input_email_verify_code">輸入郵箱驗證碼</string>
+    <string name="email_verify_code_has_been_to">已發送郵箱驗證碼至：</string>
+    <string name="email_verify">郵箱驗證</string>
+    <string name="phone_verify">手機驗證</string>
+    <string name="phone_been_bound">该手机号无效或已被使用</string>
+    <string name="verify_success">驗證成功</string>
+    <string name="reset_login_mim">重置登錄密碼</string>
+    <string name="please_reset_your_login_mim">請重新設置您的登錄密碼</string>
+    <string name="old_login_mim_title">原密碼</string>
+    <string name="new_login_mim_title">新密碼</string>
+    <string name="confirm_new_login_mim_title">確認新密碼</string>
+    <string name="reset_new_login_mim_hint">新登錄密碼(8-20位組合)</string>
+    <string name="reset_confirm_new_login_mim_hint">確認新密碼</string>
+    <string name="old_login_mim_hint">輸入原密碼</string>
+    <string name="new_login_mim_hint">新密碼(8-20位組合)</string>
+    <string name="input_new_login_mim_hint">新登錄密碼(8-20位組合)</string>
+    <string name="confirm_new_login_mim_hint">確認新密碼</string>
+    <string name="two_new_mim_diff_tip">再次輸入的密碼不一致</string>
+    <string name="new_and_old_mim_same_tip">新密碼不能與當前密碼相同</string>
+    <!--<string name="please_input_account_idcard_num">請填寫完整復星恆利證券(香港)開戶證件號碼</string>-->
+    <string name="account_idcard_num_hint">開戶證件號</string>
+    <string name="account_idcard_num_input_guide">
+        開戶證件號不區分大小寫字母。如是香港身份證無須輸入括號。
+        \n示例如下：
+        \n香港身份證：G1234567
+        \n內地身份證：12345678901234123X
+        \n內地護照：E12345678
+    </string>
+    <string name="login_mim_invalid_tip">登錄密碼至少含大寫字母、小寫字母、數位或標點符號中的三種</string>
+    <string name="modify_mim_invalid_tip">大寫字母、小寫字母、數位或標點至少含三種</string>
+    <string name="set_mim_tip_title">補充資料</string>
+    <string name="set_mim_tip_content">您的資料沒有補全,無法進行下一步操作</string>
+    <string name="set_mim_tip_button">補充</string>
+
+    <string name="curr_verify_phone_title">當前驗證手機號：</string>
+    <string name="curr_verify_email_title">當前驗證郵箱號：</string>
+    <string name="no_authenticate">未認證</string>
+    <string name="next_step">下一步</string>
+    <string name="confirm_reset">確認重置</string>
+    <string name="again_login">重新登錄</string>
+    <string name="reset_success_tip">重置成功</string>
+    <string name="login_mim_reset_success_tip">登錄密碼重置成功</string>
+    <string name="please_remember_your_new_login_mim">請牢記您的新登錄密碼</string>
+    <string name="modify_mim_success_tip">您的登錄密碼已修改，請重新登錄</string>
+    <string name="modify_mim_failed_tip">操作失敗</string>
+    <string name="reset_mim_failed_tip">操作失敗</string>
+    <string name="reset_mim_code_error">操作超時，請重新驗證</string>
+    <string name="old_mim_error_tip">原密碼輸入錯誤</string>
+    <string name="modify_login_min">修改登錄密碼</string>
+    <string name="go_setting">去設置</string>
+    <string name="login_mim_unset_tip">您還未設置過密碼，請先去設置密碼</string>
+    <string name="logout_tip">確定要登出嗎？</string>
+    <string name="logout_autologin_setting_guide">如有需要可以關閉自動登錄。</string>
+    <string name="account_idcard_num_verify_failed_tip">開戶證件號碼校驗失敗，請確認輸入是否正確</string>
+
+    <string name="verify_login_mim">驗證登錄密碼</string>
+    <string name="verify_login_mim_hint">登錄密碼(8–20位組合)</string>
+    <string name="setting_login_min">設置登錄密碼</string>
+    <string name="setting_new_login_mim">設置新登錄密碼</string>
+    <string name="set_successfully">設置成功</string>
+    <string name="please_remember_your_login_mim">請牢記您的登錄密碼</string>
+    <string name="can_not_receive_verification_code">收不到驗證碼?</string>
+    <string name="login_mim_does_not_meet_the_rules_tip">8–20位字符，大小寫字母、數位和標點符號至少包含3種</string>
+    <string name="inconsistent_mims">密碼不一致</string>
+    <string name="login_mim_tip_title">為保障賬戶安全，首次登錄須設置登錄密碼</string>
+    <string name="login_min_tip_content">登錄密碼是指您登錄星財富APP時使用的密碼，該密碼僅作星財富APP內登錄使用
+        \n\n交易密碼是指您通過交易賬戶辦理復星國際證券業務時使用的密碼，該密碼可用於星財富APP內解鎖交易、提交訂單及與證券交易相關等行為，亦可用於登錄復星國際證券其他交易平台
+    </string>
+    <string name="multiAcc_login_deny_title">當前手機號綁定多個交易賬戶</string>
+    <string name="multiAcc_login_deny_content">為保障您的賬戶安全，該手機號暫不支持賬號密碼登錄，請選擇短訊驗證碼登錄</string>
+    <string name="multiAcc_login_to_phone">前往短訊驗證碼登錄</string>
+    <string name="multiAcc_modify_phone_deny">為保護您的賬戶安全，公司戶暫不支持線上修改認證手機號，如需修改，可聯繫線上客服</string>
+    <string name="multiAcc_modify_email_deny">為保護您的賬戶安全，公司戶暫不支持線上修改認證郵箱，如需修改，可聯繫線上客服</string>
+    <string name="multiAcc_permission_deny">當前賬戶類型暫不支持此功能</string>
+    <string name="login_openaccbutnomim_tip_title">為保障賬戶安全，首次登錄星財富須使用短訊驗證碼登錄，並設置登錄密碼</string>
+    <string name="login_to_set_mim">前往設置登錄密碼</string>
+    <string name="login_to_set_mim_success">登錄密碼設置成功</string>
+
+    <string name="server_error">網絡請求失敗，請稍後重試</string>
+
+    <string name="verify_code_tops">常用地區</string>
+    <string name="area_code_pick_title">所屬地區</string>
+    <string name="area_code_search_hint">國家/地區</string>
+    <string name="area_code_no_data">沒有數據</string>
+
+    <string name="tip_successfully_opened">開啟成功</string>
+    <string name="tip_closed">已關閉</string>
+
+    <string name="error_verify_code">驗證碼錯誤</string>
+    <string name="error_email_bound">郵箱已綁定</string>
+    <string name="select_trade_account">選擇交易賬戶</string>
+    <string name="select_multi_trade_account_tip">手機號 %s 綁定多個交易賬戶，請選擇交易賬戶以登錄。登錄成功後，任何操作都僅於該賬戶生效</string>
+    <string name="personal">個人</string>
+    <string name="company">公司</string>
+    <string name="joint">聯名</string>
+    <string name="institutional">機構</string>
+    <string name="fill_in_trade_account_tip">請填寫完整的交易賬戶</string>
+    <string name="forget_trade_account">忘記交易賬戶</string>
+    <string name="forget_trade_account_tip">如您忘記交易賬戶，可聯繫客服查詢</string>
+    <string name="third_login_failed_title">第三方賬號綁失敗</string>
+    <string name="third_login_company_failed_tip">公司戶暫不支持第三方賬號綁定，請選擇其他方式登錄</string>
+    <string name="third_login_institutional_failed_tip">機構戶暫不支持第三方賬號綁定，請選擇其他方式登錄</string>
+    <string name="account_not_match">證券賬號不匹配</string>
+
+    <string name="management">管理</string>
+    <string name="account_switch">賬號切換</string>
+    <string name="switch_account">切換賬號</string>
+    <string name="current_use">當前使用</string>
+    <string name="delete_account_tip">確定移除賬號？</string>
+    <string name="add_account">添加賬號</string>
+    <string name="add_success">賬號%s成功登錄</string>
+    <string name="account_switching">賬號切換中…</string>
+    <string name="account_switch_failed">賬號切換失敗，請重試</string>
+    <string name="add_account_over_tip">最多添加%s個賬號</string>
+    <string name="your_hani_id">您的星財號：%s。</string>
+    <string name="setting_login_mim_tip">為保障您的賬號安全，首次登錄請設置登錄密碼</string>
+    <string name="setting_verify_mim_tip">為保障您的賬號安全，需要驗證登錄密碼</string>
+    <string name="id_verify_succeed_setting_mim_tip">身份驗證成功，請設置新的登錄密碼</string>
+    <string name="verify_trade_account_tip">請填寫完整的交易賬戶號碼進行身份驗證。如有疑問，可點擊底部忘記交易賬戶按鈕聯繫客服</string>
+    <string name="view_all">查看全部</string>
+
+    <string name="input_voice_captcha">輸入語音驗證碼</string>
+    <string name="voice_captcha_dialog_tip">我們將通過電話語音告知您驗證碼，請留意接聽。</string>
+    <string name="get_voice_captcha">獲取語音驗證碼</string>
+    <string name="had_send_vioce_captcha">語音驗證碼已發送，請留意接聽電話</string>
+    <string name="voice_captcha_is_calling">我們正在打電話至：%s</string>
+    <string name="voice_captcha_not_get">如仍無法收到，可</string>
+    <string name="reacquire">重新獲取</string>
+    <string name="captcha_had_send">驗證碼已發送，60秒內無法重復獲取，確定退出嗎？</string>
+
+    <string name="trade_account_suspend_tips">當前帳戶已凍結，請聯繫在線客服</string>
+    <!--endregion-->
+
+    <!--region 设置-->
+    <string name="settings">設置</string>
+    <string name="account_and_security">賬號與安全</string>
+    <string name="quote_settings">行情設置</string>
+    <string name="trade_settings">交易設置</string>
+    <string name="language_settings">多語言</string>
+    <string name="language_simplified">简体中文</string>
+    <string name="language_traditional">繁體中文</string>
+    <string name="clear_cache">清理緩存</string>
+    <string name="cache_clearing">清理中...</string>
+    <string name="cache_clear_success">清理成功！</string>
+    <string name="cache_clear_failed">清理失敗！</string>
+    <string name="clear_cache_tip">確定清理緩存嗎？</string>
+    <string name="privacy">隱私</string>
+    <string name="universal">通用</string>
+    <string name="logout">登出</string>
+    <string name="account_unprotected">未保護</string>
+    <string name="account_protected">已保護</string>
+    <string name="account_unlogined">未登錄</string>
+    <string name="closed">已關閉</string>
+    <string name="opened">已開啟</string>
+    <string name="message_notification">新消息通知</string>
+    <string name="message_push">消息推送</string>
+    <string name="message_notification_setting">消息通知設置</string>
+    <string name="to_system_setting">前往手機系統設置中進行設置</string>
+    <string name="notification_opened">已開啟</string>
+    <string name="notification_closed">已關閉，去開啟</string>
+    <string name="quote_related">行情相關</string>
+    <string name="other_alter">其他提醒</string>
+    <string name="news_push">資訊推送</string>
+    <string name="push_switch">推送開關</string>
+    <string name="news_switch_push_tip">接收市場要聞、個股資訊和市場熱點推送</string>
+    <string name="news_maybe_miss">您可能錯過重要市場資訊</string>
+    <string name="txt_open_system_push_switch">您已關閉星財富的「系統接收消息通知」，如需開啟消息通知，請前往系統設置修改</string>
+    <string name="txt_please_goto_system_modify">請前往系統設置修改</string>
+    <string name="news_push_frequency">市場資訊推送頻率</string>
+    <string name="news_push_importance">重要資訊（約30條/日）</string>
+    <string name="news_push_importance_explain">適合重度市場參與者</string>
+    <string name="news_push_featured">精選資訊（約15條/日）</string>
+    <string name="news_push_featured_explain">適合普通市場參與者</string>
+    <string name="news_push_code">核心資訊（約5條/日）</string>
+    <string name="news_push_code_explain">僅接收市場重磅緊急消息</string>
+
+    <string name="news_push_not_receive">不接收資訊</string>
+    <string name="news_push_not_receive_explain">不接收市場資訊推送</string>
+
+    <string name="news_txt_stock_import">個股重要資訊</string>
+
+    <string name="news_holding_stock">持倉資訊</string>
+    <string name="news_holding_stock_explain">開啟後，接收持倉個股相關異動及事件提醒</string>
+
+    <string name="news_fav_stock">自選資訊</string>
+    <string name="news_fav_stock_explain">開啟後，接收自選個股相關異動及事件提醒</string>
+
+    <string name="news_night_dont_disturb">夜間勿擾</string>
+    <string name="news_night_dont_disturb_explain">每日00:00–08:00(北京時間)，您將不會收到推送通知</string>
+
+    <string name="please_enter_login_mim">請輸入登錄密碼</string>
+    <string name="quote_push">行情推送</string>
+    <string name="trade_push">交易推送</string>
+    <string name="order_success">訂單成交</string>
+    <string name="conditional_trigger">條件觸發</string>
+    <string name="request_notification_permission_title">“星財富”想給您發送通知</string>
+    <string name="request_notification_permission_msg">通知可能包括提醒、聲音和圖標標記。\n這些可在“設置”中配置。</string>
+    <!--endregion-->
+
+    <!--region 行情设置-->
+    <string name="chg_color">漲跌色</string>
+    <string name="chg_pct_color">漲跌顏色</string>
+    <string name="orange_rise_and_green_fall">橙漲綠跌</string>
+    <string name="green_rise_and_orange_fall">綠漲橙跌</string>
+    <string name="red_rise_and_green_fall">紅漲綠跌</string>
+    <string name="green_rise_and_red_fall">綠漲紅跌</string>
+    <string name="smart_sorting">智能排序</string>
+    <string name="smart_sorting_tip">自動前置處於交易時間段的市場</string>
+    <!--endregion -->
+
+    <!--region 交易设置-->
+    <string name="order_setting">下單設置</string>
+    <string name="order_show">持倉展示</string>
+    <string name="order_other_setting">其他設置</string>
+    <string name="cost_price">成本價</string>
+    <string name="diluted_cost_price">攤薄成本價</string>
+    <string name="average_cost_price">平均成本價</string>
+    <string name="second_order_confirmation">訂單二次確認</string>
+    <string name="second_order_confirmation_tip">訂單二次確認可避免錯誤提交，是否繼續關閉？</string>
+    <string name="trade_page_expand_k_line">下單頁默認展開分時K線</string>
+    <string name="minimum_variation_unit_reminder">最小變動單位提醒</string>
+    <string name="buy_high_sell_low_reminder">高買低賣提醒</string>
+    <string name="financing_reminder">融資提醒</string>
+    <string name="adr_trade_reminder">ADR交易提醒</string>
+    <string name="minimum_variation_unit_reminder_tip">%s當前的委託價格最小單位為%s，您的報價%s可能無法提交至交易所，請將價格修改至最小變動單位的整數倍後再次提交。是否繼續交易？</string>
+    <string name="buy_high_reminder_tip">該訂單價格高於當前市價，可能會影響收益，是否繼續提交？</string>
+    <string name="sell_low_reminder_tip">該訂單價格低於當前市價，可能會影響收益，是否繼續提交？</string>
+    <string name="financing_reminder_tip">訂單金額超出現金購買力，其中%s股將使用到融資。</string>
+    <string name="adr_trade_reminder_tip">1.根據監管義務，不同交易所對ADR設有不同的價格限制 (如買單價格上限或賣單價格底限)，可能會導致交易延遲或不被執行，如遇到該情況，請嘗試重新下單；&#x000A;2.持有ADR可能會產生ADR託管費用，一般會在每年年底收取</string>
+    <string name="continue_to">繼續</string>
+    <string name="continue_to_place_order">繼續下單</string>
+    <string name="pre_or_after_open_reminder">競價時段交易提醒</string>
+    <string name="pre_open_reminder">開市前時段交易提醒</string>
+    <string name="after_open_reminder">收市競價時段交易提醒</string>
+    <string name="pre_open_reminder_content">當前為開市前時段，提交的預設訂單將於開市後排隊提交至交易所，是否繼續提交？</string>
+    <string name="after_open_reminder_content">當前為收市競價時段，如提交的訂單未成交，將於收市後轉為作廢，是否繼續提交？</string>
+    <string name="holding_correlation">持倉相關</string>
+    <string name="us_use_pre_market_price">美股市值/盈虧使用盤前價</string>
+    <string name="us_use_after_hours_price">美股市值/盈虧使用盤後價</string>
+    <string name="stock_showing_clearance">顯示持倉數量為0的持倉</string>
+    <string name="common_quantity">常用數量</string>
+    <string name="preset_order">訂單預設</string>
+
+    <string name="default_order_type_continuous_trading">默認訂單類型(持續交易)</string>
+    <string name="default_order_type_period_bidding">默認訂單類型(競價時段)</string>
+    <string name="default_fill_price">默認填充價格</string>
+    <string name="default_fill_quantity">默認填充數量</string>
+    <string name="default_order_type">默認訂單類型</string>
+    <string name="price_buy1">買一價</string>
+    <string name="price_sell1">賣一價</string>
+    <string name="please_enter">請輸入</string>
+    <string name="shares">股數</string>
+    <string name="one_hand">一手</string>
+    <string name="custom">自定義</string>
+    <string name="quantity_display">數量展示</string>
+    <string name="common_quantity_1">常用一</string>
+    <string name="common_quantity_2">常用二</string>
+    <string name="common_quantity_3">常用三</string>
+    <string name="common_quantity_4">常用四</string>
+    <string name="save_confirm">是否保存修改？</string>
+    <string name="save_success">保存成功</string>
+    <string name="no_modification">暫無修改</string>
+    <string name="tip_quantity_odd_lot">數量非整手，暫不支持碎股交易</string>
+    <string name="common_position">常用倉位</string>
+    <string name="common_field_sort_show">字段排序與顯示</string>
+    <string name="common_position_tip">註：倉位基數為總資產淨值，預估金額=倉位基數*百分比</string>
+    <string name="common_position_input_hint">請輸入 0–100</string>
+    <string name="common_position_invalid">所選倉位不足最低手數要求，請重試</string>
+    <string name="common_position_more">更多倉位設置</string>
+    <!--endregion-->
+
+    <!--region 交易密码设置-->
+    <string name="trade_mim_set">設置交易密碼</string>
+    <string name="trade_mim">交易密碼設置</string>
+    <string name="trade_settings_change_mim">修改交易密碼</string>
+    <string name="trade_settings_old_mim">驗證原交易密碼</string>
+    <string name="trade_settings_new_mim">設置新交易密碼</string>
+    <string name="trade_settings_first_mim">設置交易密碼</string><!--首次设置-->
+    <string name="trade_settings_mim_tip">%s交易賬戶 %s 證券業務辦理使用的%s</string>
+    <string name="trade_settings_mim_verify_origin_mim_tip">交易賬戶：%s。為保障您的賬號安全，請輸入您當前使用的交易密碼以驗證身份</string>
+    <string name="trade_settings_new_mim_tip">設置新交易密碼。任何涉及交易、資金等影響賬戶安全的操作，都需要驗證交易密碼</string>
+    <string name="trade_settings_first_mim_tip">設置交易密碼。任何涉及交易、資金等影響賬戶安全的操作，都需要驗證交易密碼</string><!--首次设置-->
+    <string name="trade_settings_forget_mim_tip">交易賬戶：%s。任何涉及交易、資金等影響賬戶安全的操作，都需要驗證交易密碼</string>
+    <string name="trade_settings_confirm_first_mim_tip">重複輸入交易密碼。任何涉及交易、資金等影響賬戶安全的操作，都需要驗證交易密碼</string><!--首次设置-->
+    <string name="trade_settings_confirm_mim_tip">重複輸入新交易密碼。任何涉及交易、資金等影響賬戶安全的操作，都需要驗證交易密碼</string>
+    <string name="trade_settings_mim_hint">8–20位數字、字母組合</string>
+    <string name="trade_settings_mim_hint1">登錄密碼(8–20位組合密碼)</string>
+    <string name="trade_settings_forget_mim">忘記交易密碼</string>
+    <string name="trade_settings_new_mim_equals_old_mim_tip">新密碼不能與當前密碼相同</string>
+    <string name="trade_settings_mim_inconsistent_tip">兩次交易密碼輸入不一致</string>
+    <string name="trade_settings_reinput_new_mim">再次輸入新交易密碼</string>
+    <string name="trade_settings_confirm_first_new_mim">確認交易密碼</string><!--首次设置-->
+    <string name="trade_settings_confirm_new_mim">確認新交易密碼</string>
+    <string name="trade_settings_set_up_mim_successfully">設置成功</string>
+    <string name="trade_settings_reset_mim_successfully">重置成功</string>
+    <string name="trade_settings_modify_mim_successfully">修改成功</string>
+    <string name="trade_settings_successfully_tip">請牢記您的交易密碼</string>
+    <string name="trade_settings_new_successfully_tip">請牢記您的新交易密碼</string>
+    <string name="trade_settings_fingerprint_agreement_pre">僅對本機有效，開啟即視為同意%s</string>
+    <string name="trade_settings_fingerprint_agreement">《生物認證協議》</string>
+    <string name="trade_settings_fingerprint_close_tip">確認關閉指紋？</string>
+    <string name="trade_settings_mim_wrong_format">交易密碼格式錯誤</string>
+    <string name="trade_settings_mim_error_tip">交易密碼錯誤，請重試</string>
+    <string name="trade_settings_authentication">身份驗證</string>
+    <string name="trade_settings_authentication_hint">請填寫開戶證件號進行身份驗證，開戶證件號不區分大小寫，且無須輸入括號</string>
+    <string name="trade_settings_id_number_error">身份證號與賬戶不匹配</string>
+    <string name="reset_mim_error">重置密碼錯誤</string>
+    <string name="first_verify_trade_mim">首次驗證交易密碼</string>
+    <string name="first_verify_trade_mim_hint">系統檢測到您已開戶，需驗證原有開戶設置密碼，用於新APP交易下單</string>
+    <string name="verify_trade_mim">驗證交易密碼</string>
+    <string name="verify_trade_mim_hint">系統檢測到您的密碼在其他終端存在修改記錄，需再次驗證，用於新APP交易下單</string>
+    <string name="trade_mim_locked_tip">您的交易密碼已被鎖定，請重置交易密碼進行解鎖</string>
+    <string name="holding_trade_mim_locked_tip">系統檢測到密碼已鎖定，請重置交易密碼</string>
+    <string name="holding_trade_mim_modified_tip">系統檢測當前密碼已修改，請重新驗證交易密碼</string>
+    <string name="verify">驗證</string>
+    <string name="reset_mim">重置密碼</string>
+    <string name="mim_was_locked">櫃台密碼鎖定</string>
+    <string name="mim_was_locked_tip">"櫃台密碼鎖定   ErrCode = "</string>
+    <string name="mim_was_modified_tip">"修改密碼校驗   ErrCode = "</string>
+    <string name="mim_was_modify_tip">驗證失敗，請確認修改後的密碼並輸入</string>
+    <string name="revalidate">重新驗證</string>
+    <string name="trade_session_unlock_time">解鎖時長</string>
+    <string name="trade_session_unlock_tip">支持設置交易解鎖時長</string>
+    <string name="trade_unlock_time_option">%d小時</string>
+    <string name="fingerprintResetNotice">修改交易密碼後，需要重新開啟指紋解鎖。</string>
+    <!--endregion-->
+
+    <!--region 资产隐私保护-->
+    <string name="asset_time_explain">若星財富應用在後台超過設置的時長，再次查看賬戶資產信息需要重新解鎖。</string>
+    <string name="asset_verify_explain">指紋僅對本機有效，開啟即視為同意%s</string>
+    <string name="blur_page_explain">開啟後切換應用時頁面會顯示該模糊效果。</string>
+    <string name="switch_app_blur_page">切換應用時模糊頁面</string>
+    <string name="close">關閉</string>
+    <string name="open">打開</string>
+    <string name="when_open">每次打開</string>
+    <string name="scenario">場景示意</string>
+    <string name="risk_warning">風險提示</string>
+    <string name="asset_risk_warning_content">為保障賬戶安全，請您開通“資產隱私保護”，並以“Face ID或指紋”方式登錄賬戶。</string>
+    <string name="asset_risk_warning_click_text">去設置</string>
+    <!--endregion-->
+
+    <!--region 指纹弹出框相关-->
+    <string name="please_verify_fingerprint">請驗證指紋</string>
+    <string name="failed_to_recognize_fingerprint">未能識別指紋</string>
+    <string name="too_many_attempts">嘗試次數過多，請稍後重試</string>
+    <string name="user_login_too_many_attempts">嘗試次數過多，是否使用密碼驗證？</string>
+    <string name="trade_login_too_many_attempts">嘗試次數過多,是否使用交易密碼驗證？</string>
+    <string name="current_device_not_support_fingerprint">當前手機不支持指紋認證</string>
+    <string name="current_device_not_input_fingerprint">當前手機未登記指紋</string>
+    <string name="user_cancelled_authentication">用戶取消了指紋認證</string>
+    <string name="not_the_truth_fingerprint">不是上次設置的指紋</string>
+    <string name="fingerprint_verify_invalidate">指紋認證資訊發生改變，即將登出</string><!--TODO-->
+    <string name="fingerprint_verify_exception">指紋認證已失效，請使用密碼驗證</string><!--TODO-->
+    <string name="biometric_identification_invalidate">面容ID或指紋已失效</string>
+    <!--endregion-->
+
+    <!--region 开启指纹-->
+    <string name="enable_fingerprint">開啟指紋</string>
+    <string name="enable_fingerprint_tip">需驗證交易密碼，開啟後解鎖不再需要輸入密碼</string>
+    <string name="enable_submit">驗證</string>
+    <!--endregion-->
+
+    <!--region 意见反馈-->
+    <string name="problem_description">問題描述</string>
+    <string name="complaint_feedback_hint">請描述您的建議內容，如果配上相應的圖片效果更佳。建議不超過400個漢字。</string>
+    <string name="complaint_feedback_text_length_tip">%d/400字</string>
+    <string name="upload_fail">上傳失敗</string>
+    <string name="submit_success">提交成功</string>
+    <string name="deleted">已刪除</string>
+    <string name="save_draft_successfully">保存草稿成功</string>
+    <string name="today_submit_times_over_maximum">已超過當日最大提交次數</string>
+    <string name="add_image">添加圖片</string>
+    <string name="preview">預覽</string><!--TODO-->
+    <string name="back">返回</string><!--TODO-->
+    <string name="feedback_maximum_photo_tip">最多可選%s張</string><!--TODO-->
+    <string name="feedback_error_type_conflict">不能同時選擇圖片和視頻</string><!--TODO-->
+    <string name="error_file_type">不支持該類型</string><!--TODO-->
+    <!--endregion-->
+
+    <!--region 关于我们-->
+    <string name="about_us_title">關於</string>
+    <string name="about_us_app_name">星財富</string>
+    <string name="about_us_score">給應用評分</string>
+    <string name="about_us_contact_us">聯繫我們</string>
+    <string name="about_us_privacy_policy">隱私政策</string>
+    <string name="about_us_user_services_agreement">用戶服務協定</string>
+    <string name="about_us_data_sources">資料來源聲明</string>
+    <string name="about_us_private_statement">隱私聲明</string>
+    <string name="about_us_customer_service_title">在線客服</string>
+    <string name="cn_customer_service_title">內地客服</string>
+    <string name="hk_customer_service_title">香港客服</string>
+
+
+    <!--endregion-->
+
+    <!--region 修改手机号-->
+    <string name="authenticated_phone">認證手機號</string>
+    <string name="authenticated_phone_tip">已認證手機號可進行登錄，\n如該手機號已不再適用，請及時更新。</string>
+    <string name="authenticated_phone_number_modify">修改認證手機號</string>
+    <string name="authenticated_phone_modify">修改手機認證</string>
+    <string name="authenticated_phone_current">當前認證手機</string>
+    <string name="authenticated_phone_modify_hint">修改後您可以通過新手機號登錄和找回密碼</string>
+    <string name="authenticated_phone_modify_sync">同步修改證券賬戶認證的手機號</string>
+    <string name="authenticated_phone_same">更換的手機號不能與原來的手機號一樣。</string>
+    <string name="authenticated_phone_modify_success">修改成功</string>
+    <string name="authenticated_phone_sync_account_detail">
+        您認證的是平台手機號信息，主要用於登錄和找回密碼。
+        \n\n默認將您設置的手機號同步更新至全部券商 (星財富APP、同花順等)。
+        \n\n如您有需要將平台手機號和券商手機號設置為不一致，請聯繫客服更改。
+        \n內地客服：%s
+        \n香港客服：%s
+    </string>
+
+    <!--endregion-->
+
+    <!--region 自动登录-->
+    <string name="auto_login_title">自動登錄</string>
+    <string name="auto_login_verify">驗證</string>
+    <string name="auto_login_verify_none">無需驗證</string>
+    <string name="auto_login_verify_fingerprint">指紋</string>
+    <string name="auto_login_explain">開啟後，每次進入應用時自動登錄；關閉後，退出或超過設置時長進入應用需要重新登錄。</string>
+    <string name="auto_login_verify_explain">從後台回到應用時，可根據需要進行驗證；指紋僅對本機有效，開啟即視為同意%s</string>
+    <string name="background_keep_time">後台保持時長</string>
+    <string name="background_keep_time_explain">超过設置时长，再次回到星財富时需要重新登錄。</string>
+    <string name="background_keep_time_option">%d分鐘</string>
+    <string name="auto_login_mim_not_set">未設置密碼</string>
+    <string name="auto_login_mim_error">密碼與賬戶不匹配</string>
+    <string name="auto_login_biometric_title">生物識別驗證</string>
+    <string name="auto_login_biometric_subtitle">請校驗</string>
+    <string name="auto_login_biometric_verify">驗證生物ID</string>
+    <string name="auto_login_fingerprint_verify">驗證指紋</string>
+    <string name="auto_login_biometric_action">點擊進行解鎖</string>
+    <string name="auto_login_verify_mim">驗證密碼登錄</string>
+    <string name="auto_login_open_tip">開啟【自動登錄】後，登入APP無須驗證登錄；若維持現狀，不開啟【自動登錄】功能，默認30分鐘會登出，可通過密碼再登錄</string>
+    <!--endregion-->
+
+    <!--region 登录设备管理-->
+    <string name="local_phone">本機</string>
+    <string name="delete_device_explain">下方列表記錄已信任設備，已信任設備在登錄賬號時，無須進行驗證碼和登錄密碼雙重驗證。點擊右上角“編輯”按鈕可刪除列表中設備</string>
+    <string name="device_name">設備名稱</string>
+    <string name="device_model">設備型號</string>
+    <string name="last_login_time">最後登錄時間</string>
+    <string name="delete_device_confirm">確定要將%s從常用設備中刪除？</string>
+    <string name="delete_device_failed">刪除設備失敗</string>
+    <string name="no_acc_to_device">您未開通證券賬號，請開戶後再使用設備鎖</string>
+    <string name="to_open_acc">去開戶</string>
+    <string name="device_detail">設備詳情</string>
+    <!--endregion-->
+
+    <!--region 个人资料-->
+    <string name="personal_data">個人資料</string>
+    <string name="user_icon">頭像</string>
+    <string name="nick_name">昵稱</string>
+    <string name="modify_user_name">修改昵稱</string>
+    <string name="modify_user_name_rule">昵稱設置不支持特殊符號@、#、￥、＜</string>
+    <string name="modify_user_name_error_tip">昵稱包含特殊字符，請修改後重試</string>
+    <string name="user_name_format_error">請輸入正確格式的昵稱</string>
+    <string name="have_known">已了解</string>
+    <string name="load_failed">加載失敗</string>
+    <string name="open_crop_fail">打開截圖工具失敗</string>
+    <string name="modify_failed">修改失敗</string>
+    <string name="sensitive_name">該昵稱不可用，請修改後重試</string>
+    <string name="cond_data_fail">獲取條件單數據失敗</string>
+    <string name="cond_price_low">條件單價格低於現價</string>
+    <string name="cond_price_high">條件單價格高於現價</string>
+    <string name="cond_modify">條件單正在修改中</string>
+    <string name="cond_trigger">修改失敗，訂單已觸發</string>
+    <string name="cond_quote_fail">獲取行情數據失敗</string>
+    <!--endregion-->
+
+    <!--region 交易登录-->
+    <string name="input_trade_login">交易解鎖</string>
+    <string name="trade_login_hint">8-20位數字、字母組合</string>
+    <string name="retry">重試</string>
+    <string name="trade_login_success">交易登錄成功</string>
+    <string name="trade_login_error_not_match">交易帳戶與密碼不匹配，請重新輸入</string><!--TODO-->
+    <!--endregion-->
+
+    <!--region 隐私协议-->
+    <string name="agree_and_login">同意並登錄</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="user_agreement_dialog_title">溫馨提示</string>
+<!--    <string name="user_agreement_dialog_head">為了更好地保障您的個人權益，在您使用星財富APP服務前，請認真閱讀</string>-->
+<!--    <string name="user_agreement_dialog_tail">全部條款，您同意並接受全部條款後再開始使用我們的服務。</string>-->
+
+    <string name="user_agreement_dialog_msg">感謝您選擇使用星財富，請您充分閱讀並理解《用戶協議》、《隱私政策》以及《第三方信息共享清單》：\n為了信息推送和安全考慮的需要，我們會申請系統權限手機設備信息、日誌信息、MAC地址、已安裝APP信息、Android ID。\n我們會努力採取各種安全技術保護您的個人信息。同時，您可以訪問、更正、刪除您的個人信息並管理您的授權，我們也為您提供註銷、投訴管道。\n如您同意以上協議內容，請點擊同意並繼續，開始使用我們的產品和服務。</string>
+    <string name="user_agreement_dialog_link_user">《用戶協議》</string>
+    <string name="user_agreement_dialog_link_privacy">《隱私政策》</string>
+    <string name="user_agreement_dialog_link_third">《第三方信息共享清單》</string>
+    <string name="user_agreement_dialog_title_for_login">用戶協議及私隱聲明</string>
+    <string name="user_agreement_dialog_msg_for_login">為了更好地保障您的個人權益，在您使用復星財富APP服務前，請認真閱讀 用戶協議、隱私聲明 全部條款，您同意並接受全部條款後再開始使用我們的服務。</string>
+    <string name="user_agreement_dialog_link_user_for_login">用戶協議</string>
+    <string name="user_agreement_dialog_link_privacy_for_login">隱私聲明</string>
+    <!--endregion-->
+
+    <!--region search-->
+    <string name="search_clear_his_tip">確定要刪除全部歷史記錄？</string>
+    <string name="search_his_title">歷史搜索</string>
+    <string name="search_hot_title">熱門搜索</string>
+    <string name="search_input_hint">請輸入代碼/名稱</string>
+    <string name="search_global_hint">搜索股票/理財/資訊/組合</string>
+    <string name="warrant_search_input_hint">搜索窩輪/牛熊證/界內證相關標的</string>
+    <string name="warrant_search">搜索窩輪或牛熊相關正股</string>
+    <string name="warrant_search_outstanding">請選擇正股或指數再查看牛熊街貨分佈</string>
+    <string name="empty_outstanding">暂无街货数据</string>
+    <string name="search_empty">無搜索結果</string>
+    <string name="search_synthesis">綜合</string>
+    <string name="search_fund_portfolio">組合</string>
+    <string name="search_fund_portfolio_user">用戶</string>
+    <string name="search_follow_portfolio">投資組合</string>
+    <string name="search_portfolio_type_mixin">混合</string>
+    <string name="search_portfolio_follow">關注</string>
+    <string name="search_portfolio_had_follow">已關注</string>
+    <string name="search_portfolio_had_unfollow">已取消關注</string>
+    <string name="search_help">幫助</string>
+    <string name="search_following_is_historical">以下為歷史搜索記錄</string>
+    <string name="search_clear_historical">清除記錄</string>
+    <!--endregion-->
+
+    <!--region 邮箱验证-->
+    <string name="email_input">輸入郵箱位址</string>
+    <string name="email_input_modify">設置新認證郵箱</string>
+    <string name="email_input_format_invalid">郵箱格式不正確 ，請重新輸入。</string>
+    <string name="email_address">郵箱地址</string>
+    <string name="email_address_modify">新郵箱地址</string>
+    <string name="email_confirm_send">發送確認郵件</string>
+    <string name="email_input_hint">認證郵箱後可用於登錄和找回密碼</string>
+    <string name="email_input_modify_hint">重置郵箱後，您可以通過新郵箱地址登錄星財號和找回密碼</string>
+    <string name="email_input_sync_stock_account">同步修改證券賬戶認證的郵箱</string>
+    <string name="authenticated_email_same">更換的郵箱不能與原來的郵箱一樣。</string>
+    <string name="captcha_help_msg">您可以聯繫客服進行驗證碼查詢</string>
+    <string name="customer_service_confirm">知道了</string>
+    <string name="mim_input_title">輸入登錄密碼</string>
+    <string name="mim_input_sub_title">請輸入登錄密碼校驗您的身份</string>
+    <string name="mim_input_submit">提交</string>
+    <string name="authenticated_email_tip">當前認證郵箱為：%s，先驗證您的身份，再進行修改郵箱操作</string>
+    <string name="authenticated_bind_success">認證通過</string>
+    <string name="email_verify_error">該郵箱無效或已被使用</string>
+    <string name="captcha_verify_limit">驗證次數過多, 請稍後重試</string>
+    <string name="email_sync_account_title">同步修改券商信息說明</string>
+    <string name="email_sync_account_detail">
+        您認證的是平台郵箱信息，主要用於登錄和找回密碼。
+        \n\n默認將您設置的郵箱同步更新至全部券商 (星財富APP、同花順等)。
+        \n\n如您有需要將平台郵箱和券商郵箱設置為不一致，請聯繫客服更改。
+        \n內地客服：%s
+        \n香港客服：%s
+    </string>
+    <string name="email_reset">重置認證郵箱？</string>
+    <string name="email_reset_tip">為保障賬戶安全，須通過短信驗證碼重置認證郵箱</string>
+    <string name="email_go_reset">去重置</string>
+    <string name="email_reset_send_code_tip">已發送驗證碼至：%s，您正在通過短信驗證碼重置郵箱，請注意查收</string>
+    <!--endregion-->
+
+    <!--region 自选股-->
+    <string name="fav_hk_stock">港股</string>
+    <string name="fav_us_stock">美股</string>
+    <string name="fav_fund">理財</string>
+    <string name="fav_hs_stock">A股</string>
+    <string name="fav_all">全部</string>
+    <string name="fav_stock_edit">編輯自選</string>
+    <string name="fav_stock_add">添加自選</string>
+    <string name="fav_stock_empty">暫無添加任何股票</string>
+    <string name="fav_fund_empty">暫無添加任何基金</string>
+    <string name="fav_group_all">全部分組</string>
+    <string name="complete">完成</string>
+    <string name="edit">編輯</string>
+    <string name="fav_group_show">顯示分組</string>
+    <string name="fav_group_hide">隱藏分組</string>
+    <string name="fav_group_toggle">點擊切換分組</string>
+    <string name="fav_group_drag">拖拽可以排序</string>
+    <string name="fav_group_show_hide">顯示/隱藏</string>
+    <string name="fav_group_delete">刪除分組</string>
+    <string name="fav_group_rename">重命名</string>
+    <string name="fav_group_add">新建分組</string>
+    <string name="fav_group_edit_hint">請輸入分組名稱，最多12個字符</string>
+    <string name="fav_group_error_duplicate">分組名稱重複</string>
+    <string name="fav_group_error_max">已達到添加上限</string>
+    <string name="fav_had_add">已添加</string>
+    <string name="fav_add_success">添加成功</string>
+    <string name="fav_add_failed">添加失敗</string>
+    <string name="fav_delete_failed">刪除失敗</string>
+    <string name="fav_edit_error_fix">系統分組不支持修改名稱及刪除</string>
+    <string name="fav_hide_error_all_group">全部分組不支持隱藏</string>
+    <string name="fav_group_delete_dialog_msg">確認要刪除該自選分組？</string>
+    <string name="fav_stock_delete_dialog_msg">確認要刪除選中的自選股？</string>
+    <string name="fav_stock_delete_success">刪除成功</string>
+    <string name="fav_stock_click_add">點擊添加</string>
+    <string name="fav_stock_drag_other">拖拽排序，點擊%s</string>
+    <string name="hide">隱藏</string>
+    <string name="delete">刪除</string>
+    <string name="up">置頂</string>
+    <string name="up_success">已置頂</string>
+    <string name="check_all">全選</string>
+    <string name="add_to">添加到(%d)</string>
+    <string name="delete_count">刪除 (%d)</string>
+    <string name="fav_stock_batch_title">添加到</string>
+    <string name="save">保存</string>
+    <string name="fav_stock_group_edit">編輯分組</string>
+    <string name="fav_stock_delete_success_1">已從自選刪除</string>
+    <string name="fav_stock_error_max">數量已達上限，自選組合無法繼續添加股票</string>
+    <string name="fav_stock_delist">該股票已退市，是否刪除？</string>
+    <string name="fav_stock_expired">該股票已到期，是否刪除？</string>
+    <string name="fav_stock_invalid_astock">A股市場僅提供沪深股通行情數據服務，是否刪除？</string>
+    <string name="market_data_desc_title">市場行情數據說明</string>
+    <string name="fund_detail">基金详情</string>
+    <string name="bond_detail">債券详情</string>
+    <string name="fav_view_time_sharing_chart">分時圖表</string>
+    <string name="fav_view_data_list">數據列表</string>
+    <string name="table_setting">表頭數據項設置</string>
+    <string name="table_setting_tip">增減表頭數據項，可在自定義列表模式或橫屏下查看</string>
+    <string name="had_add_data_item">已添加數據項</string>
+    <string name="enable_add_data_item">可添加數據項</string>
+    <string name="no_find_data_item">沒有您要的數據項？</string>
+    <string name="sure_recovery_default">確定恢複系統默認設置？</string>
+    <!--endregion-->
+
+    <!--region 自选设置-->
+    <string name="fav_stock_setting_title">自選列表設置</string>
+    <string name="fav_stock_setting_name_code_title">名稱代碼展示</string>
+    <string name="fav_stock_setting_name">名稱</string>
+    <string name="fav_stock_setting_code">代碼</string>
+    <string name="fav_stock_setting_name_code_default">跟隨語言</string>
+    <string name="fav_stock_setting_name_code_default_tip">中文名稱在上，英文代碼在上</string>
+    <string name="fav_stock_setting_rect_color">自選矩形色塊展示</string>
+    <string name="fav_stock_setting_holding_mark">顯示持倉標示</string>
+    <string name="fav_stock_setting_ard_quote">ADR行情展示</string>
+    <string name="fav_stock_setting_text_ard">ADR</string>
+    <string name="fav_stock_setting_us_quote_plate_pre_post">美股盤前盤後展示</string>
+    <string name="fav_stock_setting_change_ratio_demo">+6.16%</string>
+    <string name="fav_stock_setting_price_demo">173.070</string>
+    <string name="fav_stock_setting_post_ratio_demo">+8.88%</string>
+    <string name="fav_stock_setting_post_price_demo">172.798</string>
+    <!--endregion-->
+
+    <!--region list title-->
+    <string name="name_code">名稱代碼</string>
+    <string name="market_value_or_quantity">市值/數量</string>
+    <string name="order_price">訂單價格</string>
+    <string name="price_now_or_cost">現價/成本</string>
+    <string name="float_profit">浮動盈虧</string>
+    <string name="price_now_or_entrust">現價/委託</string>
+    <string name="quantity_total_or_filled">總數/已成</string>
+    <string name="direction_or_status">方向/狀態</string>
+    <string name="deal_done_or_total_amount">已成交/總數量</string>
+    <string name="deal_done_or_total_amount_2">已成交/總量</string>
+    <string name="last_price">最新價</string>
+    <string name="price_chg_pct">漲跌幅</string>
+    <string name="price_chg">漲跌額</string>
+    <string name="volume">成交量</string>
+    <string name="turnover">成交額</string>
+    <string name="turnover_radio">換手率</string>
+    <string name="total_market_value">總市值</string>
+    <string name="amplitude">振幅</string>
+    <string name="pe_static">市盈率靜</string>
+    <string name="pe">市盈率</string>
+    <string name="pb">市淨率</string>
+    <string name="dyrstatic">股息率</string>
+    <string name="lea_stock">領漲股</string>
+    <string name="due_date">到期日</string>
+    <string name="exercise_price_floor">行使(下限)價</string>
+    <string name="value_status">價值狀態</string>
+    <string name="call_price">回收價</string>
+    <string name="call_price_2">收回價</string>
+    <string name="inside_price">價內</string>
+    <string name="outside_price">價外</string>
+    <string name="rank_list">排行榜</string>
+    <string name="quantity_or_price">數量/價格</string>
+    <string name="year_to_date">年初至今</string>
+    <string name="floating_market_value">流通市值</string>
+    <string name="pe_static_parenthesis">市盈率（靜）</string>
+    <string name="pe_ttm">市盈率TTM</string>
+    <string name="chg_pct_day_20">20日漲跌幅</string>
+    <string name="volume_ratio">量比</string>
+    <string name="wei_bi">委比</string>
+    <string name="day_chg_pct">日漲跌幅</string>
+    <string name="nearly_1_week">近1週</string>
+    <string name="nearly_1_month">近1月</string>
+    <string name="nearly_3_month">近3月</string>
+    <string name="nearly_6_month">近6月</string>
+    <string name="nearly_1_year">近1年</string>
+    <string name="nearly_3_year">近3年</string>
+    <string name="nearly_5_year">近5年</string>
+    <string name="since_founded">成立至今</string>
+    <string name="nearly_1_year_retreat">近1年回撤</string>
+    <string name="latest_net_worth">最新淨值</string>
+    <string name="nearly_1_year_sharpe_ratio">近1年夏普比率</string>
+    <string name="initial_investment_amount">起投金額</string>
+    <!--endregion-->
+
+    <!--region 账户-->
+    <string name="hk_stock">港股</string>
+    <string name="us_stock">美股</string>
+    <string name="a_stock">A股</string>
+    <string name="hk_cn_stock_connect">A股通</string>
+    <string name="hsgt_stock">滬深港通</string>
+    <string name="fund_and_bond">基金債券</string>
+    <string name="bond_alternative">債券另類</string>
+    <string name="cash_stock_treasure">星股寶</string>
+    <string name="cash_stock_treasure_account">星股寶賬戶</string>
+    <string name="cies_account">香港投資移居計劃專戶</string>
+    <string name="fund_allocation">資金調撥</string>
+
+    <string name="cnh">人民幣</string>
+    <string name="hkd">港元</string>
+    <string name="usd">美元</string>
+
+    <string name="all_account">全部賬戶</string>
+    <string name="margin_account">保證金賬戶</string>
+    <string name="cash_account">現金賬戶</string>
+    <string name="security_account">證券賬戶</string>
+
+    <string name="total_asset">總資產</string>
+    <string name="total_asset_hk">資產淨值(港元)</string>
+    <string name="cash">現金</string>
+    <string name="holding_market_value">股票市值</string>
+    <string name="holding_market_value_2">持倉市值</string>
+    <string name="more">更多</string>
+    <string name="all">全部</string>
+    <string name="trade_order">交易下單</string>
+    <string name="order_record">訂單記錄</string>
+    <string name="conditions_order_record">條件單記錄</string>
+    <string name="today_profit">今日盈虧</string>
+    <string name="max_purchasing_power">最大購買力</string>
+    <string name="cash_purchasing_power">現金購買力</string>
+    <string name="holdings_sell">持倉可賣</string>
+    <string name="cash_buy">現金可買</string>
+    <string name="max_buy">最大可買</string>
+    <string name="earnings_yesterday">昨日收益</string>
+    <string name="quick_order">快捷交易</string>
+    <string name="account_detail">賬戶明細</string>
+    <string name="profit_detail">收益明細</string>
+    <string name="risk_evaluation">風險測評</string>
+    <string name="professional_investor">專業投資者</string>
+    <string name="professional_investor_have_opened">已開通“專業投資者”</string><!--TODO-->
+
+    <string name="purchasing_power">購買力</string>
+    <string name="purchasing_power_tip">以上購買力包括貨幣基金資產，不包含專戶及投顧服務資產</string>
+    <string name="available_withdrawal_cash">可提現金</string>
+    <string name="cash_available_withdrawal">現金可提</string>
+    <string name="on_way_capital">在途資金</string>
+    <string name="available_cash">可用現金</string>
+    <string name="frozen_capital">凍結資金</string>
+    <string name="holdings">持倉</string>
+    <string name="stock_holdings">股票持倉</string>
+    <string name="orders">訂單</string>
+    <string name="unfinished_orders">未完成訂單</string>
+    <string name="unfinished_orders_count">未完成訂單 (%s)</string>
+    <string name="finished_canceld_orders_count">成交&amp;撤銷訂單 (%s)</string>
+    <string name="all_operation">全部功能</string>
+    <string name="capital">資金</string>
+    <string name="bank_account">銀行賬戶</string>
+    <string name="capital_record">資金記錄</string>
+    <string name="stock">股票</string>
+    <string name="transfer_in_stock">轉入股票</string>
+    <string name="new_stock_subscription">新股申購</string>
+    <string name="account_overview">賬戶總覽</string>
+    <string name="asset">資產</string>
+    <string name="risk_control">風控</string>
+    <string name="margin_text">融資</string>
+    <string name="credit_limit">信用額度</string>
+    <string name="maximum_loan_amount">最大借貸額</string>
+    <string name="marginable_value">可按倉股票價值</string>
+    <string name="margin_radio">保證金比率</string>
+    <string name="use_margin_value">已借金額</string>
+    <string name="remaining_margin_value">剩餘可借</string>
+    <string name="interest_amount">計息金額</string>
+    <string name="accrued_interest">應計利息</string>
+    <string name="margin_call">追收保證金額</string>
+    <string name="loan_ratio">貸款比率</string>
+    <string name="max_exposure">最大借貸額</string>
+    <string name="immediate_deposit">立即存繳</string>
+    <string name="feature_not_yet_available">該功能即將開放，敬請期待</string>
+    <string name="cash_treasure">星財寶</string>
+    <string name="to_increased_purchasing_power">去提升</string>
+    <string name="turn_to_margin_account">升級</string><!--TODO-->
+    <string name="apply_issue">申請供股</string>
+    <string name="risk_level">風險水平</string>
+    <string name="risk_status">風險狀態</string>
+    <string name="risk_status_safe">安全</string>
+    <string name="risk_status_mid">中等</string>
+    <string name="risk_status_call">追保</string>
+    <string name="risk_status_danger">危險</string>
+
+    <string name="fund_subscribe">认购</string>
+    <string name="fund_redeem">赎回</string>
+
+    <string name="direction_buy">買入</string>
+    <string name="direction_sell">賣出</string>
+    <string name="direction_update">改單</string>
+
+    <string name="order_status_queuing">未報</string>
+    <string name="order_status_inmarket">已報</string>
+    <string name="order_status_cancel">已撤</string>
+    <string name="order_status_filled">已成</string>
+    <string name="order_status_part_filled">部成</string>
+    <string name="order_status_part_cancel">部撤</string>
+    <string name="order_status_reject">廢單</string>
+    <string name="order_status_expired">已失效</string>
+    <string name="order_status_waiting">待報</string>
+    <string name="order_status_exception">異常</string>
+    <string name="order_status_init">初始化</string>
+    <string name="order_status_pending">待處理</string>
+    <string name="order_status_pending_review">待覆核</string>
+    <string name="order_status_review_failed">覆核未通過</string>
+    <string name="quote_level_lv1" translatable="false">LV1</string>
+    <string name="quote_level_lv2" translatable="false">LV2</string>
+    <string name="quote_level_delay">延時</string>
+    <string name="quote_level_delay_tip">延時15分鐘</string>
+    <string name="quote_level_upgrade_tip">當前行情延遲15分鐘</string>
+    <string name="quote_level_upgrade_action">去升級</string>
+    <string name="quote_level_delay_legend">延</string>
+
+    <string name="account">賬戶</string>
+    <string name="my_fee">我的收費</string>
+    <string name="user_information">賬戶資料</string>
+    <string name="buy_to_be_confirmed">買入待確定</string>
+    <string name="sale_be_credited">賣出將到賬</string>
+    <string name="ftd_asset">定存寶專戶資產</string>
+    <string name="star_treasure_asset">星財寶專戶資產</string>
+
+    <string name="account_list">賬戶列表</string>
+    <string name="account_list_at_least_tip">至少展示1個賬戶</string>
+    <string name="account_list_selected_hide_tip">相關賬戶卡片已隱藏，請重新選擇</string>
+    <string name="account_hidden">已隱藏</string>
+    <string name="not_open">未开通</string>
+    <string name="adjusting_the_sort_is_not_supported">暫不支持調整排序</string>
+    <string name="account_hidden_click_tip">相關賬戶卡片已隱藏，請重新選擇</string>
+    <string name="assets_cies_tip">暫不包含香港投資移居專戶資產及投顧資產</string>
+    <string name="cies_card_goto_know_content">爲資本投資者設立的香港移居通道</string>
+    <string name="goto_know">去了解</string>
+    <string name="goto_invest_section">去投資專區</string>
+    <!--endregion-->
+
+    <!--region 基金债券-->
+    <string name="fund">基金</string>
+    <string name="bond">債券</string>
+    <string name="fn">票據</string>
+    <string name="fund_holding">我的持倉</string>
+    <string name="fund_and_bond_remark">注：全部類型持有資產將按照實時匯率折算為港幣進行匯總展示，僅供參考</string>
+    <string name="fund_name_and_currency_type">名稱/類型(幣種)</string>
+    <string name="fund_total_market_value_and_holding_quantity">總值/持倉數量</string>
+    <string name="fund_holding_income_and_percent">持倉收益/率</string>
+    <string name="trade_refreshing">刷新中</string>
+    <string name="trade_release_refresh">放開可刷新</string>
+    <string name="sell_to">賣出至</string>
+    <!--endregion-->
+
+    <!--region market-->
+    <string name="all_hk_stock">全部港股</string>
+    <string name="board_gem">創業板</string>
+    <string name="board_main">主板</string>
+    <string name="board_industry">行業板塊</string>
+    <string name="board_industry_explain">行業板塊說明</string>
+    <string name="board_industry_explain_content">此處的熱門行業及熱力圖板塊基於滬深股通市場統計及展示\n\n了解什麼是熱力圖</string>
+    <string name="board_concept">熱門概念</string>
+    <string name="popular_ETF">熱門ETF</string>
+    <string name="popular_industry">熱門行業</string>
+    <string name="warrant_cbbc">窩輪牛熊</string>
+    <string name="warrant_outstanding_distribution">牛熊街貨分佈</string>
+    <string name="hk_etf">港股ETF</string>
+    <string name="forward_lever">正向槓桿</string>
+    <string name="reverse_lever">反向槓桿</string>
+    <string name="market_overview">市場總覽</string>
+    <string name="raise">漲</string>
+    <string name="fall">跌</string>
+    <string name="flat">平</string>
+    <string name="all_us_stock">全部美股</string>
+    <string name="China_concept_stocks">中概股</string>
+    <string name="Nasdaq">納斯達克</string>
+    <string name="Nyse">紐交所</string>
+    <string name="Amex">美交所</string>
+    <string name="see_more">查看更多</string>
+    <string name="all_cn_stock">全部A股</string>
+    <string name="board_scientific_innovation">科創板</string>
+    <string name="market_ah">AH股</string>
+    <string name="market_adr">港股ADR</string>
+    <string name="market_bond">場內債券</string>
+    <string name="adr_hk_price">港股價格</string>
+    <string name="share_hold_change">股東增減持</string>
+    <string name="raise_limit_up">漲停</string>
+    <string name="raise_limit_down">跌停</string>
+    <!--endregion-->
+
+    <!--region 资讯-->
+    <string name="tab_news_important">要聞</string>
+    <string name="tab_news_flash">快訊</string>
+    <string name="tab_news_fav_stock">自選</string>
+    <string name="tab_news_new_stock">新股</string>
+    <string name="tab_news_research_report">研報</string>
+    <string name="tab_news_calendar">日曆</string>
+    <string name="news_special_topic">專題</string>
+    <string name="news_top">置頂</string>
+    <string name="news_big_news">重磅</string>
+    <string name="news_exclusive">獨家</string>
+    <string name="news_important">重要</string>
+    <string name="news_share_slogan">伴您財富乘長</string>
+    <string name="news_share_download_tip">長按二維碼識別下載</string>
+    <string name="news_share_date_pattern">yyyy年MM月dd日</string>
+    <string name="news_morning_date_pattern">MM月dd日</string>
+    <string name="news_date_yyyy_mm_pattern">yyyy年MM月</string>
+    <string name="news_need_to_login_tip">查看相關自選資訊需登錄賬號</string>
+    <string name="news_calendar_economy_data">經濟資料</string>
+    <string name="news_calendar_event">事件</string>
+    <string name="news_calendar_financial_report">財報</string>
+    <string name="news_calendar_new_stock">新股</string>
+    <string name="news_calendar_interest">權息</string>
+    <string name="news_calendar_market_closed">假期</string>
+    <string name="news_calendar_before_value">前值</string>
+    <string name="news_calendar_predicted_value">預測值</string>
+    <string name="news_calendar_published_value">公佈值</string>
+    <string name="news_topic_title">精選專題</string>
+    <string name="news_default">默認</string>
+    <string name="news_reading_quantity">閱讀量</string>
+    <string name="news_read">閱讀</string>
+    <string name="news_newest">最新</string>
+    <string name="news_morning">復星財富早知道</string>
+    <!--endregion-->
+
+    <!--region 个股详情-盘口字段-->
+    <string name="handicap_high">最\u3000高</string>
+    <string name="handicap_low">最\u3000低</string>
+    <string name="handicap_open">今\u3000開</string>
+    <string name="handicap_prev_close">昨\u3000收</string>
+    <string name="volume_suffix">股</string>
+    <string name="handicap_total_shares">總股本</string>
+    <string name="handicap_pe_static">市盈率靜</string>
+    <string name="handicap_pe_ttm">市盈率TTM</string>
+    <string name="handicap_dividend_ttm">股息TTM</string>
+    <string name="handicap_dividend_ratio_ttm">股息率TTM</string>
+    <string name="handicap_52_week_high">52週最高</string>
+    <string name="handicap_52_week_low">52週最低</string>
+    <string name="handicap_flow_value">流通值</string>
+    <string name="handicap_flow_value_explain">該股票為AH股或內資股，流通值僅為港股市場流通部分。</string>
+    <string name="handicap_flow_shares">流通股</string>
+    <string name="handicap_delegate_ratio">委\u3000比</string>
+    <string name="handicap_quantity_ratio">量\u3000比</string>
+    <string name="handicap_per_hand">每\u3000手</string>
+    <string name="handicap_nav">每股淨值</string>
+    <string name="handicap_premuim">溢\u3000價</string>
+    <string name="handicap_premuim_percent">溢價%</string>
+    <string name="handicap_etf_type">資產類別</string>
+    <string name="handicap_etf_as">資產規模</string>
+    <string name="handicap_rise">上\u3000漲</string>
+    <string name="handicap_fall">下\u3000跌</string>
+    <string name="handicap_flat">平\u3000盤</string>
+    <string name="handicap_outstanding_pct">街貨比</string>
+    <string name="handicap_outstanding_pct_percent">街貨比%</string>
+    <string name="handicap_outstanding_quantity">街貨量</string>
+    <string name="handicap_convert_price">換股價</string>
+    <string name="handicap_convert_ratio">換股比率</string>
+    <string name="handicap_leverage_ratio">槓桿比率</string>
+    <string name="handicap_due_date">到期日</string>
+    <string name="handicap_last_trading_date">最後交易</string>
+    <string name="handicap_break_even_price">打和點</string>
+    <string name="handicap_recycle_price">回收價</string>
+    <string name="handicap_recycle_price_distance">距回收價</string>
+    <string name="handicap_call_put">價內/價外</string>
+    <string name="handicap_exercise_price">行使價</string>
+    <string name="handicap_eff_leverage">實際槓桿</string>
+    <string name="handicap_implied_volatility">引伸波幅</string>
+    <string name="handicap_delta">對沖值</string>
+    <string name="handicap_exercise_price_ceiling">上限價</string>
+    <string name="handicap_exercise_price_floor">下限價</string>
+    <string name="handicap_price_ceiling_distance">距上限</string>
+    <string name="handicap_price_floor_distance">距下限</string>
+    <string name="handicap_issue_volume">總發行量</string>
+    <string name="handicap_currency_code">交易幣種</string>
+    <string name="handicap_amplitude">振\u3000幅</string>
+    <string name="handicap_price_limit_high">漲停價</string>
+    <string name="handicap_price_limit_low">跌停價</string>
+    <string name="handicap_volome_post">盤後量</string>
+    <string name="handicap_turnover_post">盤後額</string>
+    <string name="handicap_is_profit">是否盈利</string>
+    <string name="handicap_vote_right">表決權差異</string>
+    <string name="handicap_protocol_control_architecture">協議控制架構</string>
+    <string name="handicap_registration_based">是否註冊制</string>
+    <string name="handicap_with_stocks_with_rights">是否同股同權</string>
+    <string name="handicap_value_y">是</string>
+    <string name="handicap_value_n">否</string>
+    <string name="handicap_avg_price">平均價</string>
+    <string name="handicap_market_value_currency">多種貨幣總市值</string>
+    <string name="handicap_market_value_currency_desc">多種貨幣市值的計算，是通過當天的非實時匯率和非實時行情報價計算得出。可能會存在一定誤差，數值僅供參考。</string>
+    <!--endregion-->
+
+    <!--region 个股-报价-->
+    <string name="quote_high">最高</string>
+    <string name="quote_low">最低</string>
+    <string name="quote_loss">虧損</string>
+    <string name="stock_tab_quote">報價</string>
+    <string name="order_book_guide_button">去領取</string>
+    <string name="order_book_open_account">開戶入金</string>
+    <string name="order_book_delay_hk">領取港股LV2高級行情</string>
+    <string name="order_book_delay_hk_open_account">免費體驗港交所股票LV2十檔行情報價\n (僅中國內地)</string>
+    <string name="order_book_delay_hk_aum">賬戶資金≥1萬港幣可解鎖十檔行情報價\n (僅中國內地)</string>
+    <string name="order_book_delay_us">領取美股LV1實時行情</string>
+    <string name="order_book_delay_us_open_account">免費體驗納斯達克最新成交價和最優報價</string>
+    <string name="order_book_delay_us_aum">賬戶資金≥1萬港幣解鎖納斯達克最優報價行情</string>
+    <string name="stock_order_book_buy">買盤</string>
+    <string name="stock_order_book_sell">賣盤</string>
+    <string name="stock_detail_gear">%d檔</string>
+    <string name="stock_transaction_asset_distribution">資金成交分佈</string>
+    <string name="price_unit_label">單位:%s</string>
+    <string name="net_inflow">淨流入</string>
+    <string name="asset_distribution_desc">以股票前一個月 (窩輪前3天)的平均每筆成交額為標準，小於該平均值為小單，大於等於該平均值的10倍為大單，其餘為中單</string>
+    <string name="net_outflow">淨流出</string>
+    <string name="flow_into">流入:</string>
+    <string name="out_flow">流出:</string>
+    <string name="order_big">大單</string>
+    <string name="order_medium">中單</string>
+    <string name="order_small">小單</string>
+    <string name="broker_buy">買盤經紀</string>
+    <string name="broker_sell">賣盤經紀</string>
+    <string name="trade_status_halt">停牌</string>
+    <string name="trade_status_un_list">待上市</string>
+    <string name="trade_status_suspend_list">暫停上市</string>
+    <string name="trade_status_de_list">退市</string>
+    <string name="trade_status_expired">到期</string>
+    <string name="trade_status_fusing">熔斷</string>
+    <string name="cas_time_open">開市競價時段</string>
+    <string name="cas_time_close">收市競價時段</string>
+    <string name="cas_price_range">價格範圍</string>
+    <string name="cas_price_ref">參考價</string>
+    <string name="cas_iep">IEP</string>
+    <string name="cas_iev">IEV</string>
+    <string name="cas_imb_qty">買賣差額</string>
+    <string name="cas_imb_direction">差額方向</string>
+    <string name="cas_imb_direction_buy">買入</string>
+    <string name="cas_imb_direction_sell">賣出</string>
+    <string name="tick_empty">暫無明細</string>
+    <string name="cap_flow">資金淨流入趨勢</string>
+    <string name="time_zone_bj">北京</string>
+    <string name="time_zone_us">美東</string>
+    <string name="cap_distribution_time">更新: %s %s %s</string>
+    <string name="us_quote_pre_trade">盤前價</string>
+    <string name="us_quote_post_trade">盤後價</string>
+    <string name="us_quote_pre">盤前</string>
+    <string name="us_quote_post">盤後</string>
+    <string name="us_quote_trading">盤中</string>
+    <string name="us_quote_pre_post_no_trade">納斯達克暫無成交</string>
+    <string name="us_quote_time">%s 美東</string>
+    <string name="ah_type_h">H股</string>
+    <string name="ah_type_a">A股</string>
+    <string name="ah_premium">溢價(H/A)</string>
+    <string name="adr_convert_price">ADR換算價</string>
+    <string name="adr_relative_hk">相對港股</string>
+    <string name="quote_level_delay_msg">應交易所要求，當前狀態僅展示延時15分鐘行情</string>
+    <string name="market_hk">港股市場</string>
+    <string name="market_cn">A股市場</string>
+    <string name="market_us">美股市場</string>
+    <string name="exchange_hk">港交所</string>
+    <string name="exchange_nasdaq">納斯達克</string>
+    <string name="exchange_nyse">紐交所</string>
+    <string name="exchange_amex">美交所</string>
+    <string name="exchange_us_otc">OTC市場</string>
+    <string name="exchange_arca">增長板市場</string>
+    <string name="exchange_sse">上交所</string>
+    <string name="exchange_szse">深交所</string>
+    <string name="secu_type_stock">股票</string>
+    <string name="secu_type_index">指數</string>
+    <string name="secu_type_fund">基金</string>
+    <string name="secu_type_bond">債券</string>
+    <string name="secu_type_warrant">認股證</string>
+    <string name="secu_type_cbbc">牛熊證</string>
+    <string name="secu_type_inline">界內證</string>
+    <string name="secu_type_sector">板塊</string>
+    <string name="quote_lv_delay">延時行情</string>
+    <string name="quote_lv1">LV1實時行情</string>
+    <string name="quote_lv2">LV2高級行情</string>
+    <string name="hgt">滬港通</string>
+    <string name="sgt">深港通</string>
+    <string name="hsgt">滬港通&amp;深港通</string>
+    <string name="only_institutional_investors">僅機構投資者可交易</string>
+    <string name="support_margin">可融資</string>
+    <string name="support_margin_amount">可融資金額</string>
+    <string name="margin_rate">融資抵押率</string>
+    <string name="had_profit">已實現盈利</string>
+    <string name="had_no_profit">尚未盈利</string>
+    <string name="one_class_share">同股同權</string>
+    <string name="marginable_stock">可融資股票</string>
+    <!--endregion-->
+
+    <!--region 个股-公告-->
+    <string name="stock_tab_announcement">公告</string>
+    <string name="announcement_detail">公告詳情</string>
+    <string name="announcement_empty">暫無內容</string>
+    <string name="announcement_type_all">全部</string>
+    <string name="announcement_type_performance">業績公告</string>
+    <string name="announcement_type_trade">交易相關</string>
+    <string name="announcement_type_share">股權股本</string>
+    <string name="announcement_type_issue">重大事項</string>
+    <string name="announcement_type_else">其他</string>
+    <!--endregion-->
+
+    <!--region 个股-新闻-->
+    <string name="stock_tab_news">新聞</string>
+    <!--endregion-->
+
+    <!--region 个股-新股-->
+    <string name="stock_tab_ipo">新股</string>
+    <string name="subscribe_stock_start">開始認購</string>
+    <string name="subscribe_stock_end">截止認購</string>
+    <string name="subscribe_stock_publish">公佈中簽</string>
+    <string name="grey_mkt_trade">暗盤交易</string>
+    <string name="subscribe_stock_appear">上市</string>
+    <string name="subscribe_stock_appear_today">今日上市</string>
+    <string name="ipo_offering_information">招股資料</string>
+    <string name="ipo_financing_situation">融資情況</string>
+    <string name="ipo_placing_result">配售結果</string>
+    <string name="ipo_financing_subscribe_trend">融資申購趨勢</string>
+    <string name="subscribe_amount_min">最小申購金額</string>
+    <string name="market_value">市值</string>
+    <string name="ipo_industry">行業</string>
+    <string name="ipo_green_shoe">綠鞋</string>
+    <string name="ipo_fundraising_purposes">募資用途</string>
+    <string name="ipo_prospectus_check">查看招股書</string>
+    <string name="ipo_cornerstone_investors">基石投資者</string>
+    <string name="ipo_name_percent">名稱/百分比</string>
+    <string name="ipo_stock_apply">實際申購數</string>
+    <string name="ipo_sponsor">保薦人</string>
+    <string name="ipo_type">類別</string>
+    <string name="ipo_underwriter">承銷商</string>
+    <string name="ipo_financing_subscription_multiple">融資申購倍數</string>
+    <string name="ipo_estimated_subscription_multiple">預計申購倍數</string>
+    <string name="ipo_amount_raised_public">募資額(公開)</string>
+    <string name="ipo_financing_subscription_amount">融資申購額</string>
+    <string name="ipo_broker_summary">券商統計</string>
+    <string name="ipo_total_brokerage">共%s家券商</string>
+    <string name="ipo_multiple">倍</string>
+    <string name="hand_suffix">手</string>
+    <string name="ipo_subscribe_multiply">認購倍數</string>
+    <string name="ipo_first_hand_success_rate">一手中簽率</string>
+    <string name="ipo_success_rate">中簽率</string>
+    <string name="ipo_success_rate_stable">穩中手數</string>
+    <string name="ipo_subscribe_people_number">認購人數</string>
+    <string name="ipo_subscribe_success_people">中簽人數</string>
+    <string name="ipo_subscribe_success_number">中簽數量</string>
+    <string name="ipo_hammerheads_number">頂頭槌數量</string>
+    <string name="ipo_people_unit">人</string>
+    <string name="ipo_sheet_unit">張</string>
+    <string name="ipo_placing_result_division_1">甲組 %s</string>
+    <string name="ipo_placing_result_division_2">乙組 %s</string>
+    <string name="ipo_placing_result_group">組別</string>
+    <string name="ipo_subscribe_shares">認購股數</string>
+    <string name="ipo_group_first">甲</string>
+    <string name="ipo_group_second">乙</string>
+    <string name="ipo_yes">有</string>
+    <string name="no">無</string>
+    <string name="ipo_percent_unit" translatable="false">%</string>
+    <string name="update_time">更新: %s</string>
+    <string name="ipo_publish_info">發行資料</string>
+    <string name="ipo_tip_cancel">%s (%s)取消上市</string>
+    <string name="ipo_subscribe_before_tip">該新股預計將于%s 開放申購，請耐心等待</string>
+    <string name="virtual_asset_recognition_assessment_form_guide">您尚未簽署過《虛擬資產認識評估表格》，為保障您的投資活動不受影響，請完成評估後再下單</string>
+    <string name="virtual_asset_recognition_assessment_form_reguide">您當前的《虛擬資產認識評估》結果不滿足產品認購要求，是否重新評估？</string>
+    <string name="virtual_asset_evaluation_exceed_limit">您當前的評估次數已用完。如有疑問，請聯繫客服。</string>
+    <string name="evaluation">去評估</string>
+    <string name="reassess">重新評估</string>
+    <string name="trade_virtual_assets_warning">在您交易虛擬資產相關產品前，請認真閱讀下方全部內容，您同意並確認明白後再繼續交易。</string>
+    <string name="agree_and_continue">同意並繼續</string>
+    <string name="read_statement">請仔細閱讀以下聲明</string>
+    <string name="scroll_up_to_read_all_agreement">請上滑閱讀完全部協議</string>
+    <!--endregion-->
+
+    <!--region 个股-成分股-->
+    <string name="stock_tab_constituent">成分股</string>
+    <!--endregion-->
+
+    <!--region 个股详情-->
+    <string name="stock_button_option">輪證</string>
+    <string name="stock_button_share">分享</string>
+    <string name="stock_button_alert">提醒</string>
+    <string name="stock_share_wx">微信</string>
+    <string name="stock_share_wx_scene">朋友圈</string>
+    <string name="stock_share_dingtalk">釘釘</string>
+    <string name="stock_share_qq" translatable="false">QQ</string>
+    <string name="stock_share_twitter" translatable="false">X</string>
+    <string name="stock_share_facebook" translatable="false">Facebook</string>
+    <string name="stock_share_wb">微博</string>
+    <string name="option_open_permission">開通權限</string>
+    <string name="stock_tips_us_statement">獲取美股實時行情,請先簽署美股行情聲明</string>
+    <!--endregion-->
+
+    <!--region K线-->
+    <string name="k_direction_forward">前復權</string>
+    <string name="k_direction_backward">後復權</string>
+    <string name="k_direction_none">不復權</string>
+    <string name="k_type_day">日K</string>
+    <string name="k_type_week">週K</string>
+    <string name="k_type_month">月K</string>
+    <string name="k_type_quarter">季K</string>
+    <string name="k_type_year">年K</string>
+    <string name="k_type_min_abbr">%d分</string>
+    <string name="k_type_min_full">%d分鐘</string>
+    <string name="k_setting_title">常用指標</string>
+    <string name="k_chart_main">主圖</string>
+    <string name="k_chart_sub">副圖</string>
+    <string name="k_direction">復權類型</string>
+    <string name="k_tech_toggle_disabled">僅支持單選副圖時切換指標</string>
+    <string name="k_float_open">開盤</string>
+    <string name="k_float_close">收盤</string>
+    <!--endregion-->
+    <!--region 委托交易-->
+    <string name="trade_entrust_type">類型</string>
+    <string name="trade_entrust_price">價格</string>
+    <string name="trade_entrust_number">數量</string>
+    <string name="trade_entrust_rise">提升</string>
+    <string name="trade_entrust_bid_title">買賣%d檔</string>
+    <string name="trade_entrust_search">請輸入代碼/名稱</string>
+    <string name="trade_price_hint">請輸入價格</string>
+    <string name="trade_number_hint">請輸入數量</string>
+    <string name="trade_entrust_bid_buy_position">買%s</string>
+    <string name="trade_entrust_bid_sell_position">賣%s</string>
+    <string name="trade_entrust_auction_order">競價單</string>
+    <string name="trade_entrust_auction_limit_order">競價限價單</string>
+    <string name="trade_entrust_limit_order">限價單</string>
+    <string name="trade_entrust_enhanced_limit_order">增強限價單</string>
+    <string name="trade_entrust_special_limit_order">特別限價單</string>
+    <string name="trade_entrust_stop_losses_limit_order">止損限價單</string>
+    <string name="trade_entrust_take_profit_limit_order">止盈限價單</string>
+    <string name="trade_entrust_track_stop_loss_order">跟蹤止損單</string>
+    <string name="trade_grey_market_limit_order">暗盤限價單</string>
+    <string name="trade_entrust_dark_order">暗盤訂單</string>
+    <string name="trade_entrust_market_price_order">手工單</string>
+    <string name="trade_entrust_odd_lot_order">碎股單</string>
+    <string name="order_details">訂單明細</string>
+    <string name="fund_account">資金賬戶</string>
+    <string name="trade_account_2">交易賬戶</string>
+    <string name="order_type">訂單類型</string>
+    <string name="order_details_directions_type">方向</string>
+    <string name="order_details_stock_name">名稱</string>
+    <string name="order_details_stock_code">代碼</string>
+    <string name="order_details_price">價格</string>
+    <string name="order_details_number">數量</string>
+    <string name="order_details_total_amount">總價</string>
+    <string name="order_details_price_more_than_24_price_diff_tip">當前價格超過買1價或賣1價的24檔，可能導致下單失敗</string>
+    <string name="more_than_24_price_diff_tip">高於當前價</string><!--TODO-->
+    <string name="less_than_24_price_diff_tip">低於當前價</string><!--TODO-->
+    <string name="a_market_stock_shortage_tip">建議訂單包含所有碎股賣出，避免導致後續無法賣出碎股</string>
+    <string name="do_not_remind_me_next_time">下次不再提醒</string>
+    <string name="grey_market_place_order_tip">本人願意承擔因股份最後未能獲配而導致的後果(只適用於國際配售之客戶)</string>
+    <string name="order_has_been_submitted">訂單已提交</string>
+    <string name="order_submission_failed">訂單提交失敗</string>
+    <string name="order_reject_tip">提交訂單為廢單</string>
+    <string name="trade_entrust_details">詳情</string>
+    <string name="trade_fund_redeem">贖回</string>
+    <string name="trade_entrust_cancel_order">撤單</string>
+    <string name="trade_entrust_cancel_order_tip">確認要撤銷訂單？</string>
+    <string name="trade_entrust_auction_order_tip">競價單僅支持賣出方向</string>
+    <string name="trade_entrust_unlock">解鎖交易</string>
+    <string name="trade_entrust_amounts">交易額</string>
+    <string name="trade_entrust_i_know">我知道了</string>
+    <string name="trade_entrust_price_specified">指定價</string>
+    <string name="trade_entrust_price_follow_market">跟市價</string>
+    <string name="market_price">市價</string>
+    <string name="trade_entrust_price_center">中間價</string>
+    <string name="trade_entrust_price_center_simple">中間</string>
+    <string name="trade_entrust_price_follow_buy">跟買一</string>
+    <string name="trade_entrust_price_follow_buy_simple">買一</string>
+    <string name="trade_entrust_price_follow_sell">跟賣一</string>
+    <string name="trade_entrust_price_follow_sell_simple">賣一</string>
+    <string name="trade_entrust_market_close_tip">暫時無法獲取到最新%s</string>
+    <string name="trade_entrust_trigger_price_hint">請輸入觸發價格</string>
+    <string name="trade_entrust_price_hint">請輸入訂單價格</string>
+    <string name="trade_entrust_number_hint">請輸入訂單數量</string>
+    <string name="exceeded_quantity">超出數量</string>
+
+    <string name="quick_change_price_confirm">快捷改價確認</string>
+    <string name="order_price_adjustment_hint">訂單價格調整為:</string>
+    <string name="whether_to_submit_it_immediately">是否立即提交？</string>
+    <string name="cancel_order_submit">撤單已提交</string>
+
+    <string name="professional_version">專業版</string><!--TODO-->
+    <string name="simple_version">簡易版</string><!--TODO-->
+    <string name="all_holding">全倉</string><!--TODO-->
+    <string name="trade_price_zero_tip">價格必須大於0，請重新輸入</string><!--TODO-->
+    <string name="please_select_stock">請選擇股票</string><!--TODO-->
+
+    <string name="trade_entrust_finance_tip">如果買入將使用融資</string><!--TODO-->
+    <string name="lock_trade">鎖定交易</string><!--TODO-->
+    <string name="lock_success">鎖定成功</string><!--TODO-->
+
+    <string name="allow">允許</string><!--TODO-->
+    <string name="disallow">不允許</string><!--TODO-->
+    <string name="pre_market_trading">盤前交易</string><!--TODO-->
+    <string name="pre_market_trading_allow">訂單將在盤前、持續交易時段進行對盤撮合，盤前未成交訂單會自動轉入持續交易時段。</string><!--TODO-->
+    <string name="pre_market_trading_disallow">訂單僅在持續交易時段進行對盤撮合。</string><!--TODO-->
+    <string name="trade_odd_lot_cn_hotline">內地交易熱線</string>
+    <string name="trade_odd_lot_hk_hotline">香港交易熱線</string>
+    <string name="trade_odd_lot_reminder">您所下訂單包含不足一手數量的碎股，需要交易碎股請撥打</string>
+
+    <string name="trigger_price">觸發價</string>
+    <string name="trigger_price_2">觸發價格</string>
+    <string name="validity_date">有效期</string>
+    <string name="on_that_day">當日</string>
+    <string name="before_cancellation">撤銷前</string>
+    <string name="valid_on_the_same_day">當日有效</string>
+    <string name="valid_until_revoked">撤銷前有效</string>
+    <string name="set_reminders">設置提醒</string>
+    <string name="conditions_order_set_reminders_content">%s不足，可能導致條件觸發後下單失敗，是否繼續提交？</string>
+    <string name="trigger_price_needs_higher">觸發價輸入需高於市價</string>
+    <string name="trigger_price_needs_below">觸發價輸入需低於市價</string>
+    <string name="validity_date_reminders">
+        當日有效：訂單有效期截止至T日收盤，未成交訂單會被撤單。T日收盤價提交的訂單為T+1日的預設訂單，會在T+1日收盤前持續有效。
+        \n\n撤單前有效：訂單在%s個自然日內持續有效，直到訂單全部成交、取消或下單失敗。
+    </string>
+    <string name="equal_current_price">等於當前價</string>
+    <string name="not_supported_modify_trade_direction">不支持修改交易方向</string>
+
+    <string name="trade_entrust_track_type">跟蹤類型</string>
+    <string name="trade_entrust_amount">金額</string>
+    <string name="trade_entrust_ratio">比例</string>
+    <string name="trade_entrust_track_amount">跟蹤金額</string>
+    <string name="trade_entrust_track_amount_hint">請輸入金額</string>
+    <string name="trade_entrust_track_amount_rise_tip">若市場漲幅超過跟蹤金額，系統會自動提交限價單</string>
+    <string name="trade_entrust_track_amount_fall_tip">若市場跌幅超過跟蹤金額，系統會自動提交限價單</string>
+    <string name="trade_entrust_track_ratio">跟蹤比例</string>
+    <string name="trade_entrust_track_ratio_hint">請輸入比例</string>
+    <string name="trade_entrust_track_ratio_rise_tip">若市場漲幅超過跟蹤比例，系統會自動提交限價單</string>
+    <string name="trade_entrust_track_ratio_fall_tip">若市場跌幅超過跟蹤比例，系統會自動提交限價單</string>
+    <string name="trade_entrust_specified_spread">指定價差</string>
+    <string name="trade_entrust_specified_spread_hint">請輸入指定價差</string>
+    <string name="trade_entrust_track_amount_bubble_tip">跟蹤金額需大於0</string>
+    <string name="trade_entrust_track_ratio_bubble_tip">跟蹤比例需大於0</string>
+    <string name="trade_entrust_specified_spread_bubble_tip">指定價差需大於0</string>
+    <string name="cannot_input_empty">輸入不能爲空</string>
+    <string name="trigger_price_input_zero_tip">觸發價需大於0</string>
+    <string name="price_input_zero_tip">價格需大於0</string>
+    <string name="track_holding_lack_tip">持倉不足，可能導致條件觸發後下單失敗，是否繼續提交？</string>
+    <string name="track_stop_loss_order_rise_price_diff_tip">觸發時\n市價加%s</string>
+    <string name="track_stop_loss_order_fall_price_diff_tip">觸發時\n市價減%s</string>
+    <string name="track_stop_loss_order_rise_price_diff_tip_2">觸發時市價加 %s</string>
+    <string name="track_stop_loss_order_fall_price_diff_tip_2">觸發時市價減 %s</string>
+    <string name="track_stop_loss_order_rise_price_ratio_tip">訂單將在市場價漲幅達到或超過 %s 時提交</string>
+    <string name="track_stop_loss_order_fall_price_ratio_tip">訂單將在市場價跌幅達到或超過 %s 時提交</string>
+    <string name="track_stop_loss_order_market_rise_tip">市場漲幅超過 %s</string>
+    <string name="track_stop_loss_order_market_fall_tip">市場跌幅超過 %s</string>
+    <string name="trade_time">交易時段:</string>
+    <string name="trade_operate_explain">交易說明:</string>
+    <string name="chart_explain">圖示說明</string>
+    <string name="limit_order_fall_chart_explain">當市場價格跌至觸發價，繫統自動提交一個限價單</string>
+    <string name="limit_order_raise_chart_explain">當市場價格涨至觸發價，繫統自動提交一個限價單</string>
+    <string name="track_order_buy_amount_chart_explain">訂單價格=（觸發價+指定價差）的限價單\n設定一個跟蹤金額，止損價格動態跟蹤市場價格變動。\n·市場價格下跌時，止損價格也會隨之下跌；\n·市場價格上漲時，止損價格保持不變；\n·市場價格繼續漲到或高於止損價格時，系統將自動提交；</string>
+    <string name="track_order_sell_amount_chart_explain">訂單價格=（觸發價-指定價差）的限價單\n設定一個跟蹤金額，止損價格動態跟蹤市場價格變動。\n·市場價格上漲時，止損價格也會隨之上漲；\n·市場價格下跌時，止損價格保持不變；\n·市場價格繼續跌到或低於止損價格時，系統將自動提交；</string>
+    <string name="track_order_buy_ratio_chart_explain">訂單價格=（觸發價+指定價差）的限價單\n設定一個跟蹤比例，止損價格動態跟蹤市場價格變動。\n·市場價格下跌時，止損價格也會隨之下跌；\n·市場價格上漲時，止損價格保持不變；\n·市場價格繼續漲到或高於止損價格時，系統將自動提交；</string>
+    <string name="track_order_sell_ratio_chart_explain">訂單價格=（觸發價-指定價差）的限價單\n設定一個跟蹤比例，止損價格動態跟蹤市場價格變動。\n·市場價格上漲時，止損價格也會隨之上漲；\n·市場價格下跌時，止損價格保持不變；\n·市場價格繼續跌到或低於止損價格時，系統將自動提交；</string>
+
+    <string name="auction_order_explain">競價盤是沒有指定價格的買賣盤，在輸入交易系統後按最終參考平衡價格進行對盤。競價盤享有較競價限價盤優先的對盤次序及根據時間先後次序按最終參考平衡價格順序對盤。</string>
+    <string name="auction_order_trade_time">1、早盤競價市價交易\n需在北京时間T日16:10~T+1日09:22前下單，09:20~09:22為隨機對盤時段，09:15後不得改單、撤單。\n\n2、收市競價市價交易\n需在北京时間T日16:00下單，16:08~16:10為隨機對盤時段，16:06後不得改單、撤單。</string>
+
+    <string name="auction_limit_order_explain">競價限價盤是有指定價格的買賣盤。指定價格等同最終參考平衡價格或較最終參考平衡價格更具競爭力的競價限價盤（即指定價格等同或高於最終參考平衡價格的買盤，或指定價格等同或低於最終參考平衡價格的賣盤）或可按最終參考平衡價格進行對盤視乎另一方是否有足够可配對的買賣盤。競價限價盤會根據價格及時間先後次序按最終參考平衡價格順序對盤。競價限價盤不會以差於最終參考平衡價格的價格對盤。\n\n在開市前時段結束後，任何未完成而輸入價不偏離按盤價九倍或以上的競價限價盤，將自動轉至持續交易時段，並一概視為限價盤存於所輸入價格的輪候隊伍中。</string>
+    <string name="auction_limit_order_trade_time">1、早盤競價限價交易\n需在北京时間T日16:10~T+1日09:22前下單，09:20~09:22為隨機對盤時段，09:15後不得改單、撤單。\n\n2、收市競價限價交易\n需在北京时間T日16:00下單，16:08~16:10為隨機對盤時段，16:06後不得改單、撤單。</string>
+
+    <string name="hk_limit_order_explain">限價單是指以特定價格或更優的價格執行買入或賣出的訂單。</string>
+    <string name="hk_limit_order_explain_trade_time">1、持續交易時段\n上午時段：北京时間09:30~12:00\n下午時段：北京时間13:00~16:00\n\n2、暗盤交易\n下單時段：北京時間16:15~18:30\n注：暗盤賣出股票所得現金不可用於該股票之外的交易，此部分凍結資金會在該股票上市交易後取消。\n\n以上時間週六、周日、公眾假期除外。</string>
+
+    <string name="us_limit_order_explain">限價單是指以特定價格或更優的價格執行買入或賣出的訂單。</string>
+    <string name="us_limit_order_explain_trade_time">盤前交易時段：美東時間04:00~09:30\n持續交易時段：美東時間09:30~16:00\n盤後交易時段：美東時間16:00~20:00</string>
+
+    <string name="a_stock_limit_order_explain">限價單是指以特定價格或更優的價格執行買入或賣出的訂單。</string>
+    <string name="a_stock_limit_order_explain_trade_time">1、開市集合競價\n09:15~09:25\n\n2、連續競價\n09:30~11:32\n13:00~14:57\n\n3、收市集合競價\n14:57~15:00</string>
+    <string name="stock_limit_ordertrade_explain">超出24檔外的訂單，由於行情快速波動、網絡中斷、服務器异常等因素，可能會導致交易未被執行，我們系統會盡可能保障這類訂單的穩定性及可靠性，星財富對由此引起的任何損失或得益無需承擔任何責任。</string>
+
+    <string name="enhanced_limit_order_explain">增强限價交易，即普通交易，投資者可以其指定或更優的價格買入或賣出股票。如果股票未達到或不超過限價，訂單將不會執行，增强限價單最多可同時與10條輪候隊伍進行配對（可以以更優價格買入或賣出）。賣出價格不可低於最佳買入價10個價位，不可高於最佳賣出價24個價位。買入價格不可高於最佳賣出價10個價位，不可低於最佳買入價24個價位。</string>
+    <string name="enhanced_limit_order_trade_time">1、持續交易時段\n上午時段：北京时間09:30~12:00\n下午時段：北京时間13:00~16:00\n\n2、暗盤交易\n下單時段：北京时間16:15~18:30\n注：暗盤賣出股票所得現金不可用於該股票之外的交易，此部分凍結資金會在該股票上市交易後取消。\n\n以上時間週六、周日、公眾假期除外。</string>
+
+    <string name="special_limit_order_explain">特別限價交易最多可同時與10條輪候隊伍進行配對（即最佳價格隊伍距離9個價位的第10條輪候隊伍），只要成交的價格不差於輸入價格，特別限價交易是沒有輸入價格的限制。只要賣盤的價格是等於或是低於最佳買入價，又或者買盤的價格是等於或是高於最佳賣出價。配對後，交易系統會取消原買賣盤中未能成交的餘額。</string>
+    <string name="special_limit_order_explain_trade_time">1、持續交易時段\n上午時段：北京时間09:30~12:00\n下午時段：北京时間13:00~16:00\n\n2、暗盤交易\n下單時段：北京时間16:15~18:30\n注：暗盤賣出股票所得現金不可用於該股票之外的交易，此部分凍結資金會在該股票上市交易後取消。\n\n以上時間週六、周日、公眾假期除外。</string>
+
+    <string name="stop_losses_limit_order_explain">止損限價單是指定止損觸發價，一旦市場價格到達指定觸發價，系統會自動提交限價單。</string>
+    <string name="traded_at_any_time">任何時間</string>
+    <string name="stop_losses_limit_order_trade_explain">1、買入方向：觸發價輸入需高於市價。賣出方向：觸發價輸入需低於市價。\n2、止損限價單是我們特別為投資者開發的訂單類型，此類訂單均免費使用，我們系統會盡可能保障這類訂單穩定性及可靠性，但亦可能因網絡中斷、服務器异常及其他不可抗因素導致交易未被執行或執行錯誤，星財富對由此引起的任何損失或得益無需承擔任何責任。</string>
+
+    <string name="take_profit_limit_order_explain">止盈限價單是指定止盈觸發價，一旦市場價格到達指定觸發價，系統會自動提交限價單。</string>
+    <string name="take_profit_limit_order_trade_explain">1、買入方向：觸發價輸入需低於市價。賣出方向：觸發價輸入需高於市價。\n2、止盈限價單是我們特別為投資者開發的訂單類型，此類訂單均免費使用，我們系統會盡可能保障這類訂單穩定性及可靠性，但亦可能因網絡中斷、服務器异常及其他不可抗因素導致交易未被執行或執行錯誤，星財富對由此引起的任何損失或得益無需承擔任何責任。</string>
+
+    <string name="track_stop_loss_order_explain">跟蹤止損限價單是設定一個跟蹤金額/百分比，止損價格根據市場實时價格進行動態變動，一旦市場價格到達止損價格，系統會自動提交限價單。</string>
+    <string name="track_stop_loss_order_trade_explain">跟蹤止損限價單是我們特別為投資者開發的訂單類型，此類訂單均免費使用，我們系統會盡可能保障這類訂單穩定性及可靠性，但亦可能因網絡中斷、服務器异常及其他不可抗因素導致交易未被執行或執行錯誤，星財富對由此引起的任何損失或得益無需承擔任何責任。</string>
+    <string name="submit_limit_order">提交限價單</string>
+
+    <string name="track_order_example_chart_track_amount_text">跟蹤金額：20</string>
+    <string name="track_order_example_chart_track_ratio_text">跟蹤比例：10%</string>
+    <string name="track_order_example_chart_specified_spread_text">指定差价：0.5</string>
+
+    <string name="cies_account_trade_remind">您已開通全委託投資移居專戶，不支持以該專戶進行交易，您將使用普通證券賬戶進行操作。</string>
+    <!--endregion-->
+
+    <!--region 条件单-->
+    <string name="conditiond_order">條件單</string>
+    <string name="trigger_price_target_rise_tip">訂單將在市場價漲至 %s 或以上時提交</string>
+    <string name="trigger_price_target_fall_tip">訂單將在市場價跌至 %s 或以下時提交</string>
+    <string name="trigger_waiting">待觸發</string>
+    <string name="trigger_filled">已觸發</string>
+    <!--endregion-->
+
+    <!--region 今日订单-->
+    <string name="order_today_delegate">當日委託</string><!--TODO-->
+    <string name="order_today_deal">當日成交</string><!--TODO-->
+    <string name="one_click_cancellation">一鍵撤單</string>
+    <string name="one_click_cancellation_tip">確認撤銷當前 %s 條訂單，撤銷後不可恢復請慎重考慮</string>
+    <string name="one_click_cancellation_success_tip">當前訂單撤銷成功 %s 單，失敗 %s 單請在【已撤單】查看撤銷成功訂單</string>
+    <string name="grey_market_symbol">暗</string>
+    <!--endregion-->
+
+    <!--region 订单记录-->
+    <string name="order_records">訂單記錄</string>
+    <string name="all_dates">全部日期</string>
+    <string name="filter">篩選</string>
+    <string name="date_filter">日期篩選</string>
+    <string name="today">今日</string>
+    <string name="nearly_a_week">近一週</string>
+    <string name="nearly_a_month">近1月</string>
+    <string name="nearly_three_month">近3月</string>
+    <string name="nearly_six_month">近6月</string>
+    <string name="status">狀態</string>
+    <string name="all_status">全部</string>
+    <string name="pending_deal">待成交</string>
+    <string name="full_deal">全成交</string>
+    <string name="order_cancelled">已撤單</string>
+    <string name="abolished">已作廢</string>
+    <string name="all_directions">全部</string>
+    <string name="trade_details">交易詳情</string>
+    <string name="deal_done">已成交</string>
+    <string name="filled">全部成交</string>
+    <string name="partially_filled">部分成交</string>
+    <string name="partially_cancel">部成已撤</string>
+    <string name="submitted">已提交</string>
+    <string name="order_details2">訂單詳情</string>
+    <string name="trade_direction">交易方向</string>
+    <string name="number_of_orders">委託數量</string>
+    <string name="filled_quantity">成交數量</string>
+    <string name="commission_price">委託價格</string>
+    <string name="average_transaction_price">成交均價</string>
+    <string name="currency">幣種</string>
+    <string name="transaction_details">成交明細</string>
+    <string name="order_time">下單時間</string>
+    <string name="trigger_time">觸發時間</string><!--TODO-->
+    <string name="filled_time">成交時間</string>
+    <string name="filled_price">成交價格</string>
+    <string name="revoke">撤銷</string>
+    <string name="modify">修改</string>
+    <string name="customize">自定義</string>
+    <string name="exceed_end_date_tip">設置的時間無效</string>
+    <string name="tip_date_range_nearly_three_month">僅可查看近3個月記錄</string>
+    <string name="tip_date_range_nearly_three_day">僅顯示近三日訂單記錄，查看全部</string>
+    <string name="tip_date_range_nearly_a_year">僅可查看近1年記錄</string>
+    <string name="last_price_and_avg">最新價/成交均價</string>
+    <string name="view_general_order">查看普通訂單</string>
+    <string name="view_conditions_order">查看條件單</string>
+    <string name="conditions_order_details">條件單詳情</string>
+    <string name="order_quantity_price">訂單數量/價格</string>
+    <string name="order_amount">訂單金額</string>
+    <string name="filled_amount">成交金額</string>
+    <string name="cst">北京時間</string>
+    <string name="est">美東時間</string>
+    <string name="trade_source">交易來源</string>
+    <string name="order_id">訂單號</string>
+    <string name="fee_details">費用詳情</string>
+    <string name="fee_commission_charge">佣金</string>
+    <string name="fee_platform">平臺費</string>
+    <string name="fee_trading_tariff">交易系統使用費</string>
+    <string name="fee_clearing">交收費</string>
+    <string name="fee_stamp">印花稅</string>
+    <string name="fee_trade">交易費</string>
+    <string name="fee_sfcLevy">證監會征費</string>
+    <string name="fee_frcLevy">財匯局征費</string>
+    <string name="fee_bond_interest">債券累算利息</string>
+    <string name="fee_taf">交易活動費</string>
+    <string name="fee_handing">經手費</string>
+    <string name="fee_transfer">過戶費</string>
+    <string name="fee_other">其它費用</string>
+    <string name="fee_to_be_settled">待結算</string>
+    <string name="fee_total">合計費用</string>
+    <string name="fee_tip">交易費用為預估計算，實際需要以結單為準</string>
+    <string name="fee_to_be_settled_tip">交易費用一般與交易日當天收盤後結算，最晚於下一個交易日顯示</string>
+    <!--endregion-->
+
+    <!--region 资金流水-->
+    <string name="cash_flow">資金流水</string>
+    <string name="company_act">公司行動</string>
+    <string name="cash_flow_ipo">新股及配售</string>
+    <string name="bank_transfer">資金調撥</string>
+    <string name="deposits_and_withdrawals">出入金</string>
+    <string name="no_data_cash_flow">暫無明細</string>
+    <string name="all_type">全部類型</string>
+    <string name="record_details">記錄詳情</string>
+    <string name="date">日期</string>
+    <string name="balance">剩餘金額</string>
+    <string name="trade_account">交易賬號</string>
+    <string name="business_type">業務類型</string>
+    <string name="remark">備註</string>
+    <string name="serial_number">流水號</string>
+
+    <string name="all_time_period">全時間段</string><!--TODO-->
+    <string name="custom_time">自定義時間</string><!--TODO-->
+    <string name="specified_product">指定產品</string><!--TODO-->
+    <string name="no_record">暫無記錄</string><!--TODO-->
+    <string name="no_matching_result">無匹配結果</string><!--TODO-->
+    <string name="recently_traded_securities">最近交易的證券</string><!--TODO-->
+    <string name="create_time">創建時間</string><!--TODO-->
+    <string name="fund_name">基金名稱</string><!--TODO-->
+    <string name="funds_transfer">資金調撥</string>
+    <string name="service_name">服務名稱</string>
+    <!--endregion-->
+
+    <!--region 今日统计-->
+    <string name="today_statistics">今日統計</string>
+    <string name="opening_amount">開盤現金</string>
+    <string name="opening_market_value">開盤證券市值</string>
+    <string name="deal_order_count">成交筆數</string>
+    <string name="today_deal_order_count">今日成交筆數</string>
+    <string name="today_deal_total_amount">今日成交總額</string>
+    <string name="today_total_profit_loss">今日總盈虧</string>
+    <string name="today_profit_loss_percentage">今日盈虧比例</string>
+    <!--endregion-->
+
+    <!--region timesharing-->
+    <string name="tech_volume">成交量</string>
+    <string name="tab_time_sharing">分時</string>
+    <string name="pop_ts_all">全部分時</string>
+    <string name="pop_ts_post">盤後分時</string>
+    <string name="pop_ts_trading">盤中分時</string>
+    <string name="pop_ts_pre">盤前分時</string>
+    <string name="tab_time_sharing_5">5日</string>
+    <string name="time_sharing_price">價格</string>
+    <string name="time_sharing_price_average">均價</string>
+    <string name="time_sharing_show_tick">顯示逐筆</string>
+    <string name="setting_more">更多設置</string>
+    <string name="time_sharing_setting">分時設置</string>
+    <string name="tick_disabled_delay_permission">延時行情不支持顯示逐筆</string>
+    <string name="back_to_latest">回到最新</string>
+    <!--endregion-->
+
+    <!--region 个股-财务-->
+    <string name="finance_indicator_title">主要指標</string>
+    <string name="finance_net_asset_ps">每股淨資產</string>
+    <string name="finance_gross_income_ratio">毛利率</string>
+    <string name="finance_net_profit_ratio">淨利率</string>
+    <string name="finance_growth_rate">同比增長率</string>
+    <string name="finance_brief_title">基本報表</string>
+    <string name="finance_brief_profit">利潤表</string>
+    <string name="finance_brief_balance">資產負債表</string>
+    <string name="finance_brief_cash_flow">現金流量表</string>
+    <string name="finance_op_income">營收收入</string>
+    <string name="finance_net_profit_ration">淨利潤</string>
+    <string name="finance_net_op_cashflow">經營現金流</string>
+    <string name="finance_net_invest_cashflow">投資現金流</string>
+    <string name="finance_net_fin_cashflow">融資現金流</string>
+    <string name="finance_total_liability">總負債</string>
+    <string name="finance_debt_assets_ratio">資產負債率</string>
+    <string name="stock_tab_finance">財務</string>
+    <string name="stock_tab_finance_year_report">%s財年 %s</string>
+    <string name="yoy_rate">同比</string>
+    <string name="finance_currency">財報幣種: %s</string>
+    <string name="finance_forecast">財報提醒: 將於 %s 發佈 %s財年 %s財報</string>
+    <string name="finance_report_FY">年報</string>
+    <string name="finance_report_H1">半年報</string>
+    <string name="finance_report_9M">累計三季報</string>
+    <string name="finance_report_Q1">一季報</string>
+    <!--endregion-->
+
+    <!--region 个股概况-->
+    <string name="stock_tab_overview">概況</string>
+    <string name="profile_basic_information">基本資料</string>
+    <string name="profile_investment_objective">投資目標</string>
+    <string name="profile_return_income">回報收益</string>
+    <string name="profile_etf_type">ETF全稱</string>
+    <string name="profile_net_asset_value">資產淨值</string>
+    <string name="profile_publisher">發行商</string>
+    <string name="profile_target_index_name">追踪指數</string>
+    <string name="profile_fund_manager">基金經理</string>
+    <string name="profile_fund_size">基金規模</string>
+    <string name="profile_list_date">上市日期</string>
+    <string name="profile_expense_ratio">費用比率</string>
+    <string name="profile_dividend_policy">派息政策</string>
+
+    <string name="profile_income_range">收益區間</string>
+    <string name="profile_up">截至</string>
+    <string name="profile_yearly">每年</string>
+    <string name="profile_a_7_days">7天</string>
+    <string name="profile_30_days">30天</string>
+    <string name="profile_60_days">60天</string>
+    <string name="profile_120_days">120天</string>
+    <string name="profile_one_year">1年</string>
+    <string name="profile_ytd">年初至今</string>
+
+    <string name="profile_stock_code">證券代碼</string>
+    <string name="profile_stock_name">證券名稱</string>
+    <string name="profile_related_assets">相關資產</string>
+    <string name="profile_issuer">發行機構</string>
+    <string name="profile_character">證券性質</string>
+    <string name="profile_calculation_style">計算方式</string>
+    <string name="profile_call_price">回收價格</string>
+    <string name="profile_strike">行使價格</string>
+    <string name="profile_convert_ratio">換股比率</string>
+    <string name="profile_issue_volume">發行數量</string>
+    <string name="profile_last_trade_date">最後交易</string>
+    <string name="profile_maturity">到期日期</string>
+    <string name="profile_remainder_days">剩餘天數</string>
+
+    <string name="profile_subscribe">認購</string>
+    <string name="profile_put">認沽</string>
+    <string name="profile_bull_contract">牛證</string>
+    <string name="profile_bear_contract">熊證</string>
+    <string name="profile_other">其他</string>
+    <string name="profile_inline_warrants">界內證</string>
+
+    <string name="profile_european">歐式</string>
+    <string name="profile_american">美式</string>
+    <string name="profile_bermuda">百慕大式</string>
+
+    <string name="profile_quarterly_report">一季報</string>
+    <string name="profile_quarterly_report_2">二季報</string>
+    <string name="profile_quarterly_report_3">三季報 (單季)</string>
+    <string name="profile_quarterly_report_4">四季報</string>
+    <string name="profile_three_quarterly_report">三季報 (累計)</string>
+    <string name="profile_annual_report">年報</string>
+
+    <string name="profile_company">公司概況</string>
+    <string name="profile_main_composition">主營構成</string>
+    <string name="profile_dividend_transfer">分紅送轉</string>
+    <string name="profile_industry">所屬行業</string>
+    <string name="profile_company_name">公司名稱</string>
+    <string name="profile_time_to_market">上市時間</string>
+    <string name="profile_company_chairman">公司主席</string>
+    <string name="profile_main_business">主營業務</string>
+    <string name="profile_business">業務</string>
+    <string name="profile_area">地區</string>
+    <string name="profile_product">產品</string>
+    <string name="profile_main_business2">名稱</string>
+    <string name="profile_operating_income">營業收入</string>
+    <string name="profile_percentage">占比</string>
+    <string name="profile_distribution_plan">分配方案</string>
+    <string name="profile_xrxd_date">除權除息日</string>
+    <string name="profile_dividend_date">派息日</string>
+    <string name="profile_total_revenue">總營收</string>
+    <string name="profile_company_leader">公司高管</string>
+    <string name="profile_company_leader_job">職務</string>
+
+    <string name="profile_hold_change">持倉變動</string>
+    <string name="profile_hold_top_10">十大持倉 (占比%s)</string>
+    <string name="profile_manager">管理人</string>
+    <string name="profile_etf_brief_introduction">ETF簡介</string>
+    <string name="profile_etf_publisher">發行方</string>
+    <string name="profile_etf_publish_time">發行時間</string>
+    <string name="profile_etf_finance_end_date">財年結束日</string>
+    <string name="profile_etf_lever">槓桿</string>
+    <string name="etf_lever_none">無槓桿</string>
+    <string name="etf_lever_positive">%d倍槓桿</string>
+    <string name="profile_etf_frequency_share">分紅頻率</string>
+    <string name="profile_etf_minimum_subscription_unit">最小申購單位</string>
+    <string name="profile_etf_subscription_fees">申購費用</string>
+    <string name="profile_etf_change_date">變動日期</string>
+    <string name="profile_etf_change_code">變動代碼</string>
+    <string name="profile_etf_change_hold">持倉變動數</string>
+    <string name="profile_etf_change_result">最終變動結果</string>
+    <string name="etf_constituent_stocks_list">持倉列表</string>
+
+    <string name="stock_split_title">拆股合股</string>
+    <string name="stock_split_type">方式</string>
+    <string name="stock_split_rate_label">比率</string>
+    <string name="stock_split_type_10">拆股</string>
+    <string name="stock_split_type_15">合股</string>
+    <string name="stock_split_type_20">先拆再合</string>
+    <string name="stock_split_type_25">先合再拆</string>
+    <string name="stock_split_value">%d→%d</string>
+
+    <string name="shareholders_shareholding_details_title">股東持股明細</string>
+    <string name="shareholders_shareholding_details_name">股東名稱</string>
+    <string name="shareholders_shareholding_details_quantity">持股數(股)</string>
+    <string name="shareholders_shareholding_details_ratio">持股比例</string>
+    <string name="shareholders_shareholding_details_date">更新日期</string>
+
+    <string name="company_repurchase_title">公司回購</string>
+    <string name="company_repurchase_date">回購日</string>
+    <string name="company_repurchase_amount">回購總額</string>
+    <string name="company_repurchase_ratio">占總成交量</string>
+    <!--endregion-->
+
+    <!--region 个股分析-->
+    <string name="stock_tab_analyze">分析</string>
+    <string name="analyze_short_sale_title">賣空分析</string>
+    <string name="analyze_short_sale_ratio">賣空占比</string>
+    <string name="analyze_short_sale_cost">賣空成本</string>
+    <string name="analyze_short_sale_position">淡倉申報</string>
+    <string name="short_sale_ratio_legend">賣空比例</string>
+    <string name="short_sale_pclose_legend">收盤價</string>
+    <string name="short_sale_num_legend">賣空數量</string>
+    <string name="short_sale_price_avg_legend">每日賣空均價</string>
+    <string name="short_sale_avg_legend">每日賣空均價</string>
+    <string name="short_sale_cost_avg_legend">賣空平均成本</string>
+    <string name="short_sale_cost_share_legend">合計需申報賣空量</string>
+    <string name="short_sale_ratio_axis">比例(%)</string>
+    <string name="short_sale_price_axis">價格 (港元)</string>
+    <string name="short_sale_position_share">申報空倉賣空量</string>
+    <string name="short_sale_position_amt">申報空倉賣空額</string>
+    <string name="analyze_broker_top_title">十大淨買入/賣出經紀商</string>
+    <string name="analyze_broker_top_ratio">經紀商持股比例</string>
+    <string name="analyze_broker_top_type_1">近1天</string>
+    <string name="analyze_broker_top_type_5">近5天</string>
+    <string name="analyze_broker_top_type_20">近20天</string>
+    <string name="analyze_broker_top_type_60">近60天</string>
+    <string name="analyze_broker_top_tip">實時數據\n淨買入/賣出量：根據股票當前交易日的逐筆明細和買賣盤經紀商數據估算得出\n\n最近N日資料：\n淨買入量=當前交易日持股量-N個交易日前的持股量；\n淨賣出量=N個交易日前的持股量-當前交易日持股量</string>
+    <string name="analyze_broker_time_update">更新：%s</string>
+    <string name="analyze_broker_time_update_suffix">(此為估算數據，僅供參考)</string>
+    <string name="analyze_broker_unit">單位：萬股</string>
+    <string name="analyze_broker_buy_net">淨買入</string>
+    <string name="analyze_broker_sell_net">淨賣出</string>
+    <string name="analyze_ggt_hold_title">港股通持股比例</string>
+    <string name="analyze_ggt_vol_net">淨買賣股數</string>
+    <string name="analyze_ggt_amount_net">淨買賣金額</string>
+    <string name="analyze_ggt_vol_ratio">股數占比</string>
+    <string name="analyze_ggt_hold_vol">持股量</string>
+    <string name="analyze_ggt_hold_cap_flow">資金淨流向</string>
+    <string name="analyze_ggt_legend_ratio">比例</string>
+    <string name="analyze_ggt_total_date">近%d日</string>
+    <!--endregion-->
+
+    <!--region 窝轮牛熊-->
+    <string name="warrant_search_input_hint_outside">搜索輪證及相關正股</string>
+    <string name="type">類型</string>
+    <string name="issuer">發行人</string>
+    <string name="more_choose">更多篩選</string>
+    <string name="strike_price">行使價</string>
+    <string name="implied_volatility">引伸波幅 (僅窩輪)</string>
+    <string name="cbba_call_price">回收價 (僅牛熊證)</string>
+    <string name="cbba_buy_back_price_range">回收價區間</string>
+    <string name="reset">重置</string>
+    <string name="input_invaild">輸入無效,請重新輸入</string>
+    <string name="outstanding_ration_and_distribution">街貨比例及分佈</string>
+    <string name="outstanding_chart_wan_tip_txt">柱狀圖表示相對股份數(萬股)，[ ]表示當天變化量</string>
+    <string name="outstanding_chart_thousand_tip_txt">柱狀圖表示相對股份數(千股)，[ ]表示當天變化量</string>
+    <string name="outstanding_chart_index_tip_txt">柱狀圖表示相對期指張數，[ ]表示當天變化量</string>
+    <string name="today_close_market_price">當日收市價</string>
+    <string name="heavy_cargo_area">重貨區</string>
+    <string name="maximum_additions">最多新增</string>
+    <string name="update">更新</string>
+
+    <array name="warrant_select_tab">
+        <item>類型</item>
+        <item>到期日</item>
+        <item>發行人</item>
+        <item>更多篩選</item>
+    </array>
+
+
+    <array name="warrant_character">
+        <item>0|全部</item>
+        <item>1|認購</item>
+        <item>2|認沽</item>
+        <item>3|牛證</item>
+        <item>4|熊證</item>
+        <!--        <item>5|其他</item>-->
+        <item>6|界內證</item>
+    </array>
+
+    <array name="warrant_maturity">
+        <item>0|全部</item>
+        <item>1|&lt;3個月</item>
+        <item>2|3-6個月</item>
+        <item>3|6-12個月</item>
+        <item>4|&gt;12個月</item>
+    </array>
+
+    <array name="warrant_moneyness">
+        <item>0|全部</item>
+        <item>1|價內</item>
+        <item>2|價外</item>
+    </array>
+
+    <array name="warrant_issuer">
+        <item>|全部</item>
+        <item>SG|法興</item>
+        <item>BP|法巴</item>
+        <item>CS|瑞信</item>
+        <item>CT|花旗</item>
+        <item>EA|東亞</item>
+        <item>GS|高盛</item>
+        <item>HS|滙豐</item>
+        <item>JP|摩通</item>
+        <item>MB|麥銀</item>
+        <item>UB|瑞銀</item>
+        <item>BI|中銀</item>
+        <item>HT|海通</item>
+        <item>VT|瑞通</item>
+        <item>MS|摩利</item>
+        <item>GJ|國君</item>
+    </array>
+
+    <array name="warrant_leverageRatio">
+        <item>0|全部</item>
+        <item>1|&lt;1倍</item>
+        <item>2|1-5倍</item>
+        <item>3|5-10倍</item>
+        <item>4|&gt;10倍</item>
+    </array>
+
+
+    <array name="warrant_premium">
+        <item>0|全部</item>
+        <item>1|0-3</item>
+        <item>2|3-6</item>
+        <item>3|6-9</item>
+        <item>4|&gt;9</item>
+    </array>
+
+    <array name="warrant_outstandingPct">
+        <item>0|全部</item>
+        <item>1|&lt;30</item>
+        <item>2|30-50</item>
+        <item>3|50-70</item>
+        <item>4|&gt;70</item>
+    </array>
+    <!--endregion-->
+
+    <!--region 可融資股票-->
+    <array name="marginable_stock_select_tab">
+        <item>港股</item>
+        <item>價格</item>
+        <item>市值</item>
+        <item>市盈率</item>
+    </array>
+
+    <string name="marginable_stock_all">全部</string>
+    <string name="marginable_stock_52week_highest">近52週最高</string>
+    <string name="marginable_stock_52week_lowest">近52週最低</string>
+
+    <string name="marginable_stock_tip">
+        可融資股票抵押率由復星國際證券提供，並可作出調整而不另行通知，數值僅供參考。
+        \n如有任何爭議，復星國際證券保留最終解釋權。
+    </string>
+    <!--endregion-->
+
+    <!--region webview-->
+    <string name="web_ssl_error">SSL證書驗證失敗</string>
+    <string name="get_pic_failed">獲取圖片失敗</string>
+    <string name="get_file_failed">獲取檔失敗</string>
+    <string name="request_camera_permissions_failed">獲取相機權限失敗!</string>
+    <string name="pic_scaling_failed">圖片縮放失敗!</string>
+    <string name="ablum_select_failed">相冊選取圖片失敗！</string>
+    <string name="ablum_select_pic_too_large">選擇的圖片大於10M，上傳失敗！</string>
+    <string name="file_select_pic_too_large">選擇的檔大於10M，上傳失敗！</string>
+    <string name="file_no_exist">文件不存在</string>
+    <string name="user_canceled_action">用戶取消了操作</string>
+    <string name="page_not_support_feature">當前頁面不支持該功能</string>
+    <string name="scan_fail">掃描失敗</string>
+    <string name="select_picture">選擇圖片</string>
+    <string name="select_video">選擇視頻</string>
+    <string name="use_camera_shoot">用相機拍攝</string>
+    <string name="choose_from_album">從相冊選擇</string>
+    <string name="camera_open_fail">相機打開失敗!</string>
+    <string name="app_miss_permissions">應用缺少權限</string>
+    <string name="miss_camera_permissions_please_agree_permissions">缺少相機調用運行所需的權限，請去對應用權限進行授權!</string>
+    <string name="go_set">去設置</string>
+    <string name="camera_no_ready">攝像頭尚未準備好</string>
+    <string name="denied_can_not_read_pic">未開啟照片瀏覽權限</string>
+    <string name="save_pic_ask">確定要保存圖片嗎？</string>
+    <string name="save_success_path">已保存至 %s</string>
+    <string name="save_fail">保存失敗</string>
+    <string name="no_authorize_sava_picture">未開啟照片存儲權限</string>
+    <string name="scan">掃描</string>
+    <string name="take_pic">拍照</string>
+    <string name="album_upload">相冊上傳</string>
+    <string name="file_upload">文件上傳</string>
+    <string name="select_from_album">從相冊選擇</string>
+    <string name="from_folder">來自文件</string>
+    <string name="pic_upload_fail">上傳圖片失敗</string>
+    <string name="request_location_permissions_failed">獲取定位權限失敗!</string>
+    <string name="get_location_failed">獲取定位失敗，請稍候重試！</string>
+    <!--endregion-->
+
+    <!--region ipo-->
+    <string name="new_shares_center">新股中心</string>
+    <string name="purchase_records">申購記錄</string>
+    <string name="tendered_table">已遞表</string>
+    <string name="in_the_purchase">認購中</string>
+    <string name="to_be_listed">待上市</string>
+    <string name="listed">已上市</string>
+    <string name="application_date">申請日期</string>
+    <string name="subscription_period">預計認購期</string>
+    <string name="issue_price">招股價</string>
+    <string name="one_hand_shares">每手股數</string>
+    <string name="minimum_subscription_amount">最小認購金額</string>
+    <string name="subscription_details">認購詳情</string>
+    <string name="no_data_ipo">暫無新股</string>
+    <string name="first_day_gain">首日漲幅</string>
+    <string name="cumulative_gain">累計漲幅</string>
+    <string name="issue_price_2">發行價</string>
+    <string name="cumulative_gain_day">連漲天數</string>
+    <string name="per">市盈率</string>
+    <string name="issue_volume">發行量</string>
+    <string name="to_be_listed_tip">暗盤交易時間：16:15-18:30；若當日為半日市則暗盤交易時間為：14:15-16:30。</string>
+    <string name="ipo_listed_status_dealing">正在處理</string>
+    <string name="ipo_listed_status_passing">通過聆訊</string>
+    <string name="ipo_listed_status_invalid">無效</string>
+    <string name="ipo_winning_rate">中簽概率</string>
+    <string name="ipo_winning_rate_value">申購%d手穩中1手</string>
+    <string name="ipo_cash_subscription">現金認購</string>
+    <string name="ipo_margin_subscription">銀行融資認購</string>
+    <string name="ipo_subscription_tip">該新股預計將於10:00開放申購，請耐心等待</string>
+    <string name="ipo_center_purchase">認購中</string>
+    <string name="ipo_center_grey_market">暗盤</string>
+    <string name="ipo_center_grey_market_trading">暗盤交易</string>
+    <string name="ipo_center_grey_market_closed">暗盤已收盤</string>
+    <string name="ipo_center_grey_market_before">暗盤待開盤</string>
+    <string name="subscription_period_tip">預計招股日期為交易所公開數據，實際申購截止時間會早於交易所公佈的日期</string>
+    <string name="today_grey_market">今日暗盤</string>
+    <string name="grey_market_date">暗盤日期</string>
+    <string name="ipo_research_report">新股研報</string><!--TODO-->
+    <string name="ipo_calculator">打新測算</string><!--TODO-->
+    <string name="waiting_submit">待提交</string><!--TODO-->
+    <string name="waiting_deal">待成交</string><!--TODO-->
+    <string name="place_order_fail">下單失敗</string>
+    <string name="today_trade">今日交易</string>
+    <string name="hk_pre_order_tip">"當前為非交易時段或休市，訂單會在港股正式開盤後排隊提交，排隊時請耐心等待"</string>
+    <string name="us_pre_order_allow_pre_market_tip">"當前為非交易時段或休市，訂單會在美股盤前時段開始後排隊提交，排隊時請耐心等待"</string><!--允许盘前-->
+    <string name="us_pre_order_not_allow_pre_market_tip">"當前為非交易時段或休市，訂單會在美股持續交易時段開始後排隊提交，排隊時請耐心等待"</string><!--不允许盘前-->
+    <string name="hs_pre_order_tip">"當前為非交易時段或休市，訂單會在A股正式開盤後排隊提交，排隊時請耐心等待"</string>
+    <string name="stock_new_subscription_restriction_notice">當前新股認購存在限制，如有疑問，請聯絡客服</string>
+    <!--endregion-->
+
+    <!--region center card-->
+    <string name="activity_center">活動中心</string>
+    <string name="coupon_center">卡券中心</string>
+    <string name="my_quote">我的行情</string>
+    <string name="vip_privilege">財富甄享匯</string>
+    <string name="to_join">立即參與</string>
+    <string name="to_see">立即查看</string>
+    <!--endregion-->
+
+    <!--region 盈亏分享-->
+    <string name="profit_loss_share">盈虧分享</string>
+    <string name="share">分享</string>
+    <string name="profit_loss">盈虧</string>
+    <string name="today_profit_loss">今日盈虧</string>
+    <string name="profit_loss_pct">盈虧比例</string>
+    <string name="holding_profit_loss">持倉盈虧</string>
+    <string name="holding_profit_loss_ratio">持倉占比</string>
+    <string name="total_turnover">成交總額</string>
+    <string name="profit_loss_amount">盈虧金額</string>
+    <string name="today_profit_loss_amount">今日盈虧金額</string>
+    <string name="today_profit_loss_pct">今日盈虧比例</string>
+    <string name="total_holding_profit_loss">持倉總盈虧</string>
+    <string name="total_turnover_today">今日成交總額</string>
+    <string name="profit_loss_current_price">現價</string>
+    <string name="profit_loss_cost_price">成本</string>
+    <string name="share_failure">分享失敗</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="share_not_install">分享失敗，請安裝應用</string>
+    <string name="account_share_profit_10_percent">跑贏通脹</string>
+    <string name="account_share_profit_30_percent">快趕上巴菲特啦</string>
+    <string name="account_share_loss_10_percent">吃一塹，長一智</string>
+    <string name="account_share_no_turnover">路過打個醬油</string>
+    <string name="account_share_has_turnover">勤勞的人已經上線</string>
+    <string name="profit_loss_flat">休息休息，改日再戰</string>
+    <string name="holding_share_profit">大佬，請受我一拜</string>
+    <string name="holding_share_loss">抱緊自己</string>
+    <string name="fund_share_loss">穩住，我們能贏</string><!--TODO-->
+    <string name="save_in_album">已保存至相冊</string>
+    <string name="fund_earnings">賬戶收益</string>
+    <string name="accumulated_earnings">累計收益</string>
+    <string name="fund_holding_income">持倉收益</string>
+    <string name="fund_holding_nothing">空倉</string>
+    <string name="marginValue_value">抵押價值</string>
+    <string name="unrealized_profit_loss">未實現盈虧</string>
+    <string name="realized_profit_loss">已實現盈虧</string>
+    <string name="accum_profit_loss">累計盈虧</string>
+    <!--endregion-->
+
+    <!--region kLineSetting-->
+    <string name="ind">指標</string>
+    <string name="ind_trend">趨勢指標</string>
+    <string name="ind_overBuySell">超買超賣指標</string>
+    <string name="ind_energy">能量指標</string>
+    <string name="ind_vol">成交量指標</string>
+    <string name="ind_pressure">壓力支撐指標</string>
+    <string name="ind_ma">移動平均線</string>
+    <string name="ind_ema">平滑移動平均線</string>
+    <string name="ind_sar">停損點轉向指標</string>
+    <string name="ind_macd">指數平滑移動平均線</string>
+    <string name="ind_dma">平行線差指標</string>
+    <string name="ind_emv">簡易波動指標</string>
+    <string name="ind_rsi">相對強弱指標</string>
+    <string name="ind_kdj">隨機指標</string>
+    <string name="ind_wr">威廉指標</string>
+    <string name="ind_arbr">情緒指標</string>
+    <string name="ind_cr">能量指標</string>
+    <string name="ind_mavol">成交量均線</string>
+    <string name="ind_boll">布林線</string>
+    <string name="ind_manage">指標管理</string>
+    <string name="view_main">主圖</string>
+    <string name="view_sub">副圖</string>
+    <string name="search_selected_ind">搜索已選指標</string>
+    <string name="kline_setting">K線設置</string>
+    <string name="kline_display_setting">圖層顯示</string>
+    <string name="chart_setting">圖表設置</string>
+    <string name="now_price_line">現價線</string>
+    <string name="trade_point">成交買賣點</string>
+    <string name="kline_color_select">選擇顏色</string>
+    <string name="ind_add">添加指標</string>
+    <string name="reset_default">恢復默認</string>
+    <string name="ind_line">指標線</string>
+    <string name="mov_per">移動平均週期</string>
+    <string name="ref_line">參考線</string>
+    <string name="fullscreen">全屏</string>
+
+    <string name="ind_cal_cycle">計算週期</string>
+    <string name="ind_feature">股票特性參數</string>
+    <string name="ind_step">步長</string>
+    <string name="ind_limit">極限值</string>
+    <string name="ind_short">短週期</string>
+    <string name="ind_long">長週期</string>
+    <string name="ind_avg">移動平均週期</string>
+    <string name="ind_top_line">上線</string>
+    <string name="ind_mid_line">中線</string>
+    <string name="ind_bottom_line">下線</string>
+
+    <string name="ind_main">主圖指標</string>
+    <string name="ind_sub">副圖指標</string>
+
+    <string name="ind_sort_reset_confirm">確認恢復預設狀態？</string>
+    <string name="ind_detail_reset_confirm">確認將參數與顏色恢復預設？</string>
+
+    <string name="ind_input_invalid">填寫參數無效，請重新輸入</string>
+    <string name="share_trade_point">買賣打點</string>
+
+    <!--endregion-->
+
+    <!--region 升级管理-->
+    <string name="upgrade_cancel">暫不</string>
+    <string name="upgrade_now">立即更新</string>
+    <string name="exit_app">退出APP</string>
+    <string name="background_download">後台下載</string>
+    <string name="download_progress">下載進度</string>
+    <string name="download">下載</string>
+    <string name="version_update">版本更新</string>
+    <string name="new_version_available">有新版本可用</string>
+    <string name="install">立即安裝</string>
+    <string name="unkown_error">未知錯誤</string>
+    <string name="file_has_been_modified">文件已被修改</string>
+    <string name="google_play_upgrade_failed">無法前往GooglePlay進行升級</string>
+    <string name="to_install">點擊安裝</string>
+    <string name="downloaded">已下載</string>
+    <string name="discover_new_version">發現新版本</string><!--TODO-->
+    <string name="new_version_installation">新版本安裝</string><!--TODO-->
+    <string name="new_version_installation_tip">最新版本已經下載完成，點擊安裝按鈕立即升級。</string><!--TODO-->
+    <string name="downloading">正在下載...</string><!--TODO-->
+    <string name="download_notify_tips">當前未授予通知權限，是否前往通知設置？</string>
+    <string name="dowmload_notify_channel_tips">當前通知類別未打開，是否前往通知設置打開\"下載進度\"類別通知？</string>
+    <!--endregion-->
+
+    <!--region usMarketState-->
+    <string name="us_quote_statement">美股行情聲明</string>
+    <string name="us_state_yes">是</string>
+    <string name="us_state_no">否</string>
+    <string name="us_state_welcome_user">歡迎您使用星財富APP</string>
+    <string name="us_state_input_tip">請填寫以下個人信息</string>
+    <string name="us_state_input">請輸入%s</string>
+    <string name="us_state_professional_tip">因當前定義為專業投資者，不再提供美股實時行情</string>
+    <string name="us_state_edit_too_long_tip">最大長度不能超過%d</string> <!--TODO-->
+    <string name="us_state_select">請選擇%s</string> <!--TODO-->
+    <string name="us_state_select_default">請選擇</string> <!--TODO-->
+    <string name="us_state_wrong_format">%s格式錯誤</string>
+    <!--end region-->
+
+    <!--region SPAC 签署-->
+    <string name="spac_title">SPAC簽署</string>
+    <string name="spac_awareness_assessment">特殊目的收購公司（SPAC) 認識評估</string>
+    <string name="spac_awareness_assessment_explain">本評估表格旨在評估您是否擁有關於特殊目的收購公司的一般知識。我們將會根據您所提供的資料，考慮您是否了解特殊目的收購公司的性質及風險。\nSPAC 是一種殼股公司，透過首次公開發售集資，目的是在上市後一段預設時間(一般為兩年)內與一家營運中的公司的業務合併 (如合併、股份交換、資產收購等等)。SPAC 本身並無業務運作，且除﹕(a) 首次公開發售所得款項; 及(b) 由SPAC 發起人籌集以支付SPAC開支的資金外，並無其他資產。</string>
+    <string name="spac_first_part_title">第一部分：評估客戶對SPAC的認識的條件及投資取向</string>
+    <string name="spac_first_part_first_option_text">本人/我們曾在香港交易所或其他認可股票市場（即由受香港以外任何地方法律監管的認可交易所公司經營的任何股票市場）執行 SPAC 交易</string>
+    <string name="spac_first_part_second_option_text">本人/我們於現時或過去擁有與SPAC相關的工作經驗</string>
+    <string name="spac_first_part_third_option_text">本人/我們已經接受及/或參加由學術機構或金融機構所提供有關SPAC的在線或教室形式培訓及/課程</string>
+    <string name="spac_first_part_fourth_option_text">本人/我們投資SPAC的投資額佔本人/我們的資產比例少於50%。此外，本人/我們的主要目標是從複雜或波動的投資產品（如 SPAC）中獲得更高的回報，及本人/我們可接受大幅度的價格波動</string>
+    <string name="spac_enter_market_hint">請輸入有關股票市場</string>
+    <string name="spac_market_hint">有關股票市場</string>
+    <string name="spac_enter_spac_stock_hint">請輸入SPAC股票名稱</string>
+    <string name="spac_spac_stock_hint">SPAC股票名稱</string>
+    <string name="spac_select_trade_date_hint">請選擇交易日期</string>
+    <string name="spac_select_trade_date">選擇交易日期</string>
+    <string name="spac_trade_date">交易日期</string>
+    <string name="spac_enter_company_name_hint">請輸入公司名稱</string>
+    <string name="spac_company_name">公司名稱</string>
+    <string name="spac_enter_department_name_hint">請輸入部門名稱</string>
+    <string name="spac_department_name">部門名稱</string>
+    <string name="spac_select_position_hint">請選擇職位</string>
+    <string name="spac_position">職位</string>
+    <string name="spac_enter_training_course_name_hint">請輸入相關培訓或課程名稱</string>
+    <string name="spac_training_course_name">相關培訓或課程名稱</string>
+    <string name="spac_enter_the_name_organisation_hint">請輸入舉辦機構名稱</string>
+    <string name="spac_name_organisation">舉辦機構名稱</string>
+    <string name="spac_select_date_to_attend_hint">請選擇出席日期</string>
+    <string name="spac_select_date_to_attend">選擇出席日期</string>
+    <string name="spac_date_to_attend">出席日期</string>
+    <string name="spac_must_agree_any_of_first_part">您必須至少符合「第一部分」中任意一項評估條件並填寫相關資料，才可進入「第二部分」</string>
+    <string name="spac_second_part_title">第二部分 : SPAC認識及風險問卷</string>
+    <string name="spac_second_part_first_option_text">您是否明白，此證券的發售僅以配售方式進行且不涉及向香港公眾人士發售?</string>
+    <string name="spac_second_part_second_option_text">您是否明白，此證券的發售、發行及買賣須僅限於專業投資者?</string>
+    <string name="spac_second_part_third_option_text">您是否明白，為確保發售證券將不會向香港公眾人士出售或由香港公眾人士進行交易（不禁止向專業投資者出售或由專業投資者進行交易），A類股份上市時及上市後，按照每股A類股份十港元的發行價計，A類股份的每手買賣單位不得少於構成最低每手買賣單位一百萬港元的股份數目；或聯交所為應對此 SPAC招股公司 (“此公司”) 股本相關的任何擬定公司行動，而可能不時向此公司發出書面通知指明者，而該等行動將會或很有可能大幅減少此股份每手買賣單位的價值？</string>
+    <string name="spac_second_part_fourth_option_text">特殊目的收購公司並無經營或財務歷史，可讓您根據有關基準評估我們實現業務目標的能力</string>
+    <string name="spac_second_part_fifth_option_text">特殊目的收購公司之發起人及其聯屬公司、管理團隊、董事及顧問委員會成員的過往表現並不反映他們的未來表現</string>
+    <string name="spac_second_part_sixth_option_text">特殊目的收購公司可能無法於上市日期後24個月內公佈特殊目的收購公司併購交易或於上市日期後36個月內完成特殊目的收購公司併購交易</string>
+    <string name="spac_second_part_seventh_option_text">特殊目的收購公司可能並無完成特殊目的收購公司併購交易的充足資源</string>
+    <string name="spac_second_part_eighth_option_text">由於特殊目的收購公司現時並無選擇任何特殊目的收購公司併購目標謀求與其進行特殊目的收購公司併購交易，亦並無局限評估特定行業、領域或地理區域內的特殊目的收購公司併購目標，您將無法確定任何特定特殊目的收購公司併購目標的經營優勢或風險</string>
+    <string name="spac_second_professional_investor_explain_text">*「專業投資者」指具有證券及期貨條例附表1第1部第1條所賦予的涵義</string>
+    <string name="spac_second_part_confirm_authenticity_text">本人/我們確認以上所提供的評估資料在提供當時均屬真確\n本人/我們承諾於資料有任何變動時通知復星國際證券有限公司（“復星國際證券”）\n本人/我們已明白倘若以上評估內容不實，復星國際證券將不能夠評估所要求服務對\n本人/我們的適合性本人/我們已完全明白交易特殊目的收購公司股票的風險</string>
+    <string name="spac_read_and_agree">本人已閱讀並同意</string>
+    <string name="spac_pdf_transaction_customer_statement">《「特殊目的收購公司」交易-客戶聲明》</string>
+    <string name="spac_pdf_transaction_letter_of_commitment">《「特殊目的收購公司」交易-承諾函》</string>
+    <string name="spac_maximum_characters">最多50個字符</string>
+    <string name="spac_cannot_be_empty">此項不能為空</string>
+    <string name="spac_partner">合夥人</string>
+    <string name="spac_legal_person">法人</string>
+    <string name="spac_general_manager">總經理</string>
+    <string name="spac_senior_executive">高管</string>
+    <string name="spac_middle_level">中層</string>
+    <string name="spac_junior_manager">初級管理人</string>
+    <string name="spac_ordinary_staff">普通員工</string>
+    <string-array name="spac_position">
+        <item>合夥人</item>
+        <item>法人</item>
+        <item>總經理</item>
+        <item>高管</item>
+        <item>中層</item>
+        <item>初級管理人</item>
+        <item>普通員工</item>
+    </string-array>
+    <string name="spac_must_meet_all_second_part">您對SPAC的認識必須符合「第二部分」的全部評估條件，才可提交此簽署並繼續操作SPAC</string>
+    <string name="spac_only_professional_investors_can_trade">目前僅限專業投資者可開倉交易該股票</string>
+    <string name="spac_trade_tip">交易提示</string>
+    <string name="spac_decertification">去認證</string>
+    <string name="spac_not_sign">您未簽署過《特殊目的收購公司(SPAC)認識評估》，為保障您的投資活動不受影響，請盡快進行簽署</string>
+    <string name="spac_to_sign">去簽署</string>
+    <string name="spac_sign_success">簽署成功</string>
+    <string name="spac_sign_failed">簽署失敗</string>
+    <string name="spac_please_complete_the_questionnaire">請完成問卷填寫</string>
+    <string name="spac_please_select_the_protocol_and_try_again">請勾選協議後重試</string>
+    <!--end region-->
+
+    <!--region usMarketState-->
+    <string name="hsgt_a_stock">A股通 (北向)</string>
+    <string name="hsgt_hk_stock">港股通 (南向)</string>
+    <string name="hsgt_sh_hk_stock">滬股通</string>
+    <string name="hsgt_sz_hk_stock">深股通</string>
+    <string name="hsgt_hk_sh_stock">港股通(滬)</string>
+    <string name="hsgt_hk_sz_stock">港股通(深)</string>
+    <string name="hsgt_a_hk_inflow">A股通資金流入</string>
+    <string name="hsgt_hk_a_inflow">港股通資金流入</string>
+    <string name="hsgt_netBuyVol">資金淨流向</string>
+    <string name="hsgt_total_net_buy">累計淨流向</string>
+    <string name="hsgt_deal_turnover_amount">成交買賣額</string>
+    <string name="hsgt_sh_net_buying">滬股通成交淨買入</string>
+    <string name="hsgt_net_buying">成交淨買入</string>
+    <string name="hsgt_remain_quota">剩餘額度</string>
+    <string name="hsgt_remain_quota_enouth">額度充足</string>
+    <string name="hsgt_purchase_amount">買入額</string>
+    <string name="hsgt_sale_amount">賣出額</string>
+    <string name="hsgt_total_turnover_amount">總成交額</string>
+    <string name="hsgt_fund_trend">資金流向趨勢</string>
+    <string name="hsgt_fund_trend_explain_content_hk">
+        1. 當日資金使用額度=當日總額度-剩餘額度\n\n2. 當日成交淨買入=當日買入金額-當日賣出金額
+    </string>
+    <string name="hsgt_fund_trend_explain_content_a">
+        滬深港通北向交易信息披露機製調整，不再實時公布滬深股通買入、賣出成交額。\n\n數據展示規則調整為：\n盤中：滬深股通當日額度余額≥30%時，顯示「額度充足」；&lt;30%時，實時公布可使用的每日額度余額。\n盤後（北京時間17:30左右）：更新當日成交凈買入。
+    </string>
+    <string name="hsgt_turnover_amount">成交額</string>
+    <string name="hsgt_turnover_time">更新: %s</string>
+    <string name="hsgt_fund_quota_rank">資金額度榜</string>
+    <string name="hsgt_chgval_rank">漲幅榜</string>
+    <string name="hsgt_turnover_activity_rank">成交活躍榜</string>
+    <string name="hsgt_holding_rank">持倉榜</string>
+    <string name="hsgt_title_netFlowCap">淨買賣股數</string>
+    <string name="hsgt_title_netBuyVol">資金淨流向</string>
+    <string name="hsgt_title_tradeRatio">買賣股數占\n流通股比例</string>
+    <string name="hsgt_title_buyAmt">買入額</string>
+    <string name="hsgt_title_sellAmt">賣出額</string>
+    <string name="hsgt_title_transAmt_absTransAmt">買賣總額\n資金淨流向</string>
+    <string name="hsgt_title_holdVol">持股數</string>
+    <string name="hsgt_title_holdRatio">持股比例</string>
+    <string name="hsgt_title_holdAmt">持倉額</string>
+    <string name="hsgt_rank_updateTime_south">更新: %s(交易所資料T+2日結算)</string>
+    <string name="hsgt_rank_updateTime_north">更新: %s(交易所資料T日結算)</string>
+    <string name="hsgt_select_time">選擇時間</string>
+    <string name="hsgt_capflow_real">實時</string>
+    <string name="hsgt_capflow_day">日</string>
+    <string name="hsgt_capflow_week">週</string>
+    <string name="hsgt_capflow_month">月</string>
+    <string name="hsgt_capflow_season">季</string>
+    <string name="hsgt_capflow_year">年</string>
+    <string name="hsgt_capflow_fund">資金</string>
+    <string name="hsgt_capflow_shindex">上證指數</string>
+    <string name="hsgt_capflow_szindex">深證成指</string>
+    <string name="hsgt_capflow_hsindex">恆生指數</string>
+    <string name="hsgt_capflow_SH510050">上證50ETF</string>
+    <string name="hsgt_capflow_SZ159901">深證100ETF</string>
+    <string name="hsgt_capflow_unit">單位:%s港元</string>
+    <!--end region-->
+
+    <!--region 人脸识别-->
+    <string name="face_recognition_failure">驗證失敗、請重新驗證</string>
+    <string name="reset_trade_mim">重置交易密碼</string>
+    <string name="face_recognition">人臉識別</string>
+    <string name="face_recognition_hint1">前置攝像頭拍攝一段約2-5秒的本人面部視頻。</string>
+    <string name="warm_prompt">溫馨提示</string>
+    <string name="face_recognition_hint2">請點擊開始拍攝按鈕，上傳視頻進行身份驗證，只需拍攝面部，無需做出任何動作。如有問題，請聯繫客服</string>
+    <string name="start_shooting">開始拍攝</string>
+    <string name="face_recognition_success">人臉驗證通過</string>
+    <string name="face_recognition_fail">驗證失敗，請重新驗證</string>
+    <string name="face_recognition_miss_permissions">缺少相機或存儲所需的權限，請去對應用權限進行授權!</string>
+    <string name="examples">示例</string>
+    <!--end region-->
+
+    <!--region 权限管理-->
+    <string name="system_permission_management">系統權限管理</string>
+    <string name="permission_camera_hint">訪問相機以提供拍攝圖片或視頻、人臉識別等功能</string>
+    <string name="permission_storage">存儲</string>
+    <string name="permission_storage_hint">讀寫手機存儲，用於發佈、保存信息等功能</string>
+    <string name="permission_location">位置</string>
+    <string name="permission_location_hint">用於根據位置提供更好的服務</string>
+    <string name="permission_authorization_hint">僅展示能查詢到的已授權的系統權限</string>
+    <string name="permission_to_setting">前往系統設置</string>
+    <string name="permission_nothing_hint">暫無允許訪問的系統權限</string>
+    <string name="permission_relate">相關</string>
+    <string name="permission_camera">相機</string>
+    <string name="denied_can_not_use_camera">未開啟相機權限</string>
+    <string name="permission_image_and_video">照片和視頻</string>
+    <string name="permission_request_tip_title">功能使用提示</string>
+    <string name="permission_forever_denied_tip_head">請在【設置-應用-星財富-權限】中開啟%s權限，%s</string>
+    <string name="permission_request_tip_head">請允許星財富獲取您的訪問%s權限，%s</string>
+    <string name="permission_purpose_save_image">用於保存和讀取圖片</string>
+    <string name="permission_purpose_upload_image">用於讀取並上傳圖片</string>
+    <string name="permission_purpose_upload_image_video">用於讀取並上傳圖片或視頻</string>
+    <string name="permission_purpose_take_upload_image">用於拍攝並上傳圖片</string>
+    <string name="permission_purpose_take_upload_image_video">用於拍攝並上傳圖片或視頻</string>
+    <string name="permission_purpose_upload_file">用於讀取並上傳文件</string>
+    <string name="permission_purpose_get_loacation">用於獲取位置信息</string>
+    <!--end region-->
+
+    <!--region 逐笔明细 成交统计-->
+    <string name="tick_detail">逐筆明細</string>
+    <string name="deal_statics">成交統計</string>
+    <string name="tick_time">時間</string>
+    <string name="tick_price">成交價</string>
+    <!--end region-->
+
+
+    <!--region 第三方账号绑定-->
+    <string name="account_bind">賬號綁定</string>
+    <string name="account_bind_hint">綁定後可用該平台登錄</string>
+    <string name="wx">微信</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">X</string>
+    <string name="google">Google</string>
+    <string name="unbind">解綁</string>
+    <string name="unbind_2">解除</string>
+    <string name="not_bind">未綁定</string>
+    <string name="unbind_confirm_tip">確定要解除%s綁定？</string>
+    <string name="unbind_account_tip">綁定其賬號需要先解除綁定當前的賬號，是否繼續？</string>
+    <string name="bind_failure">綁定失敗</string>
+    <string name="oauth_bind_failure">授權登錄失敗</string>
+    <string name="oauth_login_not_install">登錄失敗，請安裝應用</string>
+    <string name="oauth_bind_not_install">尚未安裝應用，綁定失敗</string>
+    <string name="account_has_bind_tip">已綁定%s, 直接登錄解綁後再嘗試綁定</string>
+    <string name="unbind_success">解綁成功</string>
+    <string name="bind_success">綁定成功</string>
+    <!--endregion-->
+
+    <!--region 基金开户指引-->
+    <string name="fund_open_account_guide_title">開通理財賬戶</string>
+    <string name="fund_open_account_guide_hint">開啟您的財富管理之路</string>
+    <string name="open_account_now">立即開戶</string>
+    <string name="upgrade_financial_account_title">升級理財賬戶</string>
+    <string name="upgrade_financial_account_hint">升級後，享有更多權限</string>
+    <!--endregion-->
+
+    <!--region 香港投资移居计划专户 指引-->
+    <string name="cies_open_account_guide_hint">爲資本投資者設立的香港移居民通道</string>
+    <string name="cies_open_account_open_auditing">資料審覈中</string>
+    <string name="cies_open_account_open_fail">審覈未通過</string>
+    <!--endregion-->
+
+    <!--region 入金开户指引-->
+    <string name="deposit_guide_title">您已完成開戶</string>
+    <string name="deposit_guide_hint">即刻開啟全球投資</string>
+    <!--endregion-->
+
+    <!--region nps-->
+    <string name="nps_score_title">您願意推薦他人使用星財富嗎？</string>
+    <string name="nps_not_want_at_all">完全不想</string>
+    <string name="nps_very_would_like">十分願意</string>
+    <string name="nps_how_to_opt">星財富如何優化您會更願意推薦</string>
+    <string name="nps_why_to_recommend">您願意推薦星財富的原因是</string>
+    <string name="nps_feedback_hint">請輸入您的建議, 不超過400字</string>
+    <string name="nps_select_up_to_three">最多選擇3項</string>
+    <string name="nps_one_reason_at_least">請選擇至少一個打分理由</string>
+    <string name="nps_thanks_for_evaluation">感謝您的回饋與評價</string>
+    <string name="nps_input_up_to_400">最多只能輸入400字</string>
+    <string name="nps_submit">提交</string>
+    <string-array name="nps_opt_array">
+        <item>交易體驗</item>
+        <item>客戶服務</item>
+        <item>投資產品種類</item>
+        <item>品牌信譽</item>
+        <item>實時行情</item>
+        <item>優質基金產品</item>
+        <item>新聞資訊</item>
+        <item>融資額度</item>
+        <item>極速開戶出入金</item>
+        <item>設計風格</item>
+        <item>福利活動</item>
+        <item>其他</item>
+    </string-array>
+    <!--endregion-->
+
+    <!--region 第三方授权手机号验证-->
+    <string name="phone_authentication">手機認證</string>
+    <string name="phone_authentication_hint">認證後您可以通過手機號登錄和找回密碼</string>
+    <!--endregion-->
+
+    <!--region 可交易市场-->
+    <string name="tradable_market">可交易市場</string>
+    <string name="financial_account">理財賬戶</string>
+    <string name="derivative_product_permissions">衍生品權限</string>
+    <string name="has_open">已開通</string>
+    <string name="immediately_opened">立即開通</string>
+    <string name="already_copy">複製成功</string>
+    <string name="to_risk_assessment">去風險測評</string>
+    <string name="in_open">開通中</string>
+    <string name="derivative_product_permissions_tip">您沒有衍生品權限，無法交易該產品。</string><!--TODO-->
+    <!--endregion-->
+
+    <!--region 合规提示-->
+    <string name="compliance_tip">證券相關服務由復星國際證券提供</string>
+    <string name="compliance_tip_match_text">復星國際證券</string>
+    <string name="virtual_assets_compliance_tips">虛擬資產相關服務由復星國際證券提供</string>
+    <!--endregion-->
+
+    <!--region 错误码对应的默认提示 -->
+    <string name="err_session2">解鎖超時，請重新解鎖交易</string>
+    <string name="err_kicked">賬戶已在其他地方登錄</string>
+    <string name="err_user_status">賬戶狀態異常</string>
+    <string name="err_verify_code">驗證碼錯誤或失效，請重新輸入</string> // TODO
+    <string name="err_verify_limit">驗證次數過多，請稍後重試</string>
+    <string name="err_captcha">captcha錯誤</string>
+    <string name="err_login_frequently">登錄錯誤次數過多</string>
+    <string name="err_same_mim">新密碼不能與當前密碼相同</string>
+    <string name="err_mim_locked">密碼已鎖定</string>
+    <string name="err_mim_unset">未設置密碼</string>
+    <string name="err_mim">登錄失敗，請確認用戶名、密碼是否正確</string>
+    <string name="err_email_bound">郵箱已被綁定</string>
+    <string name="err_user_email_bound">用戶已綁定過郵箱</string>
+    <string name="err_phone_bound">手機號已綁定</string>
+    <string name="err_phone_same">手機號相同</string>
+    <string name="err_id_number">身份證號與賬戶不匹配</string>
+    <string name="err_mim_status">密碼狀態異常</string>
+    <string name="err_funding_account">用戶uin對應的資金帳戶异常</string>
+    <string name="err_send_email">發送郵件異常</string>
+    <string name="err_send_code_60s">60s內無須重複獲取驗證碼</string>
+    <string name="err_send_voice_code_60s">60s內無法重複獲取語音驗證碼</string>
+    <string name="err_voice_captcha_is_overfrequency">語音驗證碼獲取頻率過高，請稍後再試</string>
+    <string name="err_third_info">獲取第三方信息異常</string>
+    <string name="err_third_banding">第三方賬戶已綁定</string>
+    <string name="err_white_list_mim_change">因為其它終端修改或重置過交易密碼，需要再次驗證</string>
+    <string name="err_mim_locked_by_counter">櫃檯密碼鎖定</string>
+    <string name="err_modify_order_fail">修改訂單失敗</string>
+    <string name="err_cancel_order_fail">撤回订单失敗</string>
+    <string name="err_order_id_no_record">未找到該訂單</string>
+    <string name="err_create_order_fail">下單價格不能為0</string>
+    <string name="err_trading_mim_not_set">未設置交易密碼</string>
+    <string name="err_no_data">沒有數據</string>
+    <string name="err_abnormal_retry">操作異常，請稍後重試</string>
+    <!--endregion-->
+
+    <!--region 交易主页 欠款、追保提示-->
+    <string name="trade_arrears_tip">當前帳戶欠款為 %s %s，避免產生罰息請盡快換匯或入金。</string>
+    <string name="trade_margin_call_tip">尊敬的用戶，您已到達追繳保證金門檻，爲避免觸發強制平倉，請盡快入金</string>
+    <string name="trade_margin_call_title">追保通知</string>
+    <string name="view_details">查看詳情</string>
+    <!--endregion-->
+
+    <!--region 多账户关联 -->
+    <string name="account_not_support">當前賬戶類型暫不支持此功能</string>
+    <!--endregion-->
+
+    <!--region 新手指引 -->
+    <string name="new_guide_trade_position_expire">新增常用倉位<!--、訂單有效日期--></string>
+    <string name="new_guide_swipe_left_and_right_to_see_more">左右滑動查看更多內容</string>
+    <!--endregion-->
+
+    <!--region 开户成功提醒 -->
+    <string name="open_account_success_tips">因開戶成功未設定登錄密碼，請退出重新登錄</string>
+    <!--endregion-->
+
+    <!--region 成交统计 -->
+    <string name="deal_type_all">全部類型</string>
+    <string name="deal_type_buy">主動買入</string>
+    <string name="deal_type_sell">主動賣出</string>
+    <string name="deal_type_buy_sell">主動買入&amp;賣出</string>
+    <string name="deal_type_neutral">中性盤</string>
+    <string name="deal_period_all">全部時段</string>
+    <string name="deal_period_trading">盤中</string>
+    <string name="deal_period_pre_us">盤前</string>
+    <string name="deal_period_post_us">盤後</string>
+    <string name="deal_period_pre_hk">開盤競價時間</string>
+    <string name="deal_period_post_hk">收市競價時間</string>
+    <string name="deal_period_bidding_a">競價時間</string>
+    <string name="deal_overview">總覽</string>
+    <string name="deal_price_avg">平均成交價</string>
+    <string name="deal_count_sum">總成交筆數</string>
+    <string name="deal_volume_sum">總成交量%s</string>
+    <string name="deal_share_statics">股數統計</string>
+    <string name="deal_detail">成交明細</string>
+    <string name="deal_radio_buy">主買</string>
+    <string name="deal_radio_sell">主賣</string>
+    <string name="deal_today">今天</string>
+    <!--endregion-->
+
+    <!--region 供股权交易提醒-->
+    <string name="right_issue_apply_title">供股權交易提醒</string><!--TODO-->
+    <string name="right_issue_apply_content">您當前擁有%s股%s，已申請供股%s股，剩餘可賣出%s股；如賣出數量超過剩餘股數，會導致已提交申請供股的部分失敗。</string><!--TODO-->
+    <!--endregion-->
+
+    <!--region 双柜台交易提醒-->
+    <string name="dual_counter_transfer_title">港幣-人民幣雙幣種交易</string>
+    <string name="dual_counter_transfer_content">因當前股票持倉不足，訂單將自動進行雙幣種持倉轉換，如訂單未成交持倉將維持轉換結果。（持倉轉換不產生任何交易費用）\n轉換過程因未產生實際買賣，導致持倉成本可能計算異常。</string>
+    <!--endregion-->
+
+    <!--region 断网提示-->
+    <string name="net_noticebar_content">網絡已斷開，請檢查網絡設置</string>
+    <string name="net_noticebar_to_set_permission">設置權限</string>
+    <string name="net_noticebar_dialog_title">無法連接網絡</string>
+    <string name="net_noticebar_dialog_content">請確保手機網絡暢通，且星財富的網絡權限已開啟。</string>
+    <string name="no_network_checking_network_settings">無網絡，請檢查網絡設置</string><!--TODO-->
+    <!--endregion-->
+
+    <!--region 香港标识符制度-->
+    <string name="identifier_title">重要提醒</string>
+    <string name="identifier_login_content_v1">尊敬的客戶，「香港投資者識別碼制度及場外證券交易匯報制度」實施前，閣下需閱讀相關協議並作出授權，同意轉移閣下個人資料予交易所/證監會。若未能及時完成，閣下賬戶只可執行賣出及轉出指令，而不能轉入證券或進行買入交易。請立即點擊下方按鈕完成簽署。如有疑問，請聯繫客服。</string>
+    <string name="identifier_button">立即簽署</string>
+    <string name="identifier_noticebar_content">為保障正常使用交易功能，請閱讀相關協議並授權</string>
+    <string name="identifier_noticebar_button">去授權</string>
+
+    <string name="identifier_login_content_v2">尊敬的客戶，「香港投資者識別碼制度及場外證券交易匯報制度」已正式開始實施，因您未能及時閱讀相關協議並完成授權，當前賬戶只可執行賣出及轉出指令，不能執行股票轉入或買入交易。請立即點擊下方按鈕完成授權，完成後將於下一個工作日解除賬戶鎖定。如有疑問，請聯繫客服</string>
+    <string name="identifier_unsign_trade_msg">受「香港投資者識別碼制度及場外證券交易匯報制度」影響，由於阁下尚未閱讀相關協議並進行授權，當前賬戶無法執行轉入證券或買入交易等操作。\n請前往授權，授權完成後將於下一個工作日解除賬戶鎖定</string>
+    <string name="identifier_nobcan_trade_msg">阁下已完成有關「香港投資者識別碼制度及場外證券交易匯報制度」資料收集聲明的簽署，交易賬戶將於下一個工作日解除鎖定</string>
+    <string name="identifier_see_detail">前往查看</string>
+    <!--endregion-->
+
+
+    <!--region 行情對比-->
+    <string name="quote_cmp">行情對比</string>
+    <string name="his_sch_record">歷史搜索記錄</string>
+    <string name="fav_list">自選股列表</string>
+    <string name="cant_cancel_selection">該隻股票不支持取消選擇</string>
+    <string name="two_stock_least">至少添加2隻股票</string>
+    <string name="has_reach_most">已達到最大添加數</string>
+    <string name="hide_main_tech">隱藏主圖指標</string>
+    <string name="has_select">已選 %d 隻</string>
+    <string name="up_to_3_stock">最多選擇3隻股票</string>
+    <string name="his_delete_confirm">確認刪除全部歷史記錄？</string>
+    <string name="cant_cmp_other_market">不同市場僅支持K線對比</string>
+    <string name="start_cmp">開始對比</string>
+    <string name="cmp_search_hint">股票名稱/代碼</string>
+    <!--endregion-->
+
+    <!--region 结单查询-->
+    <string name="my_statement">"我的結單"</string>
+    <!--endregion-->
+
+    <!--region 股价提醒-->
+    <string name="stock_alert">股價提醒</string>
+    <string name="stock_alert_add">添加提醒</string>
+    <string name="stock_alert_permission_tip">您已關閉推送通知，將無法收到股價提醒</string>
+    <string name="stock_alert_permission_action">前往開啟</string>
+    <string name="stock_alert_type">提醒類型</string>
+    <string name="stock_alert_frequency">提醒頻率</string>
+    <string name="stock_alert_rise">股價漲到</string>
+    <string name="stock_alert_fall">股價跌到</string>
+    <string name="stock_alert_rise_percent">日漲幅超過</string>
+    <string name="stock_alert_fall_percent">日跌幅超過</string>
+    <string name="stock_alert_frequency_once">僅提醒一次</string>
+    <string name="stock_alert_frequency_once_desc">僅第一次到價後提醒，後續無效</string>
+    <string name="stock_alert_frequency_everyday">每日一次</string>
+    <string name="stock_alert_frequency_everyday_desc">每個交易日第一次到價提醒</string>
+    <string name="stock_alert_frequency_continuous">持續提醒</string>
+    <string name="stock_alert_frequency_continuous_desc">每次到價後提醒</string>
+    <string name="stock_alert_success">設置成功</string>
+    <string name="stock_alert_fail">設置失敗</string>
+    <string name="stock_alert_exceed_price">高於當前價 +%s</string>
+    <string name="stock_alert_under_price">低於當前價 -%s</string>
+    <string name="stock_alert_price_target">股價到 %s</string>
+    <string name="stock_alert_closed">未開啟</string>
+    <string name="stock_alert_closed_hint">開啟後即可收到股價提醒消息推送</string>
+    <string name="stock_alert_delete_title">確認刪除該股票的股價提醒？</string>
+    <string name="stock_alert_quote_permission_tip">股票為延時行情，無法設置股價提醒</string>
+    <string name="stock_alert_fall_percent_invalid">日跌幅設置範圍在 0-100 之間</string>
+    <!--endregion-->
+
+    <!--region 歴史分時-->
+    <string name="avg_price">均價</string>
+    <string name="last_day">前一日</string>
+    <string name="next_day">後一日</string>
+    <string name="see_that_day_ts">查看當日分時</string>
+    <!--endregion-->
+
+    <!--region 选股器-->
+    <string name="stock_screener">選股器</string>
+    <string name="stock_screener_permission_tip">延時行情不支持選股器功能。</string>
+    <!--endregion-->
+
+    <!--region 榮譽勛章-->
+    <string name="honor_medal_peacock">炫耀一下</string>
+    <string name="honor_medal_first_show">恭喜獲得榮譽勛章</string>
+    <string name="honor_medal_fh_partner">復星全球合夥人</string>
+    <string name="honor_medal_fh_partner_desc">復星集團全球核心管理人員</string>
+    <string name="honor_medal_fh_people">復星仁兒</string>
+    <string name="honor_medal_fh_people_desc">復星集團員工</string>
+    <string name="honor_medal_famous_company_staff">名企員工</string>
+    <string name="honor_medal_famous_company_staff_desc">完成名企員工認證</string>
+    <string name="honor_medal_pro_inves">專業投資者</string>
+    <string name="honor_medal_pro_inves_desc">完成個人專業投資者認證</string>
+    <!--endregion-->
+
+    <!--region 换肤-->
+    <string name="skin_setting">皮膚設置</string>
+    <string name="skin_select">選擇主題皮膚</string>
+    <string name="skin_light">簡潔白</string>
+    <string name="skin_dark">魅力黑</string>
+    <string name="skin_follow_system">跟隨系統</string>
+    <!--endregion-->
+
+    <!--region 公司行动打点-->
+    <string name="company_action">公司行動</string>
+    <string name="company_action_financial_income">營業收入：%s %s</string>
+    <string name="company_action_financial_eps">每股收益：%s %s</string>
+    <string name="company_action_financial_income_label">營業收入</string>
+    <string name="company_action_financial_eps_label">每股收益</string>
+    <string name="company_action_financial_publish">財務發佈</string>
+    <string name="company_action_dividend">股權派息</string>
+    <string name="company_action_split">拆股合股</string>
+    <string name="company_action_ex_date">除淨日 %s</string>
+    <!--endregion-->
+
+    <!--region 股票對比-->
+    <string name="stock_compare">股票對比</string>
+    <string name="compare">對比</string>
+    <string name="stock_compare_market_stock_name">騰訊控股,阿里巴巴,百度</string>
+    <!--endregion-->
+
+    <!--region 现金户跨币种交易提示-->
+    <string name="cross_currency_trade_reminder">跨幣種交易</string>
+    <string name="cross_currency_trade_reminder_content">訂單金額超出當前幣種現金，其中%s股將使用其他幣種作為購買力下單，如不及時換匯將產生利息。</string>
+    <string name="open_automatic_currency_exchange">開通自動換匯</string>
+    <string name="automatic_currency_exchange">自動換匯</string>
+    <string name="manual_currency_exchange">直接下單 (手動換匯)</string>
+    <!--endregion-->
+
+    <!--region 筹码分布-->
+    <string name="chip_distribution">籌碼分佈</string>
+    <string name="chip_distribution_prof_ratio">獲利比例</string>
+    <string name="chip_distribution_avg_price">平均成本</string>
+    <string name="chip_distribution_support">支撐位</string>
+    <string name="chip_distribution_resist">壓力位</string>
+    <string name="chip_distribution_overLap">區間重合度</string>
+    <string name="chip_distribution_chart">籌碼圖</string>
+    <string name="chip_distribution_to_kline">結合K線分析，切換橫屏</string>
+    <string name="chip_distribution_data_analysis">數據分析</string>
+    <string name="chip_distribution_range">籌碼區間</string>
+    <string name="chip_distribution_range_90">90%籌碼區間</string>
+    <string name="chip_distribution_range_70">70%籌碼區間</string>
+    <string name="chip_distribution_statement">以上所有數據與信息僅供參考，不構成投資建議</string>
+    <!--endregion-->
+
+    <!--region 新股弹窗-->
+    <string name="go_to_subscribe">前往認購</string>
+    <string name="price_admission">入場費</string>
+    <string name="time_subscribe_deadline">截止申購時間</string>
+    <string name="ipo_popup_more">更多招股信息前往新股中心查看</string>
+    <!--endregion-->
+
+    <!--region 云锋资产转移签署弹窗-->
+    <string name="yf_asset_tranform_content">尊敬的客戶，根據閣下較早前提供予雲鋒證券的授權指示，閣下同意並授權雲鋒證券將閣下於雲鋒證券的全部或部份證券及/或現金自動轉移至復星國際證券，本公司同樣需要得到閣下的轉移授權指示，請點擊下方按鈕並於%s前進行授權簽署，逾期未完成授權簽署，閣下隨後需於app提交線上轉倉申請。如有疑問，請聯繫客服。</string>
+    <string name="yf_asset_tranform_confirm">立即授權</string>
+    <string name="yf_asset_tranform_bar_content">請於%s前進行授權簽署，逾期未完成授權簽署，閣下隨後需於app提交線上轉倉申請</string>
+    <string name="date_format">%s年%s月%s日</string>
+    <!--endregion-->
+
+    <!--region mr测试-->
+    <string name="mr_test_tip">為提升系統體驗，%s進行系統維護。\n開戶、出入金、換匯、提交訂單等操作將受影響無法使用。同時，系統可能不能正常查詢您的資金、持倉、交易歷史等，待系統維護後會恢復正常。如對閣下造成不便，為此深表歉意。</string>
+    <string name="mr_test_tip_duration">%s%s至%s%s</string>
+    <string name="mr_test_tip_highlight">系統維護</string>
+    <string name="mr_test_title">系統維護提示</string>
+    <!--endregion-->
+
+    <!--region 热力图-->
+    <string name="heat_map">熱力圖</string>
+    <string name="matket_value_top_30">市值前30</string>
+    <string name="matket_value_top_50">市值前50</string>
+    <string name="chg_pct_day_1">今日漲跌幅</string>
+    <string name="chg_pct_day_5">5日漲跌幅</string>
+    <string name="chg_pct_day_10">10日漲跌幅</string>
+    <string name="chg_pct_day_60">60日漲跌幅</string>
+    <string name="chg_pct_yeat_to_date">年初至今漲跌幅</string>
+    <string name="heat_map_tip">地圖面積越大代表市值越大，地圖紅綠顏色深淺代表漲跌幅大小</string>
+    <!--endregion-->
+
+    <string name="expand">展開</string>
+    <string name="collapse">收起</string>
+
+    <!--region 账户首页-->
+    <string name="life_money_title">資産透視</string>
+    <string name="life_money_fold_content">助您科學規劃資產</string>
+    <string name="cash_management">活錢管理</string>
+    <string name="flexible_financial_management">靈活理財</string>
+    <string name="wealth_investment">財富投資</string>
+    <string name="life_guarantee">人生保障</string>
+    <string name="cash_management_subtitle">賬戶現金及星財寶持倉資產</string>
+    <string name="flexible_financial_management_subtitle">理財產品投資資產</string>
+    <string name="wealth_investment_subtitle">三大市場證券產品投資資產</string>
+    <string name="special_service_subtitle">定期理財專戶服務持倉資產</string>
+    <string name="investment_score">投資綜合表現：%s分</string>
+    <string name="investment_score_ratio">累計投資綜合表現超越了%s的投資者</string>
+    <string name="risk_control_status">風控狀態</string>
+    <string name="go_to_see">去看看</string>
+    <string name="trade_entrust_record">交易記錄</string>
+    <string name="buy_onway_balance">買入待確認</string>
+    <string name="sell_onway_balance">賣出將到賬</string>
+    <string name="today_income">今日收益</string>
+    <string name="latest_income">最新收益</string>
+    <string name="life_money_tip">此處統計結果可能受日切時間和匯率等因素影響產生少量誤差，僅供參考</string>
+    <string name="guide_trade_account">交易介面升級為賬戶，一覽資金全景</string>
+    <string name="guide_trade_investment">財富規劃必備，投資更有目標</string>
+    <string name="guide_trade_score">點擊查看您的投資綜合表現</string>
+    <string name="guide_trade_holding_cost_price">新增攤薄成本價，支持在“設置-交易設置-持倉展示”中切換成本選擇</string>
+    <string name="guide_trade_overview_profit">點擊展開查看更多盈利信息</string>
+    <string name="holding_amount">持有金額</string>
+    <string name="holding_earnings">持有收益</string>
+    <string name="today_income_tips">今日收益於每日9:00AM（北京時間）開始統計，包括今日盈虧、交易費用、利息扣款等資產變動，且以實時匯率將所有幣種資產轉化為統一幣種展示。\n因此，今日收益不等於今日盈虧總和，點擊了解更多。</string>
+    <string name="today_income_tips_key_word">了解更多</string>
+    <string name="wealth_latest_earnings_tips">此處顯示當前理財賬戶持有星財寶、公募基金及私募基金的最新收益，按每自然日更新。私募基金的最新收益更新或不及時。\n最新收益=T日單位淨值-T-1日單位淨值</string>
+    <string name="open_entrust_account_title">開通星股寶賬戶</string>
+    <string name="open_entrust_account_tip">您的港股打新管家</string>
+    <string name="time_desposit_treasure">定存寶專戶</string>
+    <string name="finance_product">理財產品</string>
+    <string name="special_service">專戶服務</string>
+    <string name="special_service_desc">定期理財專戶服務</string>
+    <string name="time_deposit_special_service">定存寶專戶</string>
+    <string name="time_deposit_special_service_desc">現金管理服務</string>
+    <string name="time_deposit_open_desc">定存寶專戶是專注於現金管理的定期理財服務。多銀行詢價，優選高性價比產品，分散風險</string>
+    <string name="star_treasure_special_service">星財寶專戶</string>
+    <string name="star_treasure_special_service_desc">閑置長錢打理服務</string>
+    <string name="star_treasure_open_desc">星財寶專戶是復星財富推出的專戶服務，可用於閒置長錢打理，避免利率波動，有機會獲取更高收益</string>
+    <string name="cash_management_service">現金管理服務</string>
+    <string name="goto_open">去開通</string>
+    <string name="name_maturity_date">名稱/到期日</string>
+    <string name="holding_principal">持有本金</string>
+    <string name="holding_ratio">持有占比</string>
+    <string name="interest_due">到期利息(費後)</string>
+    <string name="subscribed">已認購</string>
+    <string name="invested">已入資</string>
+    <string name="interest_vested">已起息</string>
+    <string name="expired">已到期</string>
+    <string name="received_money">已回款</string>
+    <string name="interest_recognition">利息確認中</string>
+    <string name="today_interest">今日利息(費後)</string>
+    <string name="accum_interest">累計利息(費後)</string>
+    <string name="portfolio_rebalancing">組合調倉</string>
+    <string name="holding_details">持倉明細</string>
+    <string name="order_history">訂單記錄</string>
+    <string name="earnings_details">收益明細</string>
+    <!--endregion-->
+
+    <!--region 快捷交易-->
+    <string name="order_status">訂單狀態</string>
+    <string name="quick_trade_guide_click">點擊報價喚起快捷交易，體驗更絲滑</string>
+    <string name="quick_trade_guide_drag">拖動上滑，切換普通交易</string>
+    <!--endregion-->
+
+    <!--region 公司估值-->
+    <string name="company_value">公司估值</string>
+    <string name="price_to_sales_ratio">市銷率</string>
+    <string name="current">當前</string>
+    <string name="historical_average">歷史均值</string>
+    <string name="industry_average">行業均值</string>
+    <!--endregion-->
+
+    <!--region 美股盤前盤後排行榜-->
+    <string name="us_pre_post_rank_title">盤前盤後榜</string>
+    <string name="us_pre">盤前</string>
+    <string name="us_post">盤後</string>
+    <string name="us_pre_today">盤前(今天)</string>
+    <string name="us_post_today">盤後(今天)</string>
+    <string name="us_pre_last_price">盤前價/最新價</string>
+    <string name="us_pre_price">盤前價</string>
+    <string name="us_post_last_price">盤後價/最新價</string>
+    <string name="us_post_price">盤後價</string>
+    <string name="us_pre_chg_pct">盤前漲跌幅</string>
+    <string name="us_post_chg_pct">盤後漲跌幅</string>
+    <string name="us_pre_chg_val">盤前漲跌額</string>
+    <string name="us_post_chg_val">盤後漲跌額</string>
+    <string name="us_pre_vol">盤前成交量</string>
+    <string name="us_post_vol">盤後成交量</string>
+    <!--endregion-->
+
+    <!--region 虛擬資產-->
+    <string name="virtual_assets">虛擬資產</string>
+    <string name="virtual_assets_subscription">實物申購</string>
+    <string name="buying_crypto_coin">充幣</string>
+    <string name="wallet_management">錢包管理</string>
+    <string name="buying_crypto_coin_record">充幣記錄</string>
+    <string name="asset_balance">資產餘額</string>
+    <string name="frozen_quantity">凍結數量</string>
+    <string name="redeemable_quantity">可兌數量</string>
+    <string name="last_update_time">更新時間</string>
+    <string name="virtual_assets_subscription_orders_in_progress">您有 %s 筆實物申購訂單進行中</string>
+    <string name="etf_exchange_quantity_request">ETF兌換數量(申請)</string>
+    <string name="etf_input_quantity_request">ETF兌入數量(申請)</string>
+    <string name="transaction_rules">交易規則</string>
+    <string name="estimated_output_quantity">兌出數量(預估)</string>
+    <string name="estimated_output_amount">兌出金額(預估)</string>
+    <string name="transaction_fee">交易費用</string>
+    <string name="needed">還需</string>
+    <string name="cash_available">現金可用</string>
+    <string name="virtual_assets_etf_warm_prompt1">實物交易當前僅支持申購。</string>
+    <string name="virtual_assets_etf_warm_prompt2">系統根據您輸入的ETF兌入數量預估所需兌出數量及兌出金額，訂單提交成功將自動凍結預估兌出數量及兌出金額。</string>
+    <string name="virtual_assets_etf_warm_prompt3">最終成交情況由ETF託管方獨立決定，或與當前訂單提交信息不同，請以訂單實際確認結果為準。</string>
+    <string name="submit_order">提交訂單</string>
+    <string name="select_physical_purchase_product">請選擇實物申購產品</string>
+    <string name="purchase_result">申購結果</string>
+    <string name="transaction_final_confirmation">交易成功與否以最終確認結果為準</string>
+    <string name="etf_final_decision_notice">說明：最終成交情況由ETF託管方獨立決定，或與當前訂單提交信息不同，請以訂單實際確認結果為準</string>
+    <string name="product_name">產品名稱</string>
+    <string name="product_code">產品代碼</string>
+    <string name="order_number">訂單編號</string>
+    <string name="exchange_trading">場內交易</string>
+    <string name="virtual_assets_open_account_tip">實物申購需要開通虛擬資產賬戶，請前往開通。\n\n了解《什麼是虛擬資產ETF實物申購》</string>
+    <string name="virtual_assets_open_account_agreement">《什麼是虛擬資產ETF實物申購》</string>
+    <string name="etf_virtual_assets_supported">下方為支持實物申購的ETF</string>
+    <string name="current_holdings_quantity">您當前持有的%s數量</string>
+    <string name="available_funds_securities_account">您的證券賬戶可用金額</string>
+    <string name="min_virtual_assets_subscription_purchase_quantity">實物申購最小兌入數量為100,000</string>
+    <string name="non_whole_lot_not_supported">數量非整手，暫不支持碎股交易，一手為%d股</string>
+    <string name="please_select_product">請選擇產品</string>
+    <string name="please_enter_etf_quantity">請輸入ETF數量</string>
+    <string name="wallet_binding_required_message">您暫未綁定任何錢包，請先綁定錢包再充幣</string>
+    <string name="bind_now">去綁定</string>
+    <string name="etf_subscription_instructions">根據基金發行人指示，實物ETF的認購，需要收取指定比例的虛擬貨幣和現金進行ETF兌換</string>
+    <string name="product_not_supported_physical_subscription">該產品暫不支持實物申購</string>
+    <string name="client_declaration_and_commitment">《客戶聲明及承諾》</string>
+    <string name="agree_to_terms_message">請勾選並同意相關協議</string>
+    <string name="trade_balance_statement_title">交易餘額管理聲明</string>
+    <string name="trade_balance_statement_content">本人同意在處理交易的過程中, 根據復星國際證券或復星國際證券的交易對手定下的餘額管理方式進行交易, 所有交易以四捨五入方式保留到小數點後 6 位數。由此產生的餘額由復星國際證券保留，並不會計入客戶資產。</string>
+    <string name="withdraw_crypto">提幣</string>
+    <string name="deposit_withdraw_record">充幣記錄</string>
+    <!--endregion-->
+
+    <!--股票收益計算器-->
+    <string name="profit_calculator">收益計算器</string>
+    <string name="stock_earnings_calculator">股票收益計算器</string>
+    <string name="estimated_buy_price">預計買入價格</string>
+    <string name="estimated_sell_price">預計賣出價格</string>
+    <string name="estimated_transaction_quantity">預計交易數量</string>
+    <string name="estimated_buy_transaction_amount">預估買入交易額</string>
+    <string name="estimated_sell_transaction_amount">預估賣出交易額</string>
+    <string name="estimated_profit_amount">預估收益金額</string>
+    <string name="estimated_profit_rate">預估收益率</string>
+    <string name="income_estimation_disclaimer_1">本頁面為收益測算，並非真實收益，數據僅供參考；</string>
+    <string name="income_estimation_disclaimer_2">預計收益金額未剔除交易手續費，最終收益金額以實際交易為準。</string>
+    <string name="calculate">計算</string>
+    <!--endregion-->
+
+    <!--稳定币兑换-->
+    <string name="stablecoin_exchange">穩定幣兌換</string>
+    <string name="buy_exchange_rate">兌入匯率</string>
+    <string name="sell_exchange_rate">兌出匯率</string>
+    <string name="fiat_to_stablecoin">法幣兌換穩定幣</string>
+    <string name="stablecoin_to_fiat">穩定幣兌換法幣</string>
+    <string name="exchange_in">兌入</string>
+    <string name="exchange_out">兌出</string>
+    <string name="etf_in_kind_subscription">虛擬資產ETF實物申購是指投資者使用持有的虛擬資產，如比特幣或以太坊等加密貨幣，直接購買ETF的份額，而不是通過現金交易。</string>
+    <string name="regulated_fiat_stablecoin_service">合規版法幣/穩定幣互兌服務允許用戶通過受監管的虛擬資產交易所進行法幣與穩定幣兌換。目前支援USD/HKD與USDT/USDT-TRC20/USDC互兌服務。</string>
+    <string name="regulated_fiat_stablecoin_service_not_pi">合規版法幣/穩定幣互兌服務允許用戶通過受監管的虛擬資產交易所進行法幣與穩定幣兌換。目前支援USD/HKD與USDT/USDT-TRC20/USDC互兌服務，需要完成合規投資者認證。</string>
+    <string name="exchange_now">我要兌換</string>
+    <string name="go_complete_investor_certification">去完成合格投資者認證</string>
+    <string name="open_virtual_asset_account">開通虛擬資產賬戶</string>
+    <string name="check_account_opening_progress">查詢開戶進度</string>
+    <string name="no_products_support_physical_subscription">暫無支持實物申購的產品</string>
+    <string name="not_supported_stablecoin_deposit">暫不支援穩定幣兌入</string>
+    <string name="not_supported_stablecoin_withdraw">暫不支援穩定幣兌出</string>
+    <string name="open_virtual_currency">開通虛擬貨幣</string>
+    <string name="stock_market_trade_smooth">股票市場交易無阻礙</string>
+    <string name="ensure_virtual_asset_security_legality">保障虛擬資產交易的安全性和合法性</string>
+    <string name="compliant_fiat_stablecoin_exchange_service">合規版法幣/穩定幣互兌服務允許用戶通過受監管的虛擬資產交易所進行法幣與穩定幣兌換。目前支持USD/HKD與USDT/USDT-TRC20/USDC互兌服務，需要完成合規投資者認證。</string>
+    <string name="payment">支付</string>
+    <string name="obtain">獲得</string>
+    <string name="local_network">所在網絡</string>
+    <!--endregion-->
+
+    <!-- AI -->
+    <string name="ai_test">AI測股</string>
+    <string name="estimated_future_5th_trading_day">預計今日</string>
+    <string name="closing_approximately">目標價約</string>
+    <string name="click_to_view">點擊查看</string>
+    <string name="stock_rise">上漲</string>
+    <string name="stock_fall">下跌</string>
+    <string name="prediction_disclaimer_header">概率預測，僅供參考</string>
+    <string name="prediction_description_summary">在此呈現的該股票當日的上漲/下跌概率，以及當日股票能達到的目標價。通俗來講，就是通過AI能力對當日股價上漲或下跌可能性的預估。</string>
+    <string name="prediction_rise_fall_definition">上漲/下跌：此為依託AI大模型能力生成的概率預測，向您直觀展示股價上漲或下跌可能性的高低程度。</string>
+    <string name="prediction_closing_price_definition">目標價：同樣基於 AI 大模型能力給出概率預測，為您推測股票可能達到的目標價。</string>
+    <string name="prediction_risk_warning">重要提示\n本預測由AI語言模型生成,僅供參考。股票市場受多種不可控及複雜因素影響,AI輸出內容可能存在誤差或不準確之處。請勿完全依賴此預測進行投資決策,建議結合自身判斷及其他信息來源,謹慎評估風險,及綜合判斷其是否契合您的實際操作需求。</string>
+    <!--endregion-->
+</resources>

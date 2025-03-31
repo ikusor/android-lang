@@ -1,0 +1,3051 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh-rCN">
+
+    <!--region 修改SDK中文字资源，解决安全扫描问题-->
+    <string name="tw__share_content_format" translatable="false">Check out @%1$s\'s Tweet: /%1$s/status/%2$s</string>
+    <string name="hms_push_google" translatable="false">Googleplay</string>
+    <string name="hms_push_vmall" translatable="false">Appgallery</string>
+    <!--endregion-->
+
+    <!--region 通用-->
+    <string name="app_name">星财富</string>
+
+    <string name="ok">确定</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="alert">提示</string>
+    <string name="error_alert">错误提示</string>
+    <string name="i_know">已了解</string>
+    <string name="for_now">暂不</string>
+
+
+    <string name="fav_stock">自选</string>
+    <string name="market">市场</string>
+    <string name="quote">行情</string>
+    <string name="trade">交易</string>
+    <string name="mine">我的</string>
+    <string name="open_account">开户</string>
+    <string name="finance">理财</string>
+    <string name="add_finance_advisor">添加理财顾问</string>
+    <string name="finance_advisor">专属顾问</string>
+    <string name="news">资讯</string>
+    <string name="live">直播</string>
+    <string name="live_login_error">请求小鹅通异常</string>
+    <string name="discover">发现</string>
+
+    <string name="thousand_uint">千</string>
+    <string name="wan_unit">万</string>
+    <string name="one_hundred_thousand_unit">十万</string>
+    <string name="million_unit">百万</string>
+    <string name="ten_million_unit">千万</string>
+    <string name="yi_unit">亿</string>
+    <string name="billion_unit">十亿</string>
+    <string name="ten_billion_unit">百亿</string>
+    <string name="one_hundred_billion_unit">千亿</string>
+    <string name="trillion_unit">兆</string>
+    <string name="shares_unit">股</string>
+    <string name="mavol_unit">万股</string>
+    <string name="mavol_unit_cn">万手</string>
+
+    <string name="day_unit">天</string>
+
+    <string name="pulling">下拉刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_refresh">释放立即刷新</string>
+    <string name="load_more_finish">加载完成</string>
+    <string name="no_more_data">没有更多了</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_network">无网络</string>
+    <string name="error_retry">立即刷新</string>
+    <string name="no_content">暂无内容</string>
+    <string name="no_data_holding">暂无持仓</string>
+    <string name="no_data_holding2">暂无持有</string>
+    <string name="no_data_order_related">无相关订单</string>
+    <string name="no_data_conditions_order">暂无条件订单</string>
+    <string name="no_data_order">暂无订单</string>
+    <string name="no_data_stock">暂无股票</string>
+    <string name="goto_login">去登录</string>
+
+
+    <string name="agin_back_exit">再按一次后退键退出程序</string>
+    <string name="exit">退出</string>
+    <string name="input_hint">请输入信息</string>
+
+    <string name="loading_default">请稍候&#8230;</string>
+    <string name="loading_timeout_default">请求超时，请稍后重试!</string>
+    <string name="other">其他</string>
+
+    <string name="skip">跳过</string>
+    <string name="see_detail">查看详情</string>
+    <string name="loading">加载中</string>
+    <string name="request_failed">请求失败</string>
+
+    <string name="stock_name">股票名称</string>
+    <string name="stock_code">股票代码</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+
+    <string-array name="week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <string-array name="single_week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+
+    <string name="yesterday">昨日</string>
+    <string name="day">日</string>
+    <string name="week">周</string>
+    <string name="single_today">今</string>
+
+    <string name="sign_percent">%</string>
+
+    <string name="add">添加</string>
+    <string name="notification_channel_name">普通消息</string>
+    <string name="history">历史</string>
+    <string name="share_link">分享链接</string>
+    <string name="share_img">分享图片</string>
+    <string name="fo_sun_verify">复星认证</string>
+    <!--endregion-->
+
+    <!--region 个人中心-->
+    <string name="deposit_money">存入资金</string>
+    <string name="withdraw_money">提取资金</string>
+    <string name="currency_exchange">货币兑换</string>
+    <string name="help_center">帮助中心</string>
+    <string name="complaint_feedback">意见反馈</string>
+    <string name="about_us">关于我们</string>
+    <string name="login_or_register">登录/注册</string>
+    <string name="click_login_or_register">一个账户，投资全球</string>
+    <string name="user_session_error_tips">"您的登录已失效，请重新登录"</string>
+    <string name="user_session_kicked_tips">您的账号已在其他地方登录，请确认是否为本人操作。如非本人操作，请重新登录当前账号或联系客服</string>
+    <string name="user_session_kicked_title">登录安全提醒</string>
+    <string name="hani_number_title">星财号：</string> <!-- TODO-->
+    <string name="phone_num">手机号</string>
+    <string name="email">邮箱</string>
+    <string name="third_account_bind">第三方账号绑定</string>
+    <string name="login_device_mgr">登录设备管理</string>
+    <string name="auto_login">自动登录</string>
+    <string name="asset_privacy_protection">资产隐私保护</string>
+    <string name="asset_privacy_protection_open_account">您未开通证券账号，请开户后再使用资产隐私保护</string>
+    <string name="trade_mim_setting">交易密码设置</string>
+    <string name="recommend_have_gift">推荐有礼</string>
+    <string name="invited_tip">邀好友，最高领600HKD/人</string>
+    <string name="tmt_text">认证专区</string>
+    <string name="tmt_text_tip">专属身份权益</string>
+    <string name="click_get">立即领取</string>
+    <string name="delete_account">注销账号</string> <!--TODO -->
+    <string name="icp_info">ICP备案号：粤ICP备2022032998号-4A</string>
+
+
+    <string name="login">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="please_input_email_or_phone">请输入邮箱地址/星财号</string>
+    <string name="please_input_login_mim">请输入登录密码</string>
+    <string name="phone_direct_login">本机号码一键登录</string>
+    <string name="phone_direct_login_poptip">一键登录</string>
+    <string name="phone_direct_login_or_register">本机号码一键登录/注册</string>
+    <string name="phone_verify_login">短信验证码登录</string>
+    <string name="forget_mim">忘记密码</string>
+    <string name="forget_mim_with_mark">忘记密码?</string>
+    <string name="forget_login_mim">忘记登录密码</string>
+    <string name="account_mim_login">账号密码登录</string>
+    <string name="phone_mim_login">手机号密码登录</string>
+    <string name="resend">重新发送</string>
+    <string name="phone_login">短信验证登录</string>
+    <string name="verify_code_has_been_to">已发送短信验证码至：</string>
+    <string name="input_sms_verify_code">输入短信验证码</string>
+    <string name="first_login_auto_register">首次登录自动注册账号</string>
+    <string name="please_input_phone">请输入手机号码</string>
+    <string name="get_verify_code">发送验证码</string>
+    <string name="wx_or_other_way_login">微信及其他方式登录</string>
+    <string name="login_with_phone_mim">手机密码登录</string>
+    <string name="captcha">验证码</string>
+    <string name="mim">密码</string>
+    <string name="mim_login_with_phone">手机号</string>
+    <string name="mim_login_with_acc">邮箱/星财号</string>
+
+    <string name="user_agreement_head">我已阅读并同意</string>
+    <string name="user_agreement_tail">并授权星财富获得本机号码</string>
+    <string name="and">和</string>
+    <string name="login_bottom_user_agreement_format">我已阅读并同意%s、%s和%s</string>
+
+    <string name="more_login_way">更多登录方式</string>
+    <string name="switch_phone_num">切换</string>
+
+    <string name="user_agreement">用户协议</string>
+    <string name="privacy_statement">隐私声明</string>
+    <string name="disclaimer">免责声明</string>
+    <string name="login_bottom_user_agreement_uncheck_tip">请阅读并勾选用户协议</string>
+
+    <string name="phone_invalid_tip">请输入正确的手机号</string>
+    <string name="phone_input_format_invalid">手机格式不正确 ，请重新输入。</string> <!--TODO -->
+    <string name="email_invalid_tip">邮箱错误，请确认后重试</string>
+    <string name="account_invalid_tip">请正确输入邮箱/手机号</string>
+    <string name="verify_code_send_failed">验证码发送失败</string>
+    <string name="send_email_failed">发送邮件异常</string> <!--TODO -->
+    <string name="login_loading">正在登录...</string>
+    <string name="login_failed">登录失败，请稍后重试</string>
+    <string name="login_failed_account_or_mim_invalid">登录失败，请确认用户名、密码是否正确</string>
+    <string name="login_failed_mim_locked">该账户登录出错已达上限，请于3小时后重试</string>
+    <string name="mim_verify_failed_locked">登录密码错误次数已达上限，您将在3小时内无法验证登录密码。</string>
+    <string name="login_failed_remain_count_format">账户名与密码不匹配，您还有%d次机会</string>
+    <string name="account_status_error">账户状态异常</string> <!--TODO -->
+    <string name="phone_direct_login_failed">一键登录登录失败！</string>
+    <string name="get_userinfo_failed">获取用户信息失败</string>
+    <string name="account_lock_content">
+        %s
+        \n如有疑问，可联系客服进行账户查询或解锁。
+        \n内地客服：%s
+        \n香港客服：%s
+    </string>
+    <string name="retrieve_mim">找回密码</string>
+
+    <string name="mim_locked_tip">密码已被锁定，请联系客服解锁</string>
+    <string name="contact_customer_service">联系客服</string>
+    <string name="online_customer_service">在线客服</string>
+    <string name="verify_code_error">验证码错误，请确认后重试</string>
+    <string name="sync_error">同步失败</string> <!--TODO -->
+    <string name="verify_code_expired">验证码已过期，请重新发送</string>
+    <string name="please_input_phone_to_reset_mim">请输入手机号，重置登录密码</string>
+    <string name="please_input_email_to_reset_mim">请输入邮箱，重置您的密码完成登录</string>
+    <string name="please_input_email_hint">请输入邮箱</string>
+    <string name="send_email_verify_code">发送邮箱验证码</string>
+    <string name="send_verify_email">发送验证邮件</string> <!--TODO -->
+    <string name="input_email_verify_code">输入邮箱验证码</string>
+    <string name="email_verify_code_has_been_to">已发送邮箱验证码至：</string>
+    <string name="email_verify">邮箱验证</string>
+    <string name="phone_verify">手机验证</string>
+    <string name="phone_been_bound">该手机号无效或已被使用</string>
+    <string name="verify_success">验证成功</string>
+    <string name="reset_login_mim">重置登录密码</string>
+    <string name="please_reset_your_login_mim">请重新设置您的登录密码</string>
+    <string name="old_login_mim_title">原密码</string>
+    <string name="new_login_mim_title">新密码</string>
+    <string name="confirm_new_login_mim_title">确认新密码</string>
+    <string name="reset_new_login_mim_hint">新登录密码(8-20位组合)</string>
+    <string name="reset_confirm_new_login_mim_hint">确认新密码</string>
+    <string name="old_login_mim_hint">输入原密码</string>
+    <string name="new_login_mim_hint">新密码(8-20位组合)</string>
+    <string name="input_new_login_mim_hint">新登录密码(8-20位组合)</string>
+    <string name="confirm_new_login_mim_hint">确认新密码</string>
+    <string name="two_new_mim_diff_tip">再次输入的密码不一致</string>
+    <string name="new_and_old_mim_same_tip">新密码不能与当前密码相同</string>
+    <!--    <string name="please_input_account_idcard_num">请填写完整复星国际证券(香港)开户证件号码</string>-->
+    <string name="account_idcard_num_hint">开户证件号</string>
+    <string name="account_idcard_num_input_guide">
+        开户证件号不区分大小写字母。如是香港身份证无须输入括号。
+        \n示例如下：
+        \n香港身份证：G1234567
+        \n内地身份证：12345678901234123X
+        \n内地护照：E12345678
+    </string>
+    <string name="login_mim_invalid_tip">登录密码至少含大写字母、小写字母、数字或标点符号中的三种</string>
+    <string name="modify_mim_invalid_tip">大写字母、小写字母、数字或标点至少含三种</string>
+    <string name="set_mim_tip_title">补充资料</string>
+    <string name="set_mim_tip_content">您的资料没有补全, 无法进行下一步操作</string>
+    <string name="set_mim_tip_button">补充</string>
+
+    <string name="curr_verify_phone_title">当前验证手机号：</string>
+    <string name="curr_verify_email_title">当前验证邮箱号：</string>
+    <string name="no_authenticate">未认证</string>
+    <string name="next_step">下一步</string>
+    <string name="confirm_reset">确认重置</string>
+    <string name="again_login">重新登录</string>
+    <string name="reset_success_tip">重置成功</string>
+    <string name="login_mim_reset_success_tip">登录密码重置成功</string>
+    <string name="please_remember_your_new_login_mim">请牢记您的新登录密码</string>
+    <string name="modify_mim_success_tip">您的登录密码已修改，请重新登录</string>
+    <string name="modify_mim_failed_tip">操作失败</string>
+    <string name="reset_mim_failed_tip">操作失败</string>
+    <string name="reset_mim_code_error">操作超时，请重新验证</string>
+    <string name="old_mim_error_tip">原密码输入错误</string>
+    <string name="modify_login_min">修改登录密码</string>
+    <string name="go_setting">去设置</string>
+    <string name="login_mim_unset_tip">您还未设置过密码，请先去设置密码</string>
+    <string name="logout_tip">确定要退出登录吗？</string>
+    <string name="logout_autologin_setting_guide">如有需要可以关闭自动登录。</string>
+    <string name="account_idcard_num_verify_failed_tip">开户证件号码校验失败，请确认输入是否正确</string>
+
+    <string name="verify_login_mim">验证登录密码</string>
+    <string name="verify_login_mim_hint">登录密码(8-20位组合)</string>
+    <string name="setting_login_min">设置登录密码</string>
+    <string name="setting_new_login_mim">设置新登录密码</string>
+    <string name="set_successfully">设置成功</string>
+    <string name="please_remember_your_login_mim">请牢记您的登录密码</string>
+    <string name="can_not_receive_verification_code">收不到验证码?</string>
+    <string name="login_mim_does_not_meet_the_rules_tip">8-20位字符，大小写字母、数字和标点符号至少包含3种</string>
+    <string name="inconsistent_mims">密码不一致</string>
+    <string name="login_mim_tip_title">为保障账户安全，首次登录须设置登录密码</string>
+    <string name="login_min_tip_content">登录密码是指您登录星财富APP时使用的密码，该密码仅作星财富APP内登录使用
+        \n\n交易密码是指您通过交易账户办理复星国际证券业务时使用的密码，该密码可用于星财富APP内解锁交易、提交订单及与证券交易相关等行为，亦可用于登录复星国际证券其它交易平台
+    </string>
+    <string name="multiAcc_login_deny_title">当前手机号绑定多个交易账户</string>
+    <string name="multiAcc_login_deny_content">为保障您的账户安全，该手机号暂不支持账号密码登录，请选择短信验证码登录</string>
+    <string name="multiAcc_login_to_phone">前往短信验证码登录</string>
+    <string name="multiAcc_modify_phone_deny">为保护您的账户安全，公司户暂不支持线上修改认证手机号，如需修改，可联系在线客服</string>
+    <string name="multiAcc_modify_email_deny">为保护您的账户安全，公司户暂不支持线上修改认证邮箱，如需修改，可联系在线客服</string>
+    <string name="multiAcc_permission_deny">当前账户类型暂不支持此功能</string>
+    <string name="login_openaccbutnomim_tip_title">为保障账户安全，首次登录星财富须使用短信验证码登录，并设置登录密码</string>
+    <string name="login_to_set_mim">前往设置登录密码</string>
+    <string name="login_to_set_mim_success">登录密码设置成功</string>
+
+    <string name="server_error">网络请求失败，请稍后重试</string>
+
+    <string name="verify_code_tops">常用地区</string>
+    <string name="area_code_pick_title">所属地区</string>
+    <string name="area_code_search_hint">国家/地区</string> <!--TODO -->
+    <string name="area_code_no_data">没有数据</string>
+
+    <string name="tip_successfully_opened">开启成功</string>
+    <string name="tip_closed">已关闭</string>
+
+    <string name="error_verify_code">验证码错误</string>
+    <string name="error_email_bound">邮箱已绑定</string>
+
+    <string name="select_trade_account">选择交易账户</string>
+    <string name="select_multi_trade_account_tip">手机号 %s 绑定多个交易账户，请选择交易账户以登录。登录成功后，任何操作都仅于该账户生效</string>
+    <string name="personal">个人</string>
+    <string name="company">公司</string>
+    <string name="joint">联名</string>
+    <string name="institutional">机构</string>
+    <string name="fill_in_trade_account_tip">请填写完整的交易账户</string>
+    <string name="forget_trade_account">忘记交易账户</string>
+    <string name="forget_trade_account_tip">如您忘记交易账户，可联系客服查询</string>
+    <string name="third_login_failed_title">第三方账号绑定失败</string>
+    <string name="third_login_company_failed_tip">公司户暂不支持第三方账号绑定，请选择其他方式登录</string>
+    <string name="third_login_institutional_failed_tip">机构户暂不支持第三方账号绑定，请选择其他方式登录</string>
+    <string name="account_not_match">证券账号不匹配</string>
+
+    <string name="management">管理</string>
+    <string name="account_switch">账号切换</string>
+    <string name="switch_account">切换账号</string>
+    <string name="current_use">当前使用</string>
+    <string name="delete_account_tip">确定移除账号？</string>
+    <string name="add_account">添加账号</string>
+    <string name="add_success">账号%s成功登录</string>
+    <string name="account_switching">账号切换中…</string>
+    <string name="account_switch_failed">账号切换失败，请重试</string>
+    <string name="add_account_over_tip">最多添加%s个账号</string>
+    <string name="your_hani_id">您的星财号：%s。</string>
+    <string name="setting_login_mim_tip">为保障您的账号安全，首次登录请设置登录密码</string>
+    <string name="setting_verify_mim_tip">为保障您的账号安全，需要验证登录密码</string>
+    <string name="id_verify_succeed_setting_mim_tip">身份验证成功，请设置新的登录密码</string>
+    <string name="verify_trade_account_tip">请填写完整的交易账户号码进行身份验证。如有疑问，可点击底部忘记交易账户按钮联系客服</string>
+    <string name="view_all">查看全部</string>
+
+    <string name="input_voice_captcha">输入语音验证码</string>
+    <string name="voice_captcha_dialog_tip">我们将通过电话语音告知您验证码，请留意接听。</string>
+    <string name="get_voice_captcha">获取语音验证码</string>
+    <string name="had_send_vioce_captcha">语音验证码已发送，请留意接听电话</string>
+    <string name="voice_captcha_is_calling">我们正在打电话至：%s</string>
+    <string name="voice_captcha_not_get">如仍无法收到，可</string>
+    <string name="reacquire">重新获取</string>
+    <string name="captcha_had_send">验证码已发送，60秒内无法重复获取，确定退出吗？</string>
+
+    <string name="trade_account_suspend_tips">当前账户已冻结，请联系在线客服</string>
+    <!--endregion-->
+
+    <!--region 设置-->
+    <string name="settings">设置</string>
+    <string name="account_and_security">账号与安全</string>
+    <string name="quote_settings">行情设置</string>
+    <string name="trade_settings">交易设置</string>
+    <string name="language_settings">多语言</string>
+    <string name="language_simplified">简体中文</string>
+    <string name="language_traditional">繁體中文</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="cache_clearing">清理中...</string>
+    <string name="cache_clear_success">清理成功！</string>
+    <string name="cache_clear_failed">清理失败！</string>
+    <string name="clear_cache_tip">确定清理缓存吗？</string>
+    <string name="privacy">隐私</string>
+    <string name="universal">通用</string>
+    <string name="logout">退出登录</string>
+    <string name="account_unprotected">未保护</string>
+    <string name="account_protected">已保护</string>
+    <string name="account_unlogined">未登录</string>
+    <string name="closed">已关闭</string>
+    <string name="opened">已开启</string>
+    <string name="message_notification">新消息通知</string>
+    <string name="message_push">消息推送</string>
+    <string name="message_notification_setting">消息通知设置</string>
+    <string name="to_system_setting">前往手机系统设置中进行设置</string>
+    <string name="notification_opened">已开启</string>
+    <string name="notification_closed">已关闭，去开启</string>
+    <string name="quote_related">行情相关</string>
+    <string name="other_alter">其他提醒</string>
+    <string name="news_push">资讯推送</string>
+    <string name="push_switch">推送开关</string>
+    <string name="news_switch_push_tip">接收市场要闻、个股资讯和市场热点推送</string>
+    <string name="news_maybe_miss">您可能错过重要市场资讯</string>
+    <string name="txt_open_system_push_switch">您已关闭星财富的「系统接收消息通知」，如需开启消息通知，请前往系统设置修改</string>
+    <string name="txt_please_goto_system_modify">请前往系统设置修改</string>
+    <string name="news_push_frequency">市场资讯推送频率</string>
+    <string name="news_push_importance">重要资讯（约30条/日）</string>
+    <string name="news_push_importance_explain">适合重度市场参与者</string>
+    <string name="news_push_featured">精选资讯（约15条/日）</string>
+    <string name="news_push_featured_explain">适合普通市场参与者</string>
+    <string name="news_push_code">核心资讯（约5条/日）</string>
+    <string name="news_push_code_explain">仅接收市场重磅紧急消息</string>
+
+    <string name="news_push_not_receive">不接收资讯</string>
+    <string name="news_push_not_receive_explain">不接收市场资讯推送</string>
+
+    <string name="news_txt_stock_import">个股重要资讯</string>
+
+    <string name="news_holding_stock">持仓资讯</string>
+    <string name="news_holding_stock_explain">开启后，接收持仓个股相关异动及事件提醒</string>
+
+    <string name="news_fav_stock">自选资讯</string>
+    <string name="news_fav_stock_explain">开启后，接收自选个股相关异动及事件提醒</string>
+
+    <string name="news_night_dont_disturb">夜间勿扰</string>
+    <string name="news_night_dont_disturb_explain">每日00:00–08:00(北京时间)，您将不会收到推送通知</string>
+
+    <string name="please_enter_login_mim">请输入登录密码</string>
+    <string name="quote_push">行情推送</string>
+    <string name="trade_push">交易推送</string>
+    <string name="order_success">订单成交</string>
+    <string name="conditional_trigger">条件触发</string>
+    <string name="request_notification_permission_title">“星财富”想给您发送通知</string>
+    <string name="request_notification_permission_msg">通知可能包括提醒、声音和图标标记。\n这些可在“设置”中配置。</string>
+    <!--endregion-->
+
+    <!--region 行情设置-->
+    <string name="chg_color">涨跌色</string>
+    <string name="chg_pct_color">涨跌颜色</string>
+    <string name="orange_rise_and_green_fall">橙涨绿跌</string>
+    <string name="green_rise_and_orange_fall">绿涨橙跌</string>
+    <string name="red_rise_and_green_fall">红涨绿跌</string>
+    <string name="green_rise_and_red_fall">绿涨红跌</string>
+    <string name="smart_sorting">智能排序</string>
+    <string name="smart_sorting_tip">自动前置处于交易时间段的市场</string>
+    <!--endregion -->
+
+    <!--region 交易设置-->
+    <string name="order_setting">下单设置</string>
+    <string name="order_show">持仓展示</string>
+    <string name="order_other_setting">其他设置</string>
+    <string name="cost_price">成本价</string>
+    <string name="diluted_cost_price">摊薄成本价</string>
+    <string name="average_cost_price">平均成本价</string>
+    <string name="second_order_confirmation">订单二次确认</string>
+    <string name="second_order_confirmation_tip">订单二次确认可避免错误提交，是否继续关闭？</string>
+    <string name="trade_page_expand_k_line">下单页默认展开分时K线</string>
+    <string name="minimum_variation_unit_reminder">最小变动单位提醒</string>
+    <string name="buy_high_sell_low_reminder">高买低卖提醒</string>
+    <string name="financing_reminder">融资提醒</string>
+    <string name="adr_trade_reminder">ADR交易提醒</string>
+    <string name="minimum_variation_unit_reminder_tip">%s当前的委托价格最小单位为%s，您的报价%s可能无法提交至交易所，请将价格修改至最小变动单位的整数倍后再次提交。是否继续交易？</string>
+    <string name="buy_high_reminder_tip">该订单价格高于当前市价，可能会影响收益，是否继续提交？</string>
+    <string name="sell_low_reminder_tip">该订单价格低于当前市价，可能会影响收益，是否继续提交？</string>
+    <string name="financing_reminder_tip">订单金额超出现金购买力，其中%s股将使用到融资。</string>
+    <string name="adr_trade_reminder_tip">1.根据监管义务，不同交易所对ADR设有不同的价格限制 (如买单价格上限或卖单价格底限)，可能会导致交易延迟或不被执行，如遇到该情况，请尝试重新下单；&#x000A;2.持有ADR可能会产生ADR托管费用，一般会在每年年底收取</string>
+    <string name="continue_to">继续</string>
+    <string name="continue_to_place_order">继续下单</string>
+    <string name="pre_or_after_open_reminder">竞价时段交易提醒</string>
+    <string name="pre_open_reminder">开市前时段交易提醒</string>
+    <string name="after_open_reminder">收市竞价时段交易提醒</string>
+    <string name="pre_open_reminder_content">当前为开市前时段，提交的预设订单将于开市后排队提交至交易所，是否继续提交？</string>
+    <string name="after_open_reminder_content">当前为收市竞价时段，如提交的订单未成交，将于收市后转为作废，是否继续提交？</string>
+    <string name="holding_correlation">持仓相关</string>
+    <string name="us_use_pre_market_price">美股市值/盈亏使用盘前价</string>
+    <string name="us_use_after_hours_price">美股市值/盈亏使用盘后价</string>
+    <string name="stock_showing_clearance">显示持仓数量为0的持仓</string>
+    <string name="common_quantity">常用数量</string>
+    <string name="preset_order">订单预设</string>
+
+    <string name="default_order_type_continuous_trading">默认订单类型(持续交易)</string>
+    <string name="default_order_type_period_bidding">默认订单类型(竞价时段)</string>
+    <string name="default_fill_price">默认填充价格</string>
+    <string name="default_fill_quantity">默认填充数量</string>
+    <string name="default_order_type">默认订单类型</string>
+    <string name="price_buy1">买一价</string>
+    <string name="price_sell1">卖一价</string>
+    <string name="shares">股数</string>
+    <string name="one_hand">一手</string>
+    <string name="custom">自定义</string>
+    <string name="quantity_display">数量展示</string>
+    <string name="common_quantity_1">常用一</string>
+    <string name="common_quantity_2">常用二</string>
+    <string name="common_quantity_3">常用三</string>
+    <string name="common_quantity_4">常用四</string>
+    <string name="please_enter">请输入</string>
+    <string name="save_confirm">是否保存修改？</string>
+    <string name="save_success">保存成功</string>
+    <string name="no_modification">暂无修改</string>
+    <string name="tip_quantity_odd_lot">数量非整手，暂不支持碎股交易</string>
+    <string name="common_position">常用仓位</string>
+    <string name="common_field_sort_show">字段排序与显示</string>
+    <string name="common_position_tip">注：仓位基数为总资产净值，预估金额=仓位基数*百分比</string>
+    <string name="common_position_input_hint">请输入 0–100</string>
+    <string name="common_position_invalid">所选仓位不足最低手数要求，请重试</string>
+    <string name="common_position_more">更多仓位设置</string>
+    <!--endregion-->
+
+    <!--region 交易密码设置-->
+    <string name="trade_mim_set">设置交易密码</string>
+    <string name="trade_mim">交易密码设置</string>
+    <string name="trade_settings_change_mim">修改交易密码</string>
+    <string name="trade_settings_old_mim">验证原交易密码</string>
+    <string name="trade_settings_new_mim">设置新交易密码</string>
+    <string name="trade_settings_first_mim">设置交易密码</string><!--首次设置-->
+    <string name="trade_settings_mim_tip">%s交易账号 %s 证券业务办理使用的%s</string>
+    <string name="trade_settings_mim_verify_origin_mim_tip">交易账户：%s。为保障您的账号安全，请输入您当前使用的交易密码以验证身份</string>
+    <string name="trade_settings_new_mim_tip">设置新交易密码。任何涉及交易、资金等影响账户安全的操作，都需要验证交易密码</string>
+    <string name="trade_settings_first_mim_tip">设置交易密码。任何涉及交易、资金等影响账户安全的操作，都需要验证交易密码</string><!--首次设置-->
+    <string name="trade_settings_forget_mim_tip">交易账户：%s。任何涉及交易、资金等影响账户安全的操作，都需要验证交易密码</string>
+    <string name="trade_settings_confirm_first_mim_tip">重复输入交易密码。任何涉及交易、资金等影响账户安全的操作，都需要验证交易密码</string><!--首次设置-->
+    <string name="trade_settings_confirm_mim_tip">重复输入新交易密码。任何涉及交易、资金等影响账户安全的操作，都需要验证交易密码</string>
+    <string name="trade_settings_mim_hint">8–20位数字、字母组合</string>
+    <string name="trade_settings_mim_hint1">登录密码(8–20位组合密码)</string>
+    <string name="trade_settings_forget_mim">忘记交易密码</string>
+    <string name="trade_settings_new_mim_equals_old_mim_tip">新密码不能与当前密码相同</string>
+    <string name="trade_settings_mim_inconsistent_tip">两次交易密码输入不一致</string>
+    <string name="trade_settings_reinput_new_mim">再次输入新交易密码</string>
+    <string name="trade_settings_confirm_first_new_mim">确认交易密码</string><!--首次设置-->
+    <string name="trade_settings_confirm_new_mim">确认新交易密码</string>
+    <string name="trade_settings_set_up_mim_successfully">设置成功</string>
+    <string name="trade_settings_reset_mim_successfully">重置成功</string>
+    <string name="trade_settings_modify_mim_successfully">修改成功</string>
+    <string name="trade_settings_successfully_tip">请牢记您的交易密码</string>
+    <string name="trade_settings_new_successfully_tip">请牢记您的新交易密码</string>
+    <string name="trade_settings_fingerprint_agreement_pre">仅对本机有效，开启即视为同意%s</string>
+    <string name="trade_settings_fingerprint_agreement">《生物认证协议》</string>
+    <string name="trade_settings_fingerprint_close_tip">确认关闭指纹？</string>
+    <string name="trade_settings_mim_wrong_format">交易密码格式错误</string>
+    <string name="trade_settings_mim_error_tip">交易密码错误，请重试</string>
+    <string name="trade_settings_authentication">身份验证</string>
+    <string name="trade_settings_authentication_hint">请填写开户证件号进行身份验证，开户证件号不区分大小写，且无须输入括号</string>
+    <string name="trade_settings_id_number_error">身份证号与账户不匹配</string>
+    <string name="reset_mim_error">重置密码错误</string>
+    <string name="first_verify_trade_mim">首次验证交易密码</string>
+    <string name="first_verify_trade_mim_hint">系统检测到您已开户，需验证原有开户设置密码，用于新APP交易下单</string>
+    <string name="verify_trade_mim">验证交易密码</string>
+    <string name="verify_trade_mim_hint">系统检测到您的密码在其他终端存在修改记录，需再次验证，用于新APP交易下单</string>
+    <string name="trade_mim_locked_tip">您的交易密码已被锁定，请重置交易密码进行解锁</string>
+    <string name="holding_trade_mim_locked_tip">系统检测到密码已锁定，请重置交易密码</string>
+    <string name="holding_trade_mim_modified_tip">系统检测当前密码已修改，请重新验证交易密码</string>
+    <string name="verify">验证</string>
+    <string name="reset_mim">重置密码</string>
+    <string name="mim_was_locked">柜台密码锁定</string>
+    <string name="mim_was_locked_tip">柜台密码锁定   ErrCode = </string>
+    <string name="mim_was_modified_tip">修改密码校验   ErrCode =  </string>
+    <string name="mim_was_modify_tip">验证失败，请确认修改后的密码并输入</string>
+    <string name="revalidate">重新验证</string>
+    <string name="trade_session_unlock_time">解锁时长</string>
+    <string name="trade_session_unlock_tip">支持设置交易解锁时长</string>
+    <string name="trade_unlock_time_option">%d小时</string>
+    <string name="fingerprintResetNotice">修改交易密码后，需要重新开启指纹解锁。</string>
+    <!--endregion-->
+
+    <!--region 资产隐私保护-->
+    <string name="asset_time_explain">若星财富应用在后台超过设置的时长，再次查看账户资产信息需要重新解锁。</string>
+    <string name="asset_verify_explain">指纹仅对本机有效，开启即视为同意%s</string>
+    <string name="blur_page_explain">开启后切换应用时页面会显示该模糊效果。</string>
+    <string name="switch_app_blur_page">切换应用时模糊页面</string>
+    <string name="close">关闭</string>
+    <string name="open">打开</string>
+    <string name="when_open">每次打开</string>
+    <string name="scenario">场景示意</string>
+    <string name="risk_warning">风险提示</string>
+    <string name="asset_risk_warning_content">为保障账户安全，请您开通“资产隐私保护”，并以“Face ID或指纹”方式登录账户。</string>
+    <string name="asset_risk_warning_click_text">去设置</string>
+    <!--endregion-->
+
+    <!--region 指纹弹出框相关-->
+    <string name="please_verify_fingerprint">请验证指纹</string>
+    <string name="failed_to_recognize_fingerprint">未能识别指纹</string>
+    <string name="too_many_attempts">尝试次数过多，请稍后重试</string>
+    <string name="user_login_too_many_attempts">尝试次数过多，是否使用密码验证？</string>
+    <string name="trade_login_too_many_attempts">尝试次数过多,是否使用交易密码验证？</string>
+    <string name="current_device_not_support_fingerprint">当前手机不支持指纹认证</string>
+    <string name="current_device_not_input_fingerprint">当前手机未录入指纹</string>
+    <string name="user_cancelled_authentication">用户取消了指纹认证</string>
+    <string name="not_the_truth_fingerprint">不是上次设置的指纹</string>
+    <string name="fingerprint_verify_invalidate">指纹认证信息发生改变，即将退出登录</string>
+    <string name="fingerprint_verify_exception">指纹认证已失效，请使用密码验证</string>
+    <string name="biometric_identification_invalidate">面容ID或指纹已失效</string>
+    <!--endregion-->
+
+    <!--region 开启指纹-->
+    <string name="enable_fingerprint">开启指纹</string>
+    <string name="enable_fingerprint_tip">需验证交易密码，开启后解锁不再需要输入密码</string>
+    <string name="enable_submit">验证</string>
+    <!--endregion-->
+
+    <!--region 意见反馈-->
+    <string name="problem_description">问题描述</string>
+    <string name="complaint_feedback_hint">请描述您的建议内容，如果配上相应的图片效果更佳。建议不超过400个汉字。</string>
+    <string name="complaint_feedback_text_length_tip">%d/400字</string>
+    <string name="upload_fail">上传失败</string>
+    <string name="submit_success">提交成功</string>
+    <string name="deleted">已删除</string>
+    <string name="save_draft_successfully">保存草稿成功</string>
+    <string name="today_submit_times_over_maximum">已超过当日最大提交次数</string>
+    <string name="add_image">添加图片</string>
+    <string name="preview">预览</string>
+    <string name="back">返回</string>
+    <string name="feedback_maximum_photo_tip">最多可选%s张</string>
+    <string name="feedback_error_type_conflict">不能同时选择图片和视频</string>
+    <string name="error_file_type">不支持该类型</string>
+    <!--endregion-->
+
+    <!--region 关于我们-->
+    <string name="about_us_title">关于</string>
+    <string name="about_us_app_name">星财富</string>
+    <string name="about_us_score">给应用评分</string>
+    <string name="about_us_contact_us">联系我们</string>
+    <string name="about_us_privacy_policy">隐私政策</string>
+    <string name="about_us_user_services_agreement">用户服务协议</string>
+    <string name="about_us_data_sources">数据来源声明</string>
+    <string name="about_us_private_statement">隐私声明</string>
+    <string name="about_us_customer_service_title">在线客服</string>
+    <string name="cn_customer_service_title">内地客服</string>
+    <string name="hk_customer_service_title">香港客服</string>
+
+
+    <!--endregion-->
+
+    <!--region 修改手机号-->
+    <string name="authenticated_phone">认证手机号</string>
+    <string name="authenticated_phone_tip">已认证手机号可进行登录，\n如该手机号已不再适用，请及时更新。</string>
+    <string name="authenticated_phone_number_modify">修改认证手机号</string>
+    <string name="authenticated_phone_modify">修改手机认证</string>
+    <string name="authenticated_phone_current">当前认证手机</string>
+    <string name="authenticated_phone_modify_hint">修改后您可以通过新手机号登录和找回密码</string>
+    <string name="authenticated_phone_modify_sync">同步修改证券账户认证的手机号</string>
+    <string name="authenticated_phone_same">更换的手机号不能与原来的手机号一样。</string>
+    <string name="authenticated_phone_modify_success">修改成功</string>
+    <string name="authenticated_phone_sync_account_detail">
+        您认证的是平台手机号信息，主要用于登录和找回密码。
+        \n\n默认将您设置的手机号同步更新至全部券商 (星财富APP、同花顺等)。
+        \n\n如您有需要将平台手机号和券商手机号设置为不一致，请联系客服更改。
+        \n内地客服：%s
+        \n香港客服：%s
+    </string>
+
+    <!--endregion-->
+
+    <!--region 自动登录-->
+    <string name="auto_login_title">自动登录</string>
+    <string name="auto_login_verify">验证</string>
+    <string name="auto_login_verify_none">无需验证</string>
+    <string name="auto_login_verify_fingerprint">指纹</string>
+    <string name="auto_login_explain">开启后，每次进入应用时自动登录；关闭后，退出或超过设置时长进入应用需要重新登录。</string>
+    <string name="auto_login_verify_explain">从后台回到应用时，可根据需要进行验证；指纹仅对本机有效，开启即视为同意%s</string>
+    <string name="background_keep_time">后台保持时长</string>
+    <string name="background_keep_time_explain">超过设置时长，再次回到星财富时需要重新登录。</string>
+    <string name="background_keep_time_option">%d分钟</string>
+    <string name="auto_login_mim_not_set">未设置密码</string>
+    <string name="auto_login_mim_error">密码与账户不匹配</string>
+    <string name="auto_login_biometric_title">生物识别验证</string>
+    <string name="auto_login_biometric_subtitle">请校验</string>
+    <string name="auto_login_biometric_verify">验证生物ID</string>
+    <string name="auto_login_fingerprint_verify">验证指纹</string>
+    <string name="auto_login_biometric_action">点击进行解锁</string>
+    <string name="auto_login_verify_mim">验证密码登录</string>
+    <string name="auto_login_open_tip">开启【自动登录】后，登入APP无须验证登录；若维持现状，不开启【自动登录】功能，默认30分钟会登出，可通过密码再登录</string>
+    <!--endregion-->
+
+    <!--region 登录设备管理-->
+    <string name="local_phone">本机</string>
+    <string name="delete_device_explain">下方列表记录已信任设备，已信任设备在登录账号时，无须进行验证码和登录密码双重验证。点击右上角“编辑”按钮可删除列表中设备。</string>
+    <string name="device_name">设备名称</string>
+    <string name="device_model">设备型号</string>
+    <string name="last_login_time">最后登录时间</string>
+    <string name="delete_device_confirm">确定要将%s从常用设备中删除？</string>
+    <string name="delete_device_failed">删除设备失败</string>
+    <string name="no_acc_to_device">您未开通证券账号，请开户后再使用设备锁</string>
+    <string name="to_open_acc">去开户</string>
+    <string name="device_detail">设备详情</string>
+    <!--endregion-->
+
+    <!--region 个人资料-->
+    <string name="personal_data">个人资料</string>
+    <string name="user_icon">头像</string>
+    <string name="nick_name">昵称</string>
+    <string name="modify_user_name">修改昵称</string>
+    <string name="modify_user_name_rule">昵称设置不支持特殊符号@、#、￥、＜</string>
+    <string name="modify_user_name_error_tip">昵称包含特殊字符，请修改后重试</string>
+    <string name="user_name_format_error">请输入正确格式的昵称</string>
+    <string name="have_known">已了解</string>
+    <string name="load_failed">加载失败</string>
+    <string name="open_crop_fail">打开截图工具失败</string>
+    <string name="modify_failed">修改失败</string>
+    <string name="sensitive_name">该昵称不可用，请修改后重试</string>
+    <string name="cond_data_fail">获取条件单数据失败</string>
+    <string name="cond_price_low">条件单价格低于现价</string>
+    <string name="cond_price_high">条件单价格高于现价</string>
+    <string name="cond_modify">条件单正在修改中</string>
+    <string name="cond_trigger">修改失败，订单已触发</string>
+    <string name="cond_quote_fail">获取行情数据失败</string>
+    <!--endregion-->
+
+    <!--region 交易登录-->
+    <string name="input_trade_login">交易解锁</string>
+    <string name="trade_login_hint">8-20位数字、字母组合</string>
+    <string name="retry">重试</string>
+    <string name="trade_login_success">交易登录成功</string>
+    <string name="trade_login_error_not_match">交易账户与密码不匹配，请重新输入</string>
+    <!--endregion-->
+
+    <!--region 隐私协议-->
+    <string name="agree_and_login">同意并登录</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="user_agreement_dialog_title">温馨提示</string>
+    <!--    <string name="user_agreement_dialog_head">为了更好地保障您的个人权益，在您使用星财富APP服务前，请认真阅读</string>-->
+    <!--    <string name="user_agreement_dialog_tail">全部条款，您同意并接受全部条款后再开始使用我们的服务。</string>-->
+    <string name="user_agreement_dialog_msg">感谢您选择使用星财富，请您充分阅读并理解《用户协议》、《隐私政策》以及《第三方信息共享清单》：\n为了信息推送和安全考虑的需要，我们会申请系统权限手机设备信息、日志信息、MAC地址、已安装APP信息、Android ID。\n我们会努力采取各种安全技术保护您的个人信息。同时，您可以访问、更正、删除您的个人信息并管理您的授权，我们也为您提供注销、投诉渠道。\n如您同意以上协议内容，请点击同意并继续，开始使用我们的产品和服务。</string>
+    <string name="user_agreement_dialog_link_user">《用户协议》</string>
+    <string name="user_agreement_dialog_link_privacy">《隐私政策》</string>
+    <string name="user_agreement_dialog_link_third">《第三方信息共享清单》</string>
+    <string name="user_agreement_dialog_title_for_login">用户协议及隐私声明</string>
+    <string name="user_agreement_dialog_msg_for_login">为了更好的保障您的个人权益，在您使用复星财富APP服务前，请认真阅读 用户协议、隐私声明 全部条款，您同意并接受全部条款后再开始使用我们的服务。</string>
+    <string name="user_agreement_dialog_link_user_for_login">用户协议</string>
+    <string name="user_agreement_dialog_link_privacy_for_login">隐私声明</string>
+
+    <!--endregion-->
+
+    <!--region search-->
+    <string name="search_clear_his_tip">确定要删除全部历史记录？</string>
+    <string name="search_his_title">历史搜索</string>
+    <string name="search_hot_title">热门搜索</string>
+    <string name="search_input_hint">请输入代码/名称</string>
+    <string name="search_global_hint">搜索股票/理财/资讯/组合</string>
+    <string name="warrant_search_input_hint">搜索窝轮/牛熊证/界内证相关标的</string>
+    <string name="warrant_search">搜索窝轮或牛熊相关正股</string>
+    <string name="warrant_search_outstanding">请选择正股或指数再查看牛熊街货分布</string>
+    <string name="empty_outstanding">暂无街货数据</string>
+    <string name="search_empty">无搜索结果</string>
+    <string name="search_synthesis">综合</string>
+    <string name="search_fund_portfolio">组合</string>
+    <string name="search_fund_portfolio_user">用户</string>
+    <string name="search_follow_portfolio">投资组合</string>
+    <string name="search_portfolio_type_mixin">混合</string>
+    <string name="search_portfolio_follow">关注</string>
+    <string name="search_portfolio_had_follow">已关注</string>
+    <string name="search_portfolio_had_unfollow">已取消关注</string>
+    <string name="search_help">帮助</string>
+    <string name="search_following_is_historical">以下为历史搜索记录</string>
+    <string name="search_clear_historical">清除记录</string>
+    <!--endregion-->
+
+    <!--region 邮箱验证-->
+    <string name="email_input">输入邮箱地址</string>
+    <string name="email_input_modify">设置新认证邮箱</string>
+    <string name="email_input_format_invalid">邮箱格式不正确 ，请重新输入。</string>
+    <string name="email_address">邮箱地址</string>
+    <string name="email_address_modify">新邮箱地址</string>
+    <string name="email_confirm_send">发送确认邮件</string>
+    <string name="email_input_hint">认证邮箱后可用于登录和找回密码</string>
+    <string name="email_input_modify_hint">重置邮箱后，您可以通过新邮箱地址登录星财号和找回密码</string>
+    <string name="email_input_sync_stock_account">同步修改证券账户认证的邮箱</string>
+    <string name="authenticated_email_same">更换的邮箱不能与原来的邮箱一样。</string>
+    <string name="captcha_help_msg">您可以联系客服进行验证码查询</string>
+    <string name="customer_service_confirm">知道了</string>
+    <string name="mim_input_title">输入登录密码</string>
+    <string name="mim_input_sub_title">请输入登录密码校验您的身份</string>
+    <string name="mim_input_submit">提交</string>
+    <string name="authenticated_email_tip">当前认证邮箱为：%s，先验证您的身份，再进行修改邮箱操作</string>
+    <string name="authenticated_bind_success">认证通过</string>
+    <string name="email_verify_error">该邮箱无效或已被使用</string>
+    <string name="captcha_verify_limit">验证次数过多，请稍后重试</string>
+    <string name="email_sync_account_title">同步修改券商信息说明</string>
+    <string name="email_sync_account_detail">
+        您认证的是平台邮箱信息，主要用于登录和找回密码。
+        \n\n默认将您设置的邮箱同步更新至全部券商 (星财富APP、同花顺等)。
+        \n\n如您有需要将平台邮箱和券商邮箱设置为不一致，请联系客服更改。
+        \n内地客服：%s
+        \n香港客服：%s
+    </string>
+    <string name="email_reset">重置认证邮箱？</string>
+    <string name="email_reset_tip">为保障账户安全，须通过短信验证码重置认证邮箱</string>
+    <string name="email_go_reset">去重置</string>
+    <string name="email_reset_send_code_tip">已发送验证码至：%s，您正在通过短信验证码重置邮箱，请注意查收</string>
+    <!--endregion-->
+
+    <!--region 自选股-->
+    <string name="fav_hk_stock">港股</string>
+    <string name="fav_us_stock">美股</string>
+    <string name="fav_fund">理财</string>
+    <string name="fav_hs_stock">A股</string>
+    <string name="fav_all">全部</string>
+    <string name="fav_stock_edit">编辑自选</string>
+    <string name="fav_stock_add">添加自选</string>
+    <string name="fav_stock_empty">暂无添加任何股票</string>
+    <string name="fav_fund_empty">暂无添加任何基金</string>
+    <string name="fav_group_all">全部分组</string>
+    <string name="complete">完成</string>
+    <string name="edit">编辑</string>
+    <string name="fav_group_show">显示分组</string>
+    <string name="fav_group_hide">隐藏分组</string>
+    <string name="fav_group_toggle">点击切换分组</string>
+    <string name="fav_group_drag">拖拽可以排序</string>
+    <string name="fav_group_show_hide">显示/隐藏</string>
+    <string name="fav_group_delete">删除分组</string>
+    <string name="fav_group_rename">重命名</string>
+    <string name="fav_group_add">新建分组</string>
+    <string name="fav_group_edit_hint">请输入分组名称，最多12个字符</string>
+    <string name="fav_group_error_duplicate">分组名称重复</string>
+    <string name="fav_group_error_max">已达到添加上限</string>
+    <string name="fav_had_add">已添加</string>
+    <string name="fav_add_success">添加成功</string>
+    <string name="fav_add_failed">添加失败</string>
+    <string name="fav_delete_failed">删除失败</string>
+    <string name="fav_edit_error_fix">系统分组不支持修改名称及删除</string>
+    <string name="fav_hide_error_all_group">全部分组不支持隐藏</string>
+    <string name="fav_group_delete_dialog_msg">确认要删除该自选分组？</string>
+    <string name="fav_stock_delete_dialog_msg">确认要删除选中的自选股？</string>
+    <string name="fav_stock_delete_success">删除成功</string>
+    <string name="fav_stock_click_add">点击添加</string>
+    <string name="fav_stock_drag_other">拖拽排序，点击%s</string>
+    <string name="hide">隐藏</string>
+    <string name="delete">删除</string>
+    <string name="up">置顶</string>
+    <string name="up_success">已置顶</string>
+    <string name="check_all">全选</string>
+    <string name="add_to">添加到(%d)</string>
+    <string name="delete_count">删除 (%d)</string>
+    <string name="fav_stock_batch_title">添加到</string>
+    <string name="save">保存</string>
+    <string name="fav_stock_group_edit">编辑分组</string>
+    <string name="fav_stock_delete_success_1">已从自选删除</string>
+    <string name="fav_stock_error_max">数量已达上限，自选组合无法继续添加股票</string>
+    <string name="fav_stock_delist">该股票已退市，是否删除？</string>
+    <string name="fav_stock_expired">该股票已到期，是否删除？</string>
+    <string name="fav_stock_invalid_astock">A股市场仅提供沪深股通行情数据服务，是否删除？</string>
+    <string name="market_data_desc_title">市场行情数据说明</string>
+    <string name="fund_detail">基金详情</string>
+    <string name="bond_detail">债券详情</string>
+    <string name="fav_view_time_sharing_chart">分时图表</string>
+    <string name="fav_view_data_list">数据列表</string>
+    <string name="table_setting">表头数据项设置</string>
+    <string name="table_setting_tip">增减表头数据项，可在自定义列表模式或横屏下查看</string>
+    <string name="had_add_data_item">已添加数据项</string>
+    <string name="enable_add_data_item">可添加数据项</string>
+    <string name="no_find_data_item">没有您要的数据项？</string>
+    <string name="sure_recovery_default">确定恢复系统默认设置？</string>
+    <!--endregion-->
+
+    <!--region 自选设置-->
+    <string name="fav_stock_setting_title">自选列表设置</string>
+    <string name="fav_stock_setting_name_code_title">名称代码展示</string>
+    <string name="fav_stock_setting_name">名称</string>
+    <string name="fav_stock_setting_code">代码</string>
+    <string name="fav_stock_setting_name_code_default">跟随语言</string>
+    <string name="fav_stock_setting_name_code_default_tip">中文名称在上，英文代码在上</string>
+    <string name="fav_stock_setting_rect_color">自选矩形色块展示</string>
+    <string name="fav_stock_setting_holding_mark">显示持仓标示</string>
+    <string name="fav_stock_setting_ard_quote">ADR行情展示</string>
+    <string name="fav_stock_setting_text_ard">ADR</string>
+    <string name="fav_stock_setting_us_quote_plate_pre_post">美股盘前盘后展示</string>
+    <string name="fav_stock_setting_change_ratio_demo">+6.16%</string>
+    <string name="fav_stock_setting_price_demo">173.070</string>
+    <string name="fav_stock_setting_post_ratio_demo">+8.88%</string>
+    <string name="fav_stock_setting_post_price_demo">172.798</string>
+    <!--endregion-->
+
+    <!--region list title-->
+    <string name="name_code">名称代码</string>
+    <string name="market_value_or_quantity">市值/数量</string>
+    <string name="order_price">订单价格</string>
+    <string name="price_now_or_cost">现价/成本</string>
+    <string name="float_profit">浮动盈亏</string>
+    <string name="price_now_or_entrust">现价/委托</string>
+    <string name="quantity_total_or_filled">总数/已成</string>
+    <string name="direction_or_status">方向/状态</string>
+    <string name="deal_done_or_total_amount">已成交/总数量</string>
+    <string name="deal_done_or_total_amount_2">已成交/总量</string>
+    <string name="last_price">最新价</string>
+    <string name="price_chg_pct">涨跌幅</string>
+    <string name="price_chg">涨跌额</string>
+    <string name="volume">成交量</string>
+    <string name="turnover">成交额</string>
+    <string name="turnover_radio">换手率</string>
+    <string name="total_market_value">总市值</string>
+    <string name="amplitude">振幅</string>
+    <string name="pe_static">市盈率静</string>
+    <string name="pe">市盈率</string>
+    <string name="pb">市净率</string>
+    <string name="dyrstatic">股息率</string>
+    <string name="lea_stock">领涨股</string>
+    <string name="due_date">到期日</string>
+    <string name="exercise_price_floor">行使(下限)价</string>
+    <string name="value_status">价值状态</string>
+    <string name="call_price">回收价</string>
+    <string name="call_price_2">收回价</string>
+    <string name="inside_price">价内</string>
+    <string name="outside_price">价外</string>
+    <string name="rank_list">排行榜</string>
+    <string name="quantity_or_price">数量/价格</string>
+    <string name="year_to_date">年初至今</string>
+    <string name="floating_market_value">流通市值</string>
+    <string name="pe_static_parenthesis">市盈率（静）</string>
+    <string name="pe_ttm">市盈率TTM</string>
+    <string name="chg_pct_day_20">20日涨跌幅</string>
+    <string name="volume_ratio">量比</string>
+    <string name="wei_bi">委比</string>
+    <string name="day_chg_pct">日涨跌幅</string>
+    <string name="nearly_1_week">近1周</string>
+    <string name="nearly_1_month">近1月</string>
+    <string name="nearly_3_month">近3月</string>
+    <string name="nearly_6_month">近6月</string>
+    <string name="nearly_1_year">近1年</string>
+    <string name="nearly_3_year">近3年</string>
+    <string name="nearly_5_year">近5年</string>
+    <string name="since_founded">成立至今</string>
+    <string name="nearly_1_year_retreat">近1年回撤</string>
+    <string name="latest_net_worth">最新净值</string>
+    <string name="nearly_1_year_sharpe_ratio">近1年夏普比率</string>
+    <string name="initial_investment_amount">起投金额</string>
+    <!--endregion-->
+
+    <!--region 账户-->
+    <string name="hk_stock">港股</string>
+    <string name="us_stock">美股</string>
+    <string name="a_stock">A股</string>
+    <string name="hk_cn_stock_connect">A股通</string>
+    <string name="hsgt_stock">沪深港通</string>
+    <string name="fund_and_bond">基金债券</string>
+    <string name="bond_alternative">债券另类</string>
+    <string name="cash_stock_treasure">星股宝</string>
+    <string name="cash_stock_treasure_account">星股宝账户</string>
+    <string name="cies_account">香港投资移居计划专户</string>
+    <string name="fund_allocation">资金调拨</string>
+
+    <string name="cnh">人民币</string>
+    <string name="hkd">港元</string>
+    <string name="usd">美元</string>
+
+    <string name="all_account">全部账户</string>
+    <string name="margin_account">保证金账户</string>
+    <string name="cash_account">现金账户</string>
+    <string name="security_account">证券账户</string>
+
+    <string name="total_asset">总资产</string>
+    <string name="total_asset_hk">资产净值(港元)</string>
+    <string name="cash">现金</string>
+    <string name="holding_market_value">股票市值</string>
+    <string name="holding_market_value_2">持仓市值</string>
+    <string name="more">更多</string>
+    <string name="all">全部</string>
+    <string name="trade_order">交易下单</string>
+    <string name="order_record">订单记录</string>
+    <string name="conditions_order_record">条件单记录</string>
+    <string name="today_profit">今日盈亏</string>
+    <string name="max_purchasing_power">最大购买力</string>
+    <string name="cash_purchasing_power">现金购买力</string>
+    <string name="holdings_sell">持仓可卖</string>
+    <string name="cash_buy">现金可买</string>
+    <string name="max_buy">最大可买</string>
+    <string name="earnings_yesterday">昨日收益</string>
+    <string name="quick_order">快捷交易</string>
+    <string name="account_detail">账户明细</string>
+    <string name="profit_detail">收益明细</string>
+    <string name="risk_evaluation">风险测评</string>
+    <string name="professional_investor">专业投资者</string>
+    <string name="professional_investor_have_opened">已开通“专业投资者”</string>
+
+    <string name="purchasing_power">购买力</string>
+    <string name="purchasing_power_tip">以上购买力包括货币基金资产，不包含专户及投顾服务资产</string>
+    <string name="available_withdrawal_cash">可提现金</string>
+    <string name="cash_available_withdrawal">现金可提</string>
+    <string name="on_way_capital">在途资金</string>
+    <string name="available_cash">可用现金</string>
+    <string name="frozen_capital">冻结资金</string>
+    <string name="holdings">持仓</string>
+    <string name="stock_holdings">股票持仓</string>
+    <string name="orders">订单</string>
+    <string name="unfinished_orders">未完成订单</string>
+    <string name="unfinished_orders_count">未完成订单 (%s)</string>
+    <string name="finished_canceld_orders_count">成交&amp;撤销订单 (%s)</string>
+    <string name="all_operation">全部功能</string>
+    <string name="capital">资金</string>
+    <string name="bank_account">银行账户</string>
+    <string name="capital_record">资金记录</string>
+    <string name="stock">股票</string>
+    <string name="transfer_in_stock">转入股票</string>
+    <string name="new_stock_subscription">新股申购</string>
+    <string name="account_overview">账户总览</string>
+    <string name="asset">资产</string>
+    <string name="risk_control">风控</string>
+    <string name="margin_text">融资</string>
+    <string name="credit_limit">信用额度</string>
+    <string name="maximum_loan_amount">最大借贷额</string>
+    <string name="marginable_value">可按仓股票价值</string>
+    <string name="margin_radio">保证金比率</string>
+    <string name="use_margin_value">已借金额</string>
+    <string name="remaining_margin_value">剩余可借</string>
+    <string name="interest_amount">计息金额</string>
+    <string name="accrued_interest">应计利息</string>
+    <string name="margin_call">追收保证金额</string>
+    <string name="loan_ratio">贷款比率</string>
+    <string name="max_exposure">最大借贷额</string>
+    <string name="immediate_deposit">立即存缴</string>
+    <string name="feature_not_yet_available">该功能即将开放，敬请期待</string>
+    <string name="cash_treasure">星财宝</string>
+    <string name="to_increased_purchasing_power">去提升</string>
+    <string name="turn_to_margin_account">升级</string>
+    <string name="apply_issue">申请供股</string>
+    <string name="risk_level">风险水平</string>
+    <string name="risk_status">风险状态</string>
+    <string name="risk_status_safe">安全</string>
+    <string name="risk_status_mid">中等</string>
+    <string name="risk_status_call">追保</string>
+    <string name="risk_status_danger">危险</string>
+
+    <string name="fund_subscribe">认购</string>
+    <string name="fund_redeem">赎回</string>
+
+    <string name="direction_buy">买入</string>
+    <string name="direction_sell">卖出</string>
+    <string name="direction_update">改单</string>
+
+    <string name="order_status_queuing">未报</string>
+    <string name="order_status_inmarket">已报</string>
+    <string name="order_status_cancel">已撤</string>
+    <string name="order_status_filled">已成</string>
+    <string name="order_status_part_filled">部成</string>
+    <string name="order_status_part_cancel">部撤</string>
+    <string name="order_status_reject">废单</string>
+    <string name="order_status_expired">已失效</string>
+    <string name="order_status_waiting">待报</string>
+    <string name="order_status_exception">异常</string>
+    <string name="order_status_init">初始化</string>
+    <string name="order_status_pending">待处理</string>
+    <string name="order_status_pending_review">待复核</string>
+    <string name="order_status_review_failed">复核未通过</string>
+    <string name="quote_level_lv1" translatable="false">LV1</string>
+    <string name="quote_level_lv2" translatable="false">LV2</string>
+    <string name="quote_level_delay">延时</string>
+    <string name="quote_level_delay_tip">延时15分钟</string>
+    <string name="quote_level_upgrade_tip">当前行情延迟15分钟</string>
+    <string name="quote_level_upgrade_action">去升级</string>
+    <string name="quote_level_delay_legend">延</string>
+
+    <string name="account">账户</string>
+    <string name="my_fee">我的收费</string>
+    <string name="user_information">账户资料</string>
+    <string name="buy_to_be_confirmed">买入待确定</string>
+    <string name="sale_be_credited">卖出将到账</string>
+    <string name="ftd_asset">定存宝专户资产</string>
+    <string name="star_treasure_asset">星财宝专户资产</string>
+
+    <string name="account_list">账户列表</string>
+    <string name="account_list_at_least_tip">至少展示1个账户</string>
+    <string name="account_list_selected_hide_tip">相关账户卡片已隐藏，请重新选择</string>
+    <string name="account_hidden">已隐藏</string>
+    <string name="not_open">未开通</string>
+    <string name="adjusting_the_sort_is_not_supported">暂不支持调整排序</string>
+    <string name="account_hidden_click_tip">相关账户卡片已隐藏，请重新选择</string>
+    <string name="assets_cies_tip">暂不包含香港投资移居专户资产及投顾资产</string>
+    <string name="cies_card_goto_know_content">为资本投资者设立的香港移居通道</string>
+    <string name="goto_know">去了解</string>
+    <string name="goto_invest_section">去投资专区</string>
+    <!--endregion-->
+
+    <!--region 基金债券-->
+    <string name="fund">基金</string>
+    <string name="bond">债券</string>
+    <string name="fn">票据</string>
+    <string name="fund_holding">我的持仓</string>
+    <string name="fund_and_bond_remark">注：全部类型持有资产将按照实时汇率折算为港币进行汇总展示，仅供参考</string>
+    <string name="fund_name_and_currency_type">名称/类型(币种)</string>
+    <string name="fund_total_market_value_and_holding_quantity">总值/持仓数量</string>
+    <string name="fund_holding_income_and_percent">持仓收益/率</string>
+    <string name="trade_refreshing">刷新中</string>
+    <string name="trade_release_refresh">放开可刷新</string>
+    <string name="sell_to">卖出至</string>
+    <!--endregion-->
+
+    <!--region market-->
+    <string name="all_hk_stock">全部港股</string>
+    <string name="board_gem">创业板</string>
+    <string name="board_main">主板</string>
+    <string name="board_industry">行业板块</string>
+    <string name="board_industry_explain">行业板块说明</string>
+    <string name="board_industry_explain_content">此处的热门行业及热力图板块基于沪深股通市场统计及展示\n\n了解什么是热力图</string>
+    <string name="board_concept">热门概念</string>
+    <string name="popular_ETF">热门ETF</string>
+    <string name="popular_industry">热门行业</string>
+    <string name="warrant_cbbc">窝轮牛熊</string>
+    <string name="warrant_outstanding_distribution">牛熊街货分布</string>
+    <string name="hk_etf">港股ETF</string>
+    <string name="forward_lever">正向杠杆</string>
+    <string name="reverse_lever">反向杠杆</string>
+    <string name="market_overview">市场总览</string>
+    <string name="raise">涨</string>
+    <string name="fall">跌</string>
+    <string name="flat">平</string>
+    <string name="all_us_stock">全部美股</string>
+    <string name="China_concept_stocks">中概股</string>
+    <string name="Nasdaq">纳斯达克</string>
+    <string name="Nyse">纽交所</string>
+    <string name="Amex">美交所</string>
+    <string name="see_more">查看更多</string>
+    <string name="all_cn_stock">全部A股</string>
+    <string name="board_scientific_innovation">科创板</string>
+    <string name="market_ah">AH股</string>
+    <string name="market_adr">港股ADR</string> <!--TODO -->
+    <string name="market_bond">场内债券</string>
+    <string name="adr_hk_price">港股价格</string>
+    <string name="share_hold_change">股东增减持</string>
+    <string name="raise_limit_up">涨停</string>
+    <string name="raise_limit_down">跌停</string>
+    <!--endregion-->
+
+    <!--region 资讯-->
+    <string name="tab_news_important">要闻</string>
+    <string name="tab_news_flash">快讯</string>
+    <string name="tab_news_fav_stock">自选</string>
+    <string name="tab_news_new_stock">新股</string>
+    <string name="tab_news_research_report">研报</string>
+    <string name="tab_news_calendar">日历</string>
+    <string name="news_special_topic">专题</string>
+    <string name="news_top">置顶</string>
+    <string name="news_big_news">重磅</string>
+    <string name="news_exclusive">独家</string>
+    <string name="news_important">重要</string>
+    <string name="news_share_slogan">伴您财富乘长</string>
+    <string name="news_share_download_tip">长按二维码识别下载</string>
+    <string name="news_share_date_pattern">yyyy年MM月dd日</string>
+    <string name="news_morning_date_pattern">MM月dd日</string>
+    <string name="news_date_yyyy_mm_pattern">yyyy年MM月</string>
+    <string name="news_need_to_login_tip">查看相关自选资讯需登录账号</string>
+    <string name="news_calendar_economy_data">经济数据</string>
+    <string name="news_calendar_event">事件</string>
+    <string name="news_calendar_financial_report">财报</string>
+    <string name="news_calendar_new_stock">新股</string>
+    <string name="news_calendar_interest">权息</string>
+    <string name="news_calendar_market_closed">假期</string>
+    <string name="news_calendar_before_value">前值</string>
+    <string name="news_calendar_predicted_value">预测值</string>
+    <string name="news_calendar_published_value">公布值</string>
+    <string name="news_topic_title">精选专题</string>
+    <string name="news_default">默认</string>
+    <string name="news_reading_quantity">阅读量</string>
+    <string name="news_read">阅读</string>
+    <string name="news_newest">最新</string>
+    <string name="news_morning">复星财富早知道</string>
+    <!--endregion-->
+
+    <!--region 个股详情-盘口字段-->
+    <string name="handicap_high">最\u3000高</string>
+    <string name="handicap_low">最\u3000低</string>
+    <string name="handicap_open">今\u3000开</string>
+    <string name="handicap_prev_close">昨\u3000收</string>
+    <string name="volume_suffix">股</string>
+    <string name="handicap_total_shares">总股本</string>
+    <string name="handicap_pe_static">市盈率静</string>
+    <string name="handicap_pe_ttm">市盈率TTM</string>
+    <string name="handicap_dividend_ttm">股息TTM</string>
+    <string name="handicap_dividend_ratio_ttm">股息率TTM</string>
+    <string name="handicap_52_week_high">52周最高</string>
+    <string name="handicap_52_week_low">52周最低</string>
+    <string name="handicap_flow_value">流通值</string>
+    <string name="handicap_flow_value_explain">该股票为AH股或内资股，流通值仅为港股市场流通部分。</string>
+    <string name="handicap_flow_shares">流通股</string>
+    <string name="handicap_delegate_ratio">委\u3000比</string>
+    <string name="handicap_quantity_ratio">量\u3000比</string>
+    <string name="handicap_per_hand">每\u3000手</string>
+    <string name="handicap_nav">每股净值</string>
+    <string name="handicap_premuim">溢\u3000价</string>
+    <string name="handicap_premuim_percent">溢价%</string>
+    <string name="handicap_etf_type">资产类别</string>
+    <string name="handicap_etf_as">资产规模</string>
+    <string name="handicap_rise">上\u3000涨</string>
+    <string name="handicap_fall">下\u3000跌</string>
+    <string name="handicap_flat">平\u3000盘</string>
+    <string name="handicap_outstanding_pct">街货比</string>
+    <string name="handicap_outstanding_pct_percent">街货比%</string>
+    <string name="handicap_outstanding_quantity">街货量</string>
+    <string name="handicap_convert_price">换股价</string>
+    <string name="handicap_convert_ratio">换股比率</string>
+    <string name="handicap_leverage_ratio">杠杆比率</string>
+    <string name="handicap_due_date">到期日</string>
+    <string name="handicap_last_trading_date">最后交易</string>
+    <string name="handicap_break_even_price">打和点</string>
+    <string name="handicap_recycle_price">回收价</string>
+    <string name="handicap_recycle_price_distance">距回收价</string>
+    <string name="handicap_call_put">价内/价外</string>
+    <string name="handicap_exercise_price">行使价</string>
+    <string name="handicap_eff_leverage">实际杠杆</string>
+    <string name="handicap_implied_volatility">引伸波幅</string>
+    <string name="handicap_delta">对冲值</string>
+    <string name="handicap_exercise_price_ceiling">上限价</string>
+    <string name="handicap_exercise_price_floor">下限价</string>
+    <string name="handicap_price_ceiling_distance">距上限</string>
+    <string name="handicap_price_floor_distance">距下限</string>
+    <string name="handicap_issue_volume">总发行量</string>
+    <string name="handicap_currency_code">交易币种</string>
+    <string name="handicap_amplitude">振\u3000幅</string>
+    <string name="handicap_price_limit_high">涨停价</string>
+    <string name="handicap_price_limit_low">跌停价</string>
+    <string name="handicap_volome_post">盘后量</string>
+    <string name="handicap_turnover_post">盘后额</string>
+    <string name="handicap_is_profit">是否盈利</string>
+    <string name="handicap_vote_right">表决权差异</string>
+    <string name="handicap_protocol_control_architecture">协议控制架构</string>
+    <string name="handicap_registration_based">是否注册制</string>
+    <string name="handicap_with_stocks_with_rights">是否同股同权</string>
+    <string name="handicap_value_y">是</string>
+    <string name="handicap_value_n">否</string>
+    <string name="handicap_avg_price">平均价</string>
+    <string name="handicap_market_value_currency">多币种总市值</string>
+    <string name="handicap_market_value_currency_desc">多币种市值的计算，是通过当天的非实时汇率和非实时行情报价计算得出。可能会存在一定误差，数值仅供参考。</string>
+    <!--endregion-->
+
+    <!--region 个股-报价-->
+    <string name="quote_high">最高</string>
+    <string name="quote_low">最低</string>
+    <string name="quote_loss">亏损</string>
+    <string name="stock_tab_quote">报价</string>
+    <string name="order_book_guide_button">去领取</string>
+    <string name="order_book_open_account">开户入金</string>
+    <string name="order_book_delay_hk">领取港股LV2高级行情</string>
+    <string name="order_book_delay_hk_open_account">免费体验港交所股票LV2十档行情报价\n(仅中国内地)</string>
+    <string name="order_book_delay_hk_aum">账户资金≥1万港币可解锁十档行情报价\n(仅中国内地)</string>
+    <string name="order_book_delay_us">领取美股LV1实时行情</string>
+    <string name="order_book_delay_us_open_account">免费体验纳斯达克最新成交价和最优报价</string>
+    <string name="order_book_delay_us_aum">账户资金≥1万港币解锁纳斯达克最优报价行情</string>
+    <string name="stock_order_book_buy">买盘</string>
+    <string name="stock_order_book_sell">卖盘</string>
+    <string name="stock_detail_gear">%d档</string>
+    <string name="stock_transaction_asset_distribution">资金成交分布</string>
+    <string name="price_unit_label">单位:%s</string>
+    <string name="net_inflow">净流入</string>
+    <string name="asset_distribution_desc">以股票前一个月 (窝轮前3天)的平均每笔成交额为标准，小于该平均值为小单，大于等于该平均值的10倍为大单，其余为中单</string>
+    <string name="net_outflow">净流出</string>
+    <string name="flow_into">流入:</string>
+    <string name="out_flow">流出:</string>
+    <string name="order_big">大单</string>
+    <string name="order_medium">中单</string>
+    <string name="order_small">小单</string>
+    <string name="broker_buy">买盘经纪</string>
+    <string name="broker_sell">卖盘经纪</string>
+    <string name="trade_status_halt">停牌</string>
+    <string name="trade_status_un_list">待上市</string>
+    <string name="trade_status_suspend_list">暂停上市</string>
+    <string name="trade_status_de_list">退市</string>
+    <string name="trade_status_expired">到期</string>
+    <string name="trade_status_fusing">熔断</string>
+    <string name="cas_time_open">开市竞价时段</string>
+    <string name="cas_time_close">收市竞价时段</string>
+    <string name="cas_price_range">价格范围</string>
+    <string name="cas_price_ref">参考价</string>
+    <string name="cas_iep">IEP</string>
+    <string name="cas_iev">IEV</string>
+    <string name="cas_imb_qty">买卖差额</string>
+    <string name="cas_imb_direction">差额方向</string>
+    <string name="cas_imb_direction_buy">买入</string>
+    <string name="cas_imb_direction_sell">卖出</string>
+    <string name="tick_empty">暂无明细</string>
+    <string name="cap_flow">资金净流入趋势</string>
+    <string name="time_zone_bj">北京</string>
+    <string name="time_zone_us">美东</string>
+    <string name="cap_distribution_time">更新: %s %s %s</string>
+    <string name="us_quote_pre_trade">盘前价</string>
+    <string name="us_quote_post_trade">盘后价</string>
+    <string name="us_quote_pre">盘前</string>
+    <string name="us_quote_post">盘后</string>
+    <string name="us_quote_trading">盘中</string>
+    <string name="us_quote_pre_post_no_trade">纳斯达克暂无成交</string>
+    <string name="us_quote_time">%s 美东</string>
+    <string name="ah_type_h">H股</string>
+    <string name="ah_type_a">A股</string>
+    <string name="ah_premium">溢价(H/A)</string>
+    <string name="adr_convert_price">ADR换算价</string>
+    <string name="adr_relative_hk">相对港股</string>
+    <string name="quote_level_delay_msg">应交易所要求，当前状态仅展示延时15分钟行情</string>
+    <string name="market_hk">港股市场</string>
+    <string name="market_cn">A股市场</string>
+    <string name="market_us">美股市场</string>
+    <string name="exchange_hk">港交所</string>
+    <string name="exchange_nasdaq">纳斯达克</string>
+    <string name="exchange_nyse">纽交所</string>
+    <string name="exchange_amex">美交所</string>
+    <string name="exchange_us_otc">OTC市场</string>
+    <string name="exchange_arca">增长板市场</string>
+    <string name="exchange_sse">上交所</string>
+    <string name="exchange_szse">深交所</string>
+    <string name="secu_type_stock">股票</string>
+    <string name="secu_type_index">指数</string>
+    <string name="secu_type_fund">基金</string>
+    <string name="secu_type_bond">债券</string>
+    <string name="secu_type_warrant">认股证</string>
+    <string name="secu_type_cbbc">牛熊证</string>
+    <string name="secu_type_inline">界内证</string>
+    <string name="secu_type_sector">板块</string>
+    <string name="quote_lv_delay">延时行情</string>
+    <string name="quote_lv1">LV1实时行情</string>
+    <string name="quote_lv2">LV2高级行情</string>
+    <string name="hgt">沪港通</string>
+    <string name="sgt">深港通</string>
+    <string name="hsgt">沪港通&amp;深港通</string>
+    <string name="only_institutional_investors">仅机构投资者可交易</string>
+    <string name="support_margin">可融资</string>
+    <string name="support_margin_amount">可融资金额</string>
+    <string name="margin_rate">融资抵押率</string>
+    <string name="had_profit">已实现盈利</string>
+    <string name="had_no_profit">尚未盈利</string>
+    <string name="one_class_share">同股同权</string>
+    <string name="marginable_stock">可融资股票</string>
+    <!--endregion-->
+
+    <!--region 个股-公告-->
+    <string name="stock_tab_announcement">公告</string>
+    <string name="announcement_detail">公告详情</string>
+    <string name="announcement_empty">暂无内容</string>
+    <string name="announcement_type_all">全部</string>
+    <string name="announcement_type_performance">业绩公告</string>
+    <string name="announcement_type_trade">交易相关</string>
+    <string name="announcement_type_share">股权股本</string>
+    <string name="announcement_type_issue">重大事项</string>
+    <string name="announcement_type_else">其他</string>
+    <!--endregion-->
+
+    <!--region 个股-新闻-->
+    <string name="stock_tab_news">新闻</string>
+    <!--endregion-->
+
+    <!--region 个股-新股-->
+    <string name="stock_tab_ipo">新股</string>
+    <string name="subscribe_stock_start">开始认购</string>
+    <string name="subscribe_stock_end">截止认购</string>
+    <string name="subscribe_stock_publish">公布中签</string>
+    <string name="grey_mkt_trade">暗盘交易</string>
+    <string name="subscribe_stock_appear">上市</string>
+    <string name="subscribe_stock_appear_today">今日上市</string>
+    <string name="ipo_offering_information">招股资料</string>
+    <string name="ipo_financing_situation">融资情况</string>
+    <string name="ipo_placing_result">配售结果</string>
+    <string name="ipo_financing_subscribe_trend">融资申购趋势</string>
+    <string name="subscribe_amount_min">最小申购金额</string>
+    <string name="market_value">市值</string>
+    <string name="ipo_industry">行业</string>
+    <string name="ipo_green_shoe">绿鞋</string>
+    <string name="ipo_fundraising_purposes">募资用途</string>
+    <string name="ipo_prospectus_check">查看招股书</string>
+    <string name="ipo_cornerstone_investors">基石投资者</string>
+    <string name="ipo_name_percent">名称/百分比</string>
+    <string name="ipo_stock_apply">实际申购数</string>
+    <string name="ipo_sponsor">保荐人</string>
+    <string name="ipo_type">类别</string>
+    <string name="ipo_underwriter">承销商</string>
+    <string name="ipo_financing_subscription_multiple">融资申购倍数</string>
+    <string name="ipo_estimated_subscription_multiple">预计申购倍数</string>
+    <string name="ipo_amount_raised_public">募资额(公开)</string>
+    <string name="ipo_financing_subscription_amount">融资申购额</string>
+    <string name="ipo_broker_summary">券商统计</string>
+    <string name="ipo_total_brokerage">共%s家券商</string>
+    <string name="ipo_multiple">倍</string>
+    <string name="hand_suffix">手</string>
+    <string name="ipo_subscribe_multiply">认购倍数</string>
+    <string name="ipo_first_hand_success_rate">一手中签率</string>
+    <string name="ipo_success_rate">中签率</string>
+    <string name="ipo_success_rate_stable">稳中手数</string>
+    <string name="ipo_subscribe_people_number">认购人数</string>
+    <string name="ipo_subscribe_success_people">中签人数</string>
+    <string name="ipo_subscribe_success_number">中签数量</string>
+    <string name="ipo_hammerheads_number">顶头槌数量</string>
+    <string name="ipo_people_unit">人</string>
+    <string name="ipo_sheet_unit">张</string>
+    <string name="ipo_placing_result_division_1">甲组 %s</string>
+    <string name="ipo_placing_result_division_2">乙组 %s</string>
+    <string name="ipo_placing_result_group">组别</string>
+    <string name="ipo_subscribe_shares">认购股数</string>
+    <string name="ipo_group_first">甲</string>
+    <string name="ipo_group_second">乙</string>
+    <string name="ipo_yes">有</string>
+    <string name="no">无</string>
+    <string name="ipo_percent_unit" translatable="false">%</string>
+    <string name="update_time">更新: %s</string>
+    <string name="ipo_publish_info">发行资料</string>
+    <string name="ipo_tip_cancel">%s (%s)取消上市</string>
+    <string name="ipo_subscribe_before_tip">该新股预计将于%s 开放申购，请耐心等待</string>
+    <string name="virtual_asset_recognition_assessment_form_guide">您尚未签署过《虚拟资产认识评估表格》，为保障您的投资活动不受影响，请完成评估后再下单</string>
+    <string name="virtual_asset_recognition_assessment_form_reguide">您当前的《虚拟资产认识评估》结果不满足产品认购要求，是否重新评估？</string>
+    <string name="virtual_asset_evaluation_exceed_limit">您当前的评估次数已用完。如有疑问，请联系客服。</string>
+    <string name="evaluation">去评估</string>
+    <string name="reassess">重新评估</string>
+    <string name="trade_virtual_assets_warning">在您交易虚拟资产相关产品前，请认真阅读下方全部内容，您同意并确认明白后再继续交易。</string>
+    <string name="agree_and_continue">同意并继续</string>
+    <string name="read_statement">请仔细阅读以下声明</string>
+    <string name="scroll_up_to_read_all_agreement">请上滑阅读完全部协议</string>
+    <!--endregion-->
+
+    <!--region 个股-成分股-->
+    <string name="stock_tab_constituent">成分股</string>
+    <!--endregion-->
+
+    <!--region 个股详情-->
+    <string name="stock_button_option">轮证</string>
+    <string name="stock_button_share">分享</string>
+    <string name="stock_button_alert">提醒</string>
+    <string name="stock_share_wx">微信</string>
+    <string name="stock_share_wx_scene">朋友圈</string>
+    <string name="stock_share_dingtalk">钉钉</string>
+    <string name="stock_share_qq" translatable="false">QQ</string>
+    <string name="stock_share_twitter" translatable="false">X</string>
+    <string name="stock_share_facebook" translatable="false">Facebook</string>
+    <string name="stock_share_wb">微博</string>
+    <string name="option_open_permission">开通权限</string>
+    <string name="stock_tips_us_statement">获取美股实时行情,请先签署美股行情声明</string>
+    <!--endregion-->
+
+    <!--region K线-->
+    <string name="k_direction_forward">前复权</string>
+    <string name="k_direction_backward">后复权</string>
+    <string name="k_direction_none">不复权</string>
+    <string name="k_type_day">日K</string>
+    <string name="k_type_week">周K</string>
+    <string name="k_type_month">月K</string>
+    <string name="k_type_quarter">季K</string>
+    <string name="k_type_year">年K</string>
+    <string name="k_type_min_abbr">%d分</string>
+    <string name="k_type_min_full">%d分钟</string>
+    <string name="k_setting_title">常用指标</string>
+    <string name="k_chart_main">主图</string>
+    <string name="k_chart_sub">副图</string>
+    <string name="k_direction">复权类型</string>
+    <string name="k_tech_toggle_disabled">仅支持单选副图时切换指标</string>
+    <string name="k_float_open">开盘</string>
+    <string name="k_float_close">收盘</string>
+    <!--endregion-->
+    <!--region 委托交易-->
+    <string name="trade_entrust_type">类型</string>
+    <string name="trade_entrust_price">价格</string>
+    <string name="trade_entrust_number">数量</string>
+    <string name="trade_entrust_rise">提升</string>
+    <string name="trade_entrust_bid_title">买卖%d档</string>
+    <string name="trade_entrust_search">请输入代码/名称</string>
+    <string name="trade_price_hint">请输入价格</string>
+    <string name="trade_number_hint">请输入数量</string>
+    <string name="trade_entrust_bid_buy_position">买%s</string>
+    <string name="trade_entrust_bid_sell_position">卖%s</string>
+    <string name="trade_entrust_auction_order">竞价单</string>
+    <string name="trade_entrust_auction_limit_order">竞价限价单</string>
+    <string name="trade_entrust_limit_order">限价单</string>
+    <string name="trade_entrust_enhanced_limit_order">增强限价单</string>
+    <string name="trade_entrust_special_limit_order">特别限价单</string>
+    <string name="trade_entrust_stop_losses_limit_order">止损限价单</string>
+    <string name="trade_entrust_take_profit_limit_order">止盈限价单</string>
+    <string name="trade_entrust_track_stop_loss_order">跟踪止损单</string>
+    <string name="trade_grey_market_limit_order">暗盘限价单</string>
+    <string name="trade_entrust_dark_order">暗盘订单</string>
+    <string name="trade_entrust_market_price_order">手工单</string>
+    <string name="trade_entrust_odd_lot_order">碎股单</string>
+    <string name="order_details">订单明细</string>
+    <string name="fund_account">资金账户</string>
+    <string name="trade_account_2">交易账户</string>
+    <string name="order_type">订单类型</string>
+    <string name="order_details_directions_type">方向</string>
+    <string name="order_details_stock_name">名称</string>
+    <string name="order_details_stock_code">代码</string>
+    <string name="order_details_price">价格</string>
+    <string name="order_details_number">数量</string>
+    <string name="order_details_total_amount">总价</string>
+    <string name="order_details_price_more_than_24_price_diff_tip">当前价格超过买1价或卖1价的24档，可能导致下单失败</string>
+    <string name="more_than_24_price_diff_tip">高于当前价</string>
+    <string name="less_than_24_price_diff_tip">低于当前价</string>
+    <string name="a_market_stock_shortage_tip">建议订单包含所有碎股卖出，避免导致后续无法卖出碎股</string>
+    <string name="do_not_remind_me_next_time">下次不再提醒</string>
+    <string name="grey_market_place_order_tip">本人愿意承担因股份最后未能获配而导致的后果(只适用于国际配售之客户)</string>
+    <string name="order_has_been_submitted">订单已提交</string>
+    <string name="order_submission_failed">订单提交失败</string>
+    <string name="order_reject_tip">提交订单为废单</string>
+    <string name="trade_entrust_details">详情</string>
+    <string name="trade_fund_redeem">赎回</string>
+    <string name="trade_entrust_cancel_order">撤单</string>
+    <string name="trade_entrust_cancel_order_tip">确认要撤销订单？</string>
+    <string name="trade_entrust_auction_order_tip">竞价单仅支持卖出方向</string>
+    <string name="trade_entrust_unlock">解锁交易</string>
+    <string name="trade_entrust_amounts">交易额</string>
+    <string name="trade_entrust_i_know">我知道了</string>
+    <string name="trade_entrust_price_specified">指定价</string>
+    <string name="trade_entrust_price_follow_market">跟市价</string>
+    <string name="market_price">市价</string>
+    <string name="trade_entrust_price_center">中间价</string>
+    <string name="trade_entrust_price_center_simple">中间</string>
+    <string name="trade_entrust_price_follow_buy">跟买一</string>
+    <string name="trade_entrust_price_follow_buy_simple">买一</string>
+    <string name="trade_entrust_price_follow_sell">跟卖一</string>
+    <string name="trade_entrust_price_follow_sell_simple">卖一</string>
+    <string name="trade_entrust_market_close_tip">暂时无法获取到最新%s</string>
+    <string name="trade_entrust_trigger_price_hint">请输入触发价格</string>
+    <string name="trade_entrust_price_hint">请输入订单价格</string>
+    <string name="trade_entrust_number_hint">请输入订单数量</string>
+    <string name="exceeded_quantity">超出数量</string>
+
+    <string name="quick_change_price_confirm">快捷改价确认</string>
+    <string name="order_price_adjustment_hint">订单价格调整为: </string>
+    <string name="whether_to_submit_it_immediately">是否立即提交？</string>
+    <string name="cancel_order_submit">撤单已提交</string>
+
+    <string name="professional_version">专业版</string>
+    <string name="simple_version">简易版</string>
+    <string name="all_holding">全仓</string>
+    <string name="trade_price_zero_tip">价格必须大于0，请重新输入</string>
+    <string name="please_select_stock">请选择股票</string>
+
+    <string name="trade_entrust_finance_tip">如果买入将使用融资</string>
+    <string name="lock_trade">锁定交易</string>
+    <string name="lock_success">锁定成功</string>
+
+    <string name="allow">允许</string>
+    <string name="disallow">不允许</string>
+    <string name="pre_market_trading">盘前交易</string>
+    <string name="pre_market_trading_allow">订单将在盘前、持续交易时段进行对盘撮合，盘前未成交订单会自动转入持续交易时段。</string>
+    <string name="pre_market_trading_disallow">订单仅在持续交易时段进行对盘撮合。</string>
+    <string name="trade_odd_lot_cn_customer_service_phone" translatable="false">400 120 8598</string>
+    <string name="trade_odd_lot_hk_customer_service_phone" translatable="false">+852 2979 6999</string>
+    <string name="trade_odd_lot_cn_hotline">内地交易热线</string>
+    <string name="trade_odd_lot_hk_hotline">香港交易热线</string>
+    <string name="trade_odd_lot_reminder">您所下订单包含不足一手数量的碎股，需要交易碎股请拨打</string>
+
+    <string name="trigger_price">触发价</string>
+    <string name="trigger_price_2">触发价格</string>
+    <string name="validity_date">有效期</string>
+    <string name="on_that_day">当日</string>
+    <string name="before_cancellation">撤销前</string>
+    <string name="valid_on_the_same_day">当日有效</string>
+    <string name="valid_until_revoked">撤销前有效</string>
+    <string name="set_reminders">设置提醒</string>
+    <string name="conditions_order_set_reminders_content">%s不足，可能导致条件触发后下单失败，是否继续提交？</string>
+    <string name="trigger_price_needs_higher">触发价输入需高于市价</string>
+    <string name="trigger_price_needs_below">触发价输入需低于市价</string>
+    <string name="validity_date_reminders">
+        当日有效：订单有效期截止至T日收盘，未成交订单会被撤单。T日收盘后提交的订单为T+1日的预设订单，会在T+1日收盘前持续有效。
+        \n\n撤单前有效：订单在%s个自然日内持续有效，直到订单全部成交、取消或下单失败。
+    </string>
+    <string name="equal_current_price">等于当前价</string>
+    <string name="not_supported_modify_trade_direction">不支持修改交易方向</string>
+
+    <string name="trade_entrust_track_type">跟踪类型</string>
+    <string name="trade_entrust_amount">金额</string>
+    <string name="trade_entrust_ratio">比例</string>
+    <string name="trade_entrust_track_amount">跟踪金额</string>
+    <string name="trade_entrust_track_amount_hint">请输入金额</string>
+    <string name="trade_entrust_track_amount_rise_tip">若市场涨幅超过跟踪金额，系统会自动提交限价单</string>
+    <string name="trade_entrust_track_amount_fall_tip">若市场跌幅超过跟踪金额，系统会自动提交限价单</string>
+    <string name="trade_entrust_track_ratio">跟踪比例</string>
+    <string name="trade_entrust_track_ratio_hint">请输入比例</string>
+    <string name="trade_entrust_track_ratio_rise_tip">若市场涨幅超过跟踪比例，系统会自动提交限价单</string>
+    <string name="trade_entrust_track_ratio_fall_tip">若市场跌幅超过跟踪比例，系统会自动提交限价单</string>
+    <string name="trade_entrust_specified_spread">指定价差</string>
+    <string name="trade_entrust_specified_spread_hint">请输入指定价差</string>
+    <string name="trade_entrust_track_amount_bubble_tip">跟踪金额需大于0</string>
+    <string name="trade_entrust_track_ratio_bubble_tip">跟踪比例需大于0</string>
+    <string name="trade_entrust_specified_spread_bubble_tip">指定价差需大于0</string>
+    <string name="cannot_input_empty">输入不能为空</string>
+    <string name="trigger_price_input_zero_tip">触发价需大于0</string>
+    <string name="price_input_zero_tip">价格需大于0</string>
+    <string name="track_holding_lack_tip">持仓不足，可能导致条件触发后下单失败，是否继续提交？</string>
+    <string name="track_stop_loss_order_rise_price_diff_tip">触发时\n市价加%s</string>
+    <string name="track_stop_loss_order_fall_price_diff_tip">触发时\n市价减%s</string>
+    <string name="track_stop_loss_order_rise_price_diff_tip_2">触发时市价加 %s</string>
+    <string name="track_stop_loss_order_fall_price_diff_tip_2">触发时市价减 %s</string>
+    <string name="track_stop_loss_order_rise_price_ratio_tip">订单将在市场价涨幅达到或超过 %s 时提交</string>
+    <string name="track_stop_loss_order_fall_price_ratio_tip">订单将在市场价跌幅达到或超过 %s 时提交</string>
+    <string name="track_stop_loss_order_market_rise_tip">市场涨幅超过 %s</string>
+    <string name="track_stop_loss_order_market_fall_tip">市场跌幅超过 %s</string>
+    <string name="trade_time">交易时段:</string>
+    <string name="trade_operate_explain">交易说明:</string>
+    <string name="chart_explain">图示说明</string>
+    <string name="limit_order_fall_chart_explain">当市场价格跌至触发价，系统自动提交一个限价单</string>
+    <string name="limit_order_raise_chart_explain">当市场价格涨至触发价，系统自动提交一个限价单</string>
+    <string name="track_order_buy_amount_chart_explain">订单价格= (触发价+指定价差) 的限价单\n设置一个跟踪金额，止损价格动态跟踪市场价格变动。\n·市场价格下跌时，止损价格也会随之下跌；\n·市场价格上涨时，止损价格保持不变；\n·市场价格继续涨到或高于止损价格时，系统将自动提交；</string>
+    <string name="track_order_sell_amount_chart_explain">订单价格= (触发价-指定价差) 的限价单\n设置一个跟踪金额，止损价格动态跟踪市场价格变动。\n·市场价格上涨时，止损价格也会随之上涨；\n·市场价格下跌时，止损价格保持不变；\n·市场价格继续跌到或低于止损价格时，系统将自动提交；</string>
+    <string name="track_order_buy_ratio_chart_explain">订单价格= (触发价+指定价差) 的限价单\n设置一个跟踪比例，止损价格动态跟踪市场价格变动。\n·市场价格下跌时，止损价格也会随之下跌；\n·市场价格上涨时，止损价格保持不变；\n·市场价格继续涨到或高于止损价格时，系统将自动提交；</string>
+    <string name="track_order_sell_ratio_chart_explain">订单价格= (触发价-指定价差) 的限价单\n设置一个跟踪比例，止损价格动态跟踪市场价格变动。\n·市场价格上涨时，止损价格也会随之上涨；\n·市场价格下跌时，止损价格保持不变；\n·市场价格继续跌到或低于止损价格时，系统将自动提交；</string>
+
+
+    <string name="auction_order_explain">竞价盘是没有指定价格的买卖盘，在输入交易系统后按最终参考平衡价格进行对盘。竞价盘享有较竞价限价盘优先的对盘次序及根据时间先后次序按最终参考平衡价格顺序对盘。</string>
+    <string name="auction_order_trade_time">1、早盘竞价市价交易\n需在北京时间T日 16:10~T+1日 09:22前下单，09:20~09:22 为随机对盘时段，09:15后不得改单、撤单。\n\n2、收市竞价市价交易\n需在北京时间T日 16:00下单，16:08~16:10 为随机对盘时段，16:06后不得改单、撤单。</string>
+
+    <string name="auction_limit_order_explain">竞价限价盘是有指定价格的买卖盘。指定价格等同最终参考平衡价格或较最终参考平衡价格更具竞争力的竞价限价盘（即指定价格等同或高于最终参考平衡价格的买盘，或指定价格等同或低于最终参考平衡价格的卖盘）或可按最终参考平衡价格进行对盘视乎另一方是否有足够可配对的买卖盘。竞价限价盘会根据价格及时间先后次序按最终参考平衡价格顺序对盘。竞价限价盘不会以差于最终参考平衡价格的价格对盘。\n\n在开市前时段结束后，任何未完成而输入价不偏离按盘价九倍或以上的竞价限价盘，将自动转至持续交易时段，并一概视为限价盘存于所输入价格的轮候队伍中。</string>
+    <string name="auction_limit_order_trade_time">1、早盘竞价限价交易\n需在北京时间T日 16:10~T+1日 09:22前下单，09:20~09:22 为随机对盘时段，09:15后不得改单、撤单。\n\n2、收市竞价限价交易\n需在北京时间T日 16:00下单，16:08~16:10 为随机对盘时段，16:06后不得改单、撤单。
+    </string>
+
+    <string name="hk_limit_order_explain">限价单是指以特定价格或更优的价格执行买入或卖出的订单。</string>
+    <string name="hk_limit_order_explain_trade_time">1、持续交易时段\n上午时段：北京时间 09:30~12:00\n下午时段：北京时间 13:00~16:00\n\n2、暗盘交易\n下单时段：北京时间 16:15~18:30\n注：暗盘卖出股票所得现金不可用于该股票之外的交易，此部分冻结资金会在该股票上市交易后取消。\n\n以上时间周六、周日、公众假期除外。
+    </string>
+
+    <string name="us_limit_order_explain">限价单是指以特定价格或更优的价格执行买入或卖出的订单。</string>
+    <string name="us_limit_order_explain_trade_time">盘前交易时段：美东时间 04:00~09:30\n持续交易时段：美东时间 09:30~16:00\n盘后交易时段：美东时间 16:00~20:00</string>
+
+    <string name="a_stock_limit_order_explain">限价单是指以特定价格或更优的价格执行买入或卖出的订单。</string>
+    <string name="a_stock_limit_order_explain_trade_time">1、开市集合竞价\n09:15~09:25\n\n2、连续竞价\n09:30~11:32\n13:00~14:57\n\n3、收市集合竞价\n14:57~15:00</string>
+    <string name="stock_limit_ordertrade_explain">超出24档外的订单，由于行情快速波动、网络中断、服务器异常及其他不可抗因素，可能会导致交易未被执行，我们系统会尽可能保障这类订单稳定性及可靠性，星财富对由此引起的任何损失或得益无需承担任何责任。</string>
+
+    <string name="enhanced_limit_order_explain">增强限价交易，即普通交易，投资者可以其指定或更优的价格买入或卖出股票。如果股票未达到或不超过限价，订单将不会执行，增强限价单最多可同时与10条轮候队伍进行配对（可以以更优价格买入或卖出）。卖出价格不可低于最佳买入价10个价位，不可高于最佳卖出价24个价位。买入价格不可高于最佳卖出价10个价位，不可低于最佳买入价24个价位。</string>
+    <string name="enhanced_limit_order_trade_time">1、持续交易时段\n上午时段：北京时间 09:30~12:00\n下午时段：北京时间 13:00~16:00\n\n2、暗盘交易\n下单时段：北京时间 16:15~18:30\n注：暗盘卖出股票所得现金不可用于该股票之外的交易，此部分冻结资金会在该股票上市交易后取消。\n\n以上时间周六、周日、公众假期除外。</string>
+
+    <string name="special_limit_order_explain">特别限价交易最多可同时与10条轮候队伍进行配对（即最佳价格队伍距离9个价位的第10条轮候队伍），只要成交的价格不差于输入价格，特别限价交易是没有输入价格的限制。只要卖盘的价格是等于或是低于最佳买入价，又或者买盘的价格是等于或是高于最佳卖出价。配对后，交易系统会取消原买卖盘中未能成交的余额。</string>
+    <string name="special_limit_order_explain_trade_time">1、持续交易时段\n上午时段：北京时间 09:30~12:00\n下午时段：北京时间 13:00~16:00\n\n2、暗盘交易\n下单时段：北京时间 16:15~18:30\n注：暗盘卖出股票所得现金不可用于该股票之外的交易，此部分冻结资金会在该股票上市交易后取消。\n\n以上时间周六、周日、公众假期除外。</string>
+
+    <string name="stop_losses_limit_order_explain">止损限价单是指定止损触发价，一旦市场价格到达指定触发价，系统会自动提交限价单</string>
+    <string name="traded_at_any_time">任何时间</string>
+    <string name="stop_losses_limit_order_trade_explain">1、买入方向：触发价输入需高于市价。卖出方向：触发价输入需低于市价。\n2、止损限价单是我们特别为投资者开发的订单类型，此类订单均免费使用，我们系统会尽可能保障这类订单稳定性及可靠性，但亦可能因网络中断、服务器异常及其他不可抗因素导致交易未被执行或执行错误，星财富对由此引起的任何损失或得益无需承担任何责任。</string>
+
+    <string name="take_profit_limit_order_explain">止盈限价单是指定止盈触发价，一旦市场价格到达指定触发价，系统会自动提交限价单</string>
+    <string name="take_profit_limit_order_trade_explain">1、买入方向：触发价输入需低于市价。卖出方向：触发价输入需高于市价。\n2、止盈限价单是我们特别为投资者开发的订单类型，此类订单均免费使用，我们系统会尽可能保障这类订单稳定性及可靠性，但亦可能因网络中断、服务器异常及其他不可抗因素导致交易未被执行或执行错误，星财富对由此引起的任何损失或得益无需承担任何责任。</string>
+
+    <string name="track_stop_loss_order_explain">跟踪止损限价单是设置一个跟踪金额/百分比，止损价格根据市场实时价格进行动态变动，一旦市场价格到达止损价格，系统会自动提交限价单。</string>
+    <string name="track_stop_loss_order_trade_explain">跟踪止损限价单是我们特别为投资者开发的订单类型，此类订单均免费使用，我们系统会尽可能保障这类订单稳定性及可靠性，但亦可能因网络中断、服务器异常及其他不可抗因素导致交易未被执行或执行错误，星财富对由此引起的任何损失或得益无需承担任何责任。</string>
+    <string name="submit_limit_order">提交限价单</string>
+
+    <string name="track_order_example_chart_track_amount_text">跟踪金额：20</string>
+    <string name="track_order_example_chart_track_ratio_text">跟踪比例：10%</string>
+    <string name="track_order_example_chart_specified_spread_text">指定差价：0.5</string>
+
+    <string name="cies_account_trade_remind">您已开通全委托投资移居专户，不支持以该专户进行交易，您将使用普通证券账户进行操作。</string>
+    <!--endregion-->
+
+    <!--region 条件单-->
+    <string name="conditiond_order">条件单</string>
+    <string name="trigger_price_target_rise_tip">订单将在市场价涨至 %s 或以上时提交</string>
+    <string name="trigger_price_target_fall_tip">订单将在市场价跌至 %s 或以下时提交</string>
+    <string name="trigger_waiting">待触发</string>
+    <string name="trigger_filled">已触发</string>
+    <!--endregion-->
+
+    <!--region 重要订单-->
+    <string name="order_today_delegate">当日委托</string>
+    <string name="order_today_deal">当日成交</string>
+    <string name="one_click_cancellation">一键撤单</string>
+    <string name="one_click_cancellation_tip">确认撤销当前 %s 条订单，撤销后不可恢复请慎重考虑</string>
+    <string name="one_click_cancellation_success_tip">当前订单撤销成功 %s 单，失败 %s 单请在【已撤单】查看撤销成功订单</string>
+    <string name="grey_market_symbol">暗</string>
+    <string name="waiting_submit">待提交</string>
+    <string name="waiting_deal">待成交</string>
+    <string name="place_order_fail">下单失败</string>
+    <string name="today_trade">今日交易</string>
+    <string name="hk_pre_order_tip">"当前为非交易时段或休市，订单会在港股正式开盘后排队提交，排队时请耐心等待"</string>
+    <string name="us_pre_order_allow_pre_market_tip">"当前为非交易时段或休市，订单会在美股盘前时段开始后排队提交，排队时请耐心等待"</string><!--允许盘前-->
+    <string name="us_pre_order_not_allow_pre_market_tip">"当前为非交易时段或休市，订单会在美股持续交易时段开始后排队提交，排队时请耐心等待"</string><!--不允许盘前-->
+    <string name="hs_pre_order_tip">"当前为非交易时段或休市，订单会在A股正式开盘后排队提交，排队时请耐心等待"</string>
+    <!--endregion-->
+
+    <!--region 订单记录-->
+    <string name="order_records">订单记录</string>
+    <string name="all_dates">全部日期</string>
+    <string name="filter">筛选</string>
+    <string name="date_filter">日期筛选</string>
+    <string name="today">今日</string>
+    <string name="nearly_a_week">近一周</string>
+    <string name="nearly_a_month">近1月</string>
+    <string name="nearly_three_month">近3月</string>
+    <string name="nearly_six_month">近6月</string>
+    <string name="status">状态</string>
+    <string name="all_status">全部</string>
+    <string name="pending_deal">待成交</string>
+    <string name="full_deal">全成交</string>
+    <string name="order_cancelled">已撤单</string>
+    <string name="abolished">已作废</string>
+    <string name="all_directions">全部</string>
+    <string name="trade_details">交易详情</string>
+    <string name="deal_done">已成交</string>
+    <string name="filled">全部成交</string>
+    <string name="partially_filled">部分成交</string>
+    <string name="partially_cancel">部成已撤</string>
+    <string name="submitted">已提交</string>
+    <string name="order_details2">订单详情</string>
+    <string name="trade_direction">交易方向</string>
+    <string name="number_of_orders">委托数量</string>
+    <string name="filled_quantity">成交数量</string>
+    <string name="commission_price">委托价格</string>
+    <string name="average_transaction_price">成交均价</string>
+    <string name="currency">币种</string>
+    <string name="transaction_details">成交明细</string>
+    <string name="order_time">下单时间</string>
+    <string name="trigger_time">触发时间</string>
+    <string name="filled_time">成交时间</string>
+    <string name="filled_price">成交价格</string>
+    <string name="revoke">撤销</string>
+    <string name="modify">修改</string>
+    <string name="customize">自定义</string>
+    <string name="exceed_end_date_tip">设置的时间无效</string>
+    <string name="tip_date_range_nearly_three_month">仅可查看近3个月记录</string>
+    <string name="tip_date_range_nearly_three_day">仅显示近三日订单记录，查看全部</string>
+    <string name="tip_date_range_nearly_a_year">仅可查看近1年记录</string>
+    <string name="last_price_and_avg">最新价/成交均价</string>
+    <string name="view_general_order">查看普通订单</string>
+    <string name="view_conditions_order">查看条件单</string>
+    <string name="conditions_order_details">条件单详情</string>
+    <string name="order_quantity_price">订单数量/价格</string>
+    <string name="order_amount">订单金额</string>
+    <string name="filled_amount">成交金额</string>
+    <string name="cst">北京时间</string>
+    <string name="est">美东时间</string>
+    <string name="trade_source">交易来源</string>
+    <string name="order_id">订单号</string>
+    <string name="fee_details">费用详情</string>
+    <string name="fee_commission_charge">佣金</string>
+    <string name="fee_platform">平台费</string>
+    <string name="fee_trading_tariff">交易系统使用费</string>
+    <string name="fee_clearing">交收费</string>
+    <string name="fee_stamp">印花税</string>
+    <string name="fee_trade">交易费</string>
+    <string name="fee_sfcLevy">证监会征费</string>
+    <string name="fee_frcLevy">财汇局征费</string>
+    <string name="fee_bond_interest">债券累算利息</string>
+    <string name="fee_taf">交易活动费</string>
+    <string name="fee_handing">经手费</string>
+    <string name="fee_transfer">过户费</string>
+    <string name="fee_other">其它费用</string>
+    <string name="fee_to_be_settled">待结算</string>
+    <string name="fee_total">合计费用</string>
+    <string name="fee_tip">交易费用为预估计算，实际需要以结单为准</string>
+    <string name="fee_to_be_settled_tip">交易费用一般与交易日当天收盘后结算，最晚于下一个交易日显示</string>
+    <!--endregion-->
+
+    <!--region 资金流水-->
+    <string name="cash_flow">资金流水</string>
+    <string name="company_act">公司行动</string>
+    <string name="cash_flow_ipo">新股及配售</string>
+    <string name="bank_transfer">资金调拨</string>
+    <string name="deposits_and_withdrawals">出入金</string>
+    <string name="no_data_cash_flow">暂无明细</string>
+    <string name="all_type">全部类型</string>
+    <string name="record_details">记录详情</string>
+    <string name="date">日期</string>
+    <string name="balance">剩余金额</string>
+    <string name="trade_account">交易账号</string>
+    <string name="business_type">业务类型</string>
+    <string name="remark">备注</string>
+    <string name="serial_number">流水号</string>
+
+    <string name="all_time_period">全时间段</string>
+    <string name="custom_time">自定义时间</string>
+    <string name="specified_product">指定产品</string>
+    <string name="no_record">暂无记录</string>
+    <string name="no_matching_result">无匹配结果</string>
+    <string name="recently_traded_securities">最近交易的证券</string>
+    <string name="cash_flow_search_hint">请按照证券名称或代码输入关键字</string>
+    <string name="create_time">创建时间</string>
+    <string name="fund_name">基金名称</string>
+    <string name="funds_transfer">资金调拨</string>
+    <string name="service_name">服务名称</string>
+    <!--endregion-->
+
+    <!--region 今日统计-->
+    <string name="today_statistics">今日统计</string>
+    <string name="opening_amount">开盘现金</string>
+    <string name="opening_market_value">开盘证券市值</string>
+    <string name="deal_order_count">成交笔数</string>
+    <string name="today_deal_order_count">今日成交笔数</string>
+    <string name="today_deal_total_amount">今日成交总额</string>
+    <string name="today_total_profit_loss">今日总盈亏</string>
+    <string name="today_profit_loss_percentage">今日盈亏比例</string>
+    <!--endregion-->
+
+    <!--region timesharing-->
+    <string name="tech_volume">成交量</string>
+    <string name="tab_time_sharing">分时</string>
+    <string name="pop_ts_all">全部分时</string>
+    <string name="pop_ts_post">盘后分时</string>
+    <string name="pop_ts_trading">盘中分时</string>
+    <string name="pop_ts_pre">盘前分时</string>
+    <string name="tab_time_sharing_5">5日</string>
+    <string name="time_sharing_price">价格</string>
+    <string name="time_sharing_price_average">均价</string>
+    <string name="time_sharing_show_tick">显示逐笔</string>
+    <string name="setting_more">更多设置</string>
+    <string name="time_sharing_setting">分时设置</string>
+    <string name="tick_disabled_delay_permission">延时行情不支持显示逐笔</string>
+    <string name="back_to_latest">回到最新</string>
+    <!--endregion-->
+
+    <!--region 个股-财务-->
+    <string name="finance_indicator_title">主要指标</string>
+    <string name="finance_net_asset_ps">每股净资产</string>
+    <string name="finance_gross_income_ratio">毛利率</string>
+    <string name="finance_net_profit_ratio">净利率</string>
+    <string name="finance_growth_rate">同比增长率</string>
+    <string name="finance_brief_title">基本报表</string>
+    <string name="finance_brief_profit">利润表</string>
+    <string name="finance_brief_balance">资产负债表</string>
+    <string name="finance_brief_cash_flow">现金流量表</string>
+    <string name="finance_op_income">营收收入</string>
+    <string name="finance_net_profit_ration">净利润</string>
+    <string name="finance_net_op_cashflow">经营现金流</string>
+    <string name="finance_net_invest_cashflow">投资现金流</string>
+    <string name="finance_net_fin_cashflow">融资现金流</string>
+    <string name="finance_total_liability">总负债</string>
+    <string name="finance_debt_assets_ratio">资产负债率</string>
+    <string name="stock_tab_finance">财务</string>
+    <string name="stock_tab_finance_year_report">%s财年 %s</string>
+    <string name="yoy_rate">同比</string>
+    <string name="finance_currency">财报币种: %s</string>
+    <string name="finance_forecast">财报提醒: 将于 %s 发布 %s财年 %s财报</string>
+    <string name="finance_report_FY">年报</string>
+    <string name="finance_report_H1">半年报</string>
+    <string name="finance_report_9M">累计三季报</string>
+    <string name="finance_report_Q1">一季报</string>
+    <!--endregion-->
+
+    <!--region 个股概况-->
+    <string name="stock_tab_overview">概况</string>
+    <string name="profile_basic_information">基本资料</string>
+    <string name="profile_investment_objective">投资目标</string>
+    <string name="profile_return_income">回报收益</string>
+    <string name="profile_etf_type">ETF全称</string>
+    <string name="profile_net_asset_value">资产净值</string>
+    <string name="profile_publisher">发行商</string>
+    <string name="profile_target_index_name">追踪指数</string>
+    <string name="profile_fund_manager">基金经理</string>
+    <string name="profile_fund_size">基金规模</string>
+    <string name="profile_list_date">上市日期</string>
+    <string name="profile_expense_ratio">费用比率</string>
+    <string name="profile_dividend_policy">派息政策</string>
+
+    <string name="profile_income_range">收益区间</string>
+    <string name="profile_up">截至</string>
+    <string name="profile_yearly">每年</string>
+    <string name="profile_a_7_days">7天</string>
+    <string name="profile_30_days">30天</string>
+    <string name="profile_60_days">60天</string>
+    <string name="profile_120_days">120天</string>
+    <string name="profile_one_year">1年</string>
+    <string name="profile_ytd">年初至今</string>
+
+    <string name="profile_stock_code">证券代码</string>
+    <string name="profile_stock_name">证券名称</string>
+    <string name="profile_related_assets">相关资产</string>
+    <string name="profile_issuer">发行机构</string>
+    <string name="profile_character">证券性质</string>
+    <string name="profile_calculation_style">计算方式</string>
+    <string name="profile_call_price">回收价格</string>
+    <string name="profile_strike">行使价格</string>
+    <string name="profile_convert_ratio">换股比率</string>
+    <string name="profile_issue_volume">发行数量</string>
+    <string name="profile_last_trade_date">最后交易</string>
+    <string name="profile_maturity">到期日期</string>
+    <string name="profile_remainder_days">剩余天数</string>
+
+    <string name="profile_subscribe">认购</string>
+    <string name="profile_put">认沽</string>
+    <string name="profile_bull_contract">牛证</string>
+    <string name="profile_bear_contract">熊证</string>
+    <string name="profile_other">其他</string>
+    <string name="profile_inline_warrants">界内证</string>
+
+    <string name="profile_european">欧式</string>
+    <string name="profile_american">美式</string>
+    <string name="profile_bermuda">百慕大式</string>
+
+    <string name="profile_quarterly_report">一季报</string>
+    <string name="profile_quarterly_report_2">二季报</string>
+    <string name="profile_quarterly_report_3">三季报 (单季)</string>
+    <string name="profile_quarterly_report_4">四季报</string>
+    <string name="profile_three_quarterly_report">三季报 (累计)</string>
+    <string name="profile_annual_report">年报</string>
+
+    <string name="profile_company">公司概况</string>
+    <string name="profile_main_composition">主营构成</string>
+    <string name="profile_dividend_transfer">分红送转</string>
+    <string name="profile_industry">所属行业</string>
+    <string name="profile_company_name">公司名称</string>
+    <string name="profile_time_to_market">上市时间</string>
+    <string name="profile_company_chairman">公司主席</string>
+    <string name="profile_main_business">主营业务</string>
+    <string name="profile_business">业务</string>
+    <string name="profile_area">地区</string>
+    <string name="profile_product">产品</string>
+    <string name="profile_main_business2">名称</string>
+    <string name="profile_operating_income">营业收入</string>
+    <string name="profile_percentage">占比</string>
+    <string name="profile_distribution_plan">分配方案</string>
+    <string name="profile_xrxd_date">除权除息日</string>
+    <string name="profile_dividend_date">派息日</string>
+    <string name="profile_total_revenue">总营收</string>
+    <string name="profile_company_leader">公司高管</string>
+    <string name="profile_company_leader_job">职务</string>
+
+    <string name="profile_hold_change">持仓变动</string>
+    <string name="profile_hold_top_10">十大持仓 (占比%s)</string>
+    <string name="profile_manager">管理人</string>
+    <string name="profile_etf_brief_introduction">ETF简介</string>
+    <string name="profile_etf_publisher">发行方</string>
+    <string name="profile_etf_publish_time">发行时间</string>
+    <string name="profile_etf_finance_end_date">财年结束日</string>
+    <string name="profile_etf_lever">杠杆</string>
+    <string name="etf_lever_none">无杠杆</string>
+    <string name="etf_lever_positive">%d倍杠杆</string>
+    <string name="profile_etf_frequency_share">分红频率</string>
+    <string name="profile_etf_minimum_subscription_unit">最小申购单位</string>
+    <string name="profile_etf_subscription_fees">申购费用</string>
+    <string name="profile_etf_change_date">变动日期</string>
+    <string name="profile_etf_change_code">变动代码</string>
+    <string name="profile_etf_change_hold">持仓变动数</string>
+    <string name="profile_etf_change_result">最终变动结果</string>
+    <string name="etf_constituent_stocks_list">持仓列表</string>
+
+    <string name="stock_split_title">拆股合股</string>
+    <string name="stock_split_type">方式</string>
+    <string name="stock_split_rate_label">比率</string>
+    <string name="stock_split_type_10">拆股</string>
+    <string name="stock_split_type_15">合股</string>
+    <string name="stock_split_type_20">先拆再合</string>
+    <string name="stock_split_type_25">先合再拆</string>
+    <string name="stock_split_value">%d→%d</string>
+
+    <string name="shareholders_shareholding_details_title">股东持股明细</string>
+    <string name="shareholders_shareholding_details_name">股东名称</string>
+    <string name="shareholders_shareholding_details_quantity">持股数(股)</string>
+    <string name="shareholders_shareholding_details_ratio">持股比例</string>
+    <string name="shareholders_shareholding_details_date">更新日期</string>
+
+    <string name="company_repurchase_title">公司回购</string>
+    <string name="company_repurchase_date">回购日</string>
+    <string name="company_repurchase_amount">回购总额</string>
+    <string name="company_repurchase_ratio">占总成交量</string>
+    <!--endregion-->
+
+    <!--region 个股分析-->
+    <string name="stock_tab_analyze">分析</string>
+    <string name="analyze_short_sale_title">卖空分析</string>
+    <string name="analyze_short_sale_ratio">卖空占比</string>
+    <string name="analyze_short_sale_cost">卖空成本</string>
+    <string name="analyze_short_sale_position">淡仓申报</string>
+    <string name="short_sale_ratio_legend">卖空比例</string>
+    <string name="short_sale_pclose_legend">收盘价</string>
+    <string name="short_sale_num_legend">卖空数量</string>
+    <string name="short_sale_price_avg_legend">每日卖空均价</string>
+    <string name="short_sale_avg_legend">每日卖空均价</string>
+    <string name="short_sale_cost_avg_legend">卖空平均成本</string>
+    <string name="short_sale_cost_share_legend">合计需申报卖空量</string>
+    <string name="short_sale_ratio_axis">比例(%)</string>
+    <string name="short_sale_price_axis">价格 (港元)</string>
+    <string name="short_sale_position_share">申报空仓卖空量</string>
+    <string name="short_sale_position_amt">申报空仓卖空额</string>
+    <string name="analyze_broker_top_title">十大净买入/卖出经纪商</string>
+    <string name="analyze_broker_top_ratio">经纪商持股比例</string>
+    <string name="analyze_broker_top_type_1">近1天</string>
+    <string name="analyze_broker_top_type_5">近5天</string>
+    <string name="analyze_broker_top_type_20">近20天</string>
+    <string name="analyze_broker_top_type_60">近60天</string>
+    <string name="analyze_broker_top_tip">实时数据\n净买入/卖出量：根据股票当前交易日的逐笔明细和买卖盘经纪商数据估算得出\n\n最近N日数据：\n净买入量=当前交易日持股量-N个交易日前的持股量\n净卖出量=N个交易日前的持股量-当前交易日持股量</string>
+    <string name="analyze_broker_time_update">更新：%s</string>
+    <string name="analyze_broker_time_update_suffix">(此为估算数据，仅供参考)</string>
+    <string name="analyze_broker_unit">单位：万股</string>
+    <string name="analyze_broker_buy_net">净买入</string>
+    <string name="analyze_broker_sell_net">净卖出</string>
+    <string name="analyze_ggt_hold_title">港股通持股比例</string>
+    <string name="analyze_ggt_vol_net">净买卖股数</string>
+    <string name="analyze_ggt_amount_net">净买卖金额</string>
+    <string name="analyze_ggt_vol_ratio">股数占比</string>
+    <string name="analyze_ggt_hold_vol">持股量</string>
+    <string name="analyze_ggt_hold_cap_flow">资金净流向</string>
+    <string name="analyze_ggt_legend_ratio">比例</string>
+    <string name="analyze_ggt_total_date">近%d日</string>
+    <!--endregion-->
+
+    <!--region 窝轮牛熊-->
+    <string name="warrant_search_input_hint_outside">搜索轮证及相关正股</string>
+    <string name="type">类型</string>
+    <string name="issuer">发行人</string>
+    <string name="more_choose">更多筛选</string>
+    <string name="strike_price">行使价</string>
+    <string name="implied_volatility">引伸波幅 (仅窝轮)</string>
+    <string name="cbba_call_price">回收价 (仅牛熊证)</string>
+    <string name="cbba_buy_back_price_range">回收价区间</string>
+    <string name="reset">重置</string>
+    <string name="input_invaild">输入无效,请重新输入</string>
+    <string name="outstanding_ration_and_distribution">街货比例及分布</string>
+    <string name="outstanding_chart_wan_tip_txt">柱状图表示相对股份数(万股)，[ ]表示当天变化量</string>
+    <string name="outstanding_chart_thousand_tip_txt">柱状图表示相对股份数(千股)，[ ]表示当天变化量</string>
+    <string name="outstanding_chart_index_tip_txt">柱状图表示相对期指张数，[ ]表示当天变化量</string>
+    <string name="today_close_market_price">当日收市价</string>
+    <string name="heavy_cargo_area">重货区</string>
+    <string name="maximum_additions">最多新增</string>
+    <string name="update">更新</string>
+
+
+    <array name="warrant_select_tab">
+        <item>类型</item>
+        <item>到期日</item>
+        <item>发行人</item>
+        <item>更多筛选</item>
+    </array>
+
+
+    <array name="warrant_character">
+        <item>0|全部</item>
+        <item>1|认购</item>
+        <item>2|认沽</item>
+        <item>3|牛证</item>
+        <item>4|熊证</item>
+        <!--        <item>5|其他</item>-->
+        <item>6|界内证</item>
+    </array>
+
+    <array name="warrant_maturity">
+        <item>0|全部</item>
+        <item>1|&lt;3个月</item>
+        <item>2|3-6个月</item>
+        <item>3|6-12个月</item>
+        <item>4|&gt;12个月</item>
+    </array>
+
+    <array name="warrant_moneyness">
+        <item>0|全部</item>
+        <item>1|价内</item>
+        <item>2|价外</item>
+    </array>
+
+    <array name="warrant_issuer">
+        <item>|全部</item>
+        <item>SG|法兴</item>
+        <item>BP|法巴</item>
+        <item>CS|瑞信</item>
+        <item>CT|花旗</item>
+        <item>EA|东亚</item>
+        <item>GS|高盛</item>
+        <item>HS|汇丰</item>
+        <item>JP|摩通</item>
+        <item>MB|麦银</item>
+        <item>UB|瑞银</item>
+        <item>BI|中银</item>
+        <item>HT|海通</item>
+        <item>VT|瑞通</item>
+        <item>MS|摩利</item>
+        <item>GJ|国君</item>
+    </array>
+
+    <array name="warrant_leverageRatio">
+        <item>0|全部</item>
+        <item>1|&lt;1倍</item>
+        <item>2|1-5倍</item>
+        <item>3|5-10倍</item>
+        <item>4|&gt;10倍</item>
+    </array>
+
+
+    <array name="warrant_premium">
+        <item>0|全部</item>
+        <item>1|0-3</item>
+        <item>2|3-6</item>
+        <item>3|6-9</item>
+        <item>4|&gt;9</item>
+    </array>
+
+    <array name="warrant_outstandingPct">
+        <item>0|全部</item>
+        <item>1|&lt;30</item>
+        <item>2|30-50</item>
+        <item>3|50-70</item>
+        <item>4|&gt;70</item>
+    </array>
+    <!--endregion-->
+
+    <!--region 可融资股票-->
+    <array name="marginable_stock_select_tab">
+        <item>港股</item>
+        <item>价格</item>
+        <item>市值</item>
+        <item>市盈率</item>
+    </array>
+
+    <string name="marginable_stock_all">全部</string>
+    <string name="marginable_stock_52week_highest">近52周最高</string>
+    <string name="marginable_stock_52week_lowest">近52周最低</string>
+
+    <string name="marginable_stock_tip">
+        可融资股票抵押率由复星国际证券提供，并可作出调整而不另行通知，数值仅供参考。
+        \n如有任何争议，复星国际证券保留最终解释权。
+    </string>
+
+    <!--endregion-->
+
+    <!--region webview-->
+    <string name="web_ssl_error">SSL证书验证失败</string>
+    <string name="get_pic_failed">获取图片失败</string>
+    <string name="get_file_failed">获取文件失败</string>
+    <string name="request_camera_permissions_failed">获取相机权限失败!</string>
+    <string name="pic_scaling_failed">图片缩放失败!</string>
+    <string name="ablum_select_failed">相册选取图片失败！</string>
+    <string name="ablum_select_pic_too_large">选择的图片大于10M，上传失败！</string>
+    <string name="file_select_pic_too_large">选择的文件大于10M，上传失败！</string>
+    <string name="file_no_exist">文件不存在</string>
+    <string name="user_canceled_action">用户取消了操作</string>
+    <string name="page_not_support_feature">当前页面不支持该功能</string>
+    <string name="scan_fail">扫描失败</string>
+    <string name="select_picture">选择图片</string>
+    <string name="select_video">选择视频</string>
+    <string name="use_camera_shoot">用相机拍摄</string>
+    <string name="choose_from_album">从相册选择</string>
+    <string name="camera_open_fail">相机打开失败!</string>
+    <string name="app_miss_permissions">应用缺少权限</string>
+    <string name="miss_camera_permissions_please_agree_permissions">缺少相机调用运行所需的权限，请去对应用权限进行授权!</string>
+    <string name="go_set">去设置</string>
+    <string name="camera_no_ready">摄像头尚未准备好</string>
+    <string name="denied_can_not_read_pic">未开启照片浏览权限</string>
+    <string name="save_success_path">已保存至 %s</string>
+    <string name="save_pic_ask">确定要保存图片吗？</string>
+    <string name="save_fail">保存失败</string>
+    <string name="no_authorize_sava_picture">未开启照片保存权限</string>
+    <string name="scan">扫描</string>
+    <string name="take_pic">拍照</string>
+    <string name="album_upload">相册上传</string>
+    <string name="file_upload">文件上传</string>
+    <string name="select_from_album">从相册选择</string>
+    <string name="from_folder">来自文件</string>
+    <string name="pic_upload_fail">上传图片失败</string>
+    <string name="request_location_permissions_failed">获取定位权限失败!</string>
+    <string name="get_location_failed">获取定位失败，请稍候重试！</string>
+    <!--endregion-->
+
+    <!--region ipo-->
+    <string name="new_shares_center">新股中心</string>
+    <string name="purchase_records">申购记录</string>
+    <string name="tendered_table">已递表</string>
+    <string name="in_the_purchase">认购中</string>
+    <string name="to_be_listed">待上市</string>
+    <string name="listed">已上市</string>
+    <string name="application_date">申请日期</string>
+    <string name="subscription_period">预计认购期</string>
+    <string name="issue_price">招股价</string>
+    <string name="one_hand_shares">每手股数</string>
+    <string name="minimum_subscription_amount">最小认购金额</string>
+    <string name="subscription_details">认购详情</string>
+    <string name="no_data_ipo">暂无新股</string>
+    <string name="first_day_gain">首日涨幅</string>
+    <string name="cumulative_gain">累计涨幅</string>
+    <string name="issue_price_2">发行价</string>
+    <string name="cumulative_gain_day">连涨天数</string>
+    <string name="per">市盈率</string>
+    <string name="issue_volume">发行量</string>
+    <string name="to_be_listed_tip">暗盘交易时间：16:15-18:30；若当日为半日市则暗盘交易时间为：14:15-16:30。</string>
+    <string name="ipo_listed_status_dealing">正在处理</string>
+    <string name="ipo_listed_status_passing">通过聆讯</string>
+    <string name="ipo_listed_status_invalid">无效</string>
+    <string name="ipo_winning_rate">中签概率</string>
+    <string name="ipo_winning_rate_value">申购%d手稳中1手</string>
+    <string name="ipo_cash_subscription">现金认购</string>
+    <string name="ipo_margin_subscription">银行融资认购</string>
+    <string name="ipo_subscription_tip">该新股预计将于10:00开放申购，请耐心等待</string>
+    <string name="ipo_center_purchase">认购中</string>
+    <string name="ipo_center_grey_market">暗盘</string>
+    <string name="ipo_center_grey_market_trading">暗盘交易</string>
+    <string name="ipo_center_grey_market_closed">暗盘已收盘</string>
+    <string name="ipo_center_grey_market_before">暗盘待开盘</string>
+    <string name="subscription_period_tip">预计招股日期为交易所公开数据，实际申购截止时间会早于交易所公布的日期</string>
+    <string name="today_grey_market">今日暗盘</string>
+    <string name="grey_market_date">暗盘日期</string>
+    <string name="ipo_research_report">新股研报</string>
+    <string name="ipo_calculator">打新测算</string>
+    <string name="stock_new_subscription_restriction_notice">当前新股认购存在限制，如有疑问，请联系客服</string>
+    <!--endregion-->
+
+    <!--region center card-->
+    <string name="activity_center">活动中心</string>
+    <string name="coupon_center">卡券中心</string>
+    <string name="my_quote">我的行情</string>
+    <string name="vip_privilege">财富甄享汇</string>
+    <string name="to_join">立即参与</string>
+    <string name="to_see">立即查看</string>
+    <!--endregion-->
+
+    <!--region 盈亏分享-->
+    <string name="profit_loss_share">盈亏分享</string>
+    <string name="share">分享</string>
+    <string name="profit_loss">盈亏</string>
+    <string name="today_profit_loss">今日盈亏</string>
+    <string name="profit_loss_pct">盈亏比例</string>
+    <string name="holding_profit_loss">持仓盈亏</string>
+    <string name="holding_profit_loss_ratio">持仓占比</string>
+    <string name="total_turnover">成交总额</string>
+    <string name="profit_loss_amount">盈亏金额</string>
+    <string name="today_profit_loss_amount">今日盈亏金额</string>
+    <string name="today_profit_loss_pct">今日盈亏比例</string>
+    <string name="total_holding_profit_loss">持仓总盈亏</string>
+    <string name="total_turnover_today">今日成交总额</string>
+    <string name="profit_loss_current_price">现价</string>
+    <string name="profit_loss_cost_price">成本</string>
+    <string name="share_failure">分享失败</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="share_not_install">分享失败，请安装应用</string>
+    <string name="account_share_profit_10_percent">跑赢通胀</string>
+    <string name="account_share_profit_30_percent">快赶上巴菲特啦</string>
+    <string name="account_share_loss_10_percent">吃一堑，长一智</string>
+    <string name="account_share_no_turnover">路过打个酱油</string>
+    <string name="account_share_has_turnover">勤劳的人已经上线</string>
+    <string name="profit_loss_flat">休息休息，改日再战</string>
+    <string name="holding_share_profit">大佬，请受我一拜</string>
+    <string name="holding_share_loss">抱紧自己</string>
+    <string name="fund_share_loss">稳住，我们能赢</string>
+    <string name="save_in_album">已保存至相册</string>
+    <string name="fund_earnings">账户收益</string>
+    <string name="accumulated_earnings">累计收益</string>
+    <string name="fund_holding_income">持仓收益</string>
+    <string name="fund_holding_nothing">空仓</string>
+    <string name="marginValue_value">抵押价值</string>
+    <string name="unrealized_profit_loss">未实现盈亏</string>
+    <string name="realized_profit_loss">已实现盈亏</string>
+    <string name="accum_profit_loss">累计盈亏</string>
+    <!--endregion-->
+
+    <!--region kLineSetting-->
+    <string name="ind">指标</string>
+    <string name="ind_trend">趋势指标</string>
+    <string name="ind_overBuySell">超买超卖指标</string>
+    <string name="ind_energy">能量指标</string>
+    <string name="ind_vol">成交量指标</string>
+    <string name="ind_pressure">压力支撑指标</string>
+    <string name="ind_ma">移动平均线</string>
+    <string name="ind_ema">平滑移动平均线</string>
+    <string name="ind_sar">停损点转向指标</string>
+    <string name="ind_macd">指数平滑移动平均线</string>
+    <string name="ind_dma">平行线差指标</string>
+    <string name="ind_emv">简易波动指标</string>
+    <string name="ind_rsi">相对强弱指标</string>
+    <string name="ind_kdj">随机指标</string>
+    <string name="ind_wr">威廉指标</string>
+    <string name="ind_arbr">情绪指标</string>
+    <string name="ind_cr">能量指标</string>
+    <string name="ind_mavol">成交量均线</string>
+    <string name="ind_boll">布林线</string>
+    <string name="ind_manage">指标管理</string>
+    <string name="view_main">主图</string>
+    <string name="view_sub">副图</string>
+    <string name="search_selected_ind">搜索已选指标</string>
+    <string name="kline_setting">K线设置</string>
+    <string name="kline_display_setting">图层显示</string>
+    <string name="chart_setting">图表设置</string>
+    <string name="now_price_line">现价线</string>
+    <string name="trade_point">成交买卖点</string>
+    <string name="kline_color_select">选择颜色</string>
+    <string name="ind_add">添加指标</string>
+    <string name="reset_default">恢复默认</string>
+    <string name="ind_line">指标线</string>
+    <string name="mov_per">移动平均周期</string>
+    <string name="ref_line">参考线</string>
+    <string name="fullscreen">全屏</string>
+
+    <string name="ind_cal_cycle">计算周期</string>
+    <string name="ind_feature">股票特性参数</string>
+    <string name="ind_step">步长</string>
+    <string name="ind_limit">极限值</string>
+    <string name="ind_short">短周期</string>
+    <string name="ind_long">长周期</string>
+    <string name="ind_avg">移动平均周期</string>
+    <string name="ind_top_line">上线</string>
+    <string name="ind_mid_line">中线</string>
+    <string name="ind_bottom_line">下线</string>
+
+    <string name="ind_main">主图指标</string>
+    <string name="ind_sub">副图指标</string>
+
+    <string name="ind_sort_reset_confirm">确认恢复默认状态？</string>
+    <string name="ind_detail_reset_confirm">确认将参数与颜色恢复默认？</string>
+
+    <string name="ind_input_invalid">填写参数无效，请重新输入</string>
+    <string name="share_trade_point">买卖打点</string>
+
+
+    <!--endregion-->
+
+    <!--region 升级管理-->
+    <string name="upgrade_cancel">暂不</string>
+    <string name="upgrade_now">立即更新</string>
+    <string name="exit_app">退出APP</string>
+    <string name="background_download">后台下载</string>
+    <string name="download_progress">下载进度</string>
+    <string name="download">下载</string>
+    <string name="version_update">版本更新</string>
+    <string name="new_version_available">有新版本可用</string>
+    <string name="install">立即安装</string>
+    <string name="unkown_error">未知错误</string>
+    <string name="file_has_been_modified">文件已被修改</string>
+    <string name="google_play_upgrade_failed">无法前往GooglePlay进行升级</string>
+    <string name="to_install">点击安装</string>
+    <string name="downloaded">已下载</string>
+    <string name="discover_new_version">发现新版本</string>
+    <string name="new_version_installation">新版本安装</string>
+    <string name="new_version_installation_tip">最新版本已经下载完成，点击安装按钮立即升级。</string>
+    <string name="downloading">正在下载...</string>
+    <string name="download_notify_tips">当前未授予通知权限，是否前往通知设置？</string>
+    <string name="dowmload_notify_channel_tips">当前通知类别未打开，是否前往通知设置打开\"下载进度\"类别通知？</string>
+    <!--endregion-->
+
+    <!--region usMarketState-->
+    <string name="us_quote_statement">美股行情声明</string>
+    <string name="us_state_yes">是</string>
+    <string name="us_state_no">否</string>
+    <string name="us_state_welcome_user">欢迎您使用星财富APP</string>
+    <string name="us_state_input_tip">请填写以下个人信息</string>
+    <string name="us_state_input">请输入%s</string>
+    <string name="us_state_professional_tip">因当前定义为专业投资者，不再提供美股实时行情</string>
+    <string name="us_state_edit_too_long_tip">最大长度不能超过%d</string>
+    <string name="us_state_select">请选择%s</string>
+    <string name="us_state_select_default">请选择</string>
+    <string name="us_state_wrong_format">%s格式错误</string>
+    <!--end region-->
+
+    <!--region SPAC 签署-->
+    <string name="spac_title">SPAC签署</string>
+    <string name="spac_awareness_assessment">特殊目的收购公司（SPAC）认识评估</string>
+    <string name="spac_awareness_assessment_explain">本评价表格旨在评价您是否拥有关于特殊目的收购公司的一般知识。我们将会根据您所提供的数据，考虑您是否了解特殊目的收购公司的性质及风险。\nSPAC是一种壳股公司，透过首次公开发售集资，目的是在上市后一段预设时间（一般为两年）内与一家营运中的公司的业务合并（如合并、股分交换、资产收购等等）。SPAC本身并无业务运作，且除：（a）首次公开发售所得款项；及（b）由SPAC发起人筹集以支付SPAC开支的资金外，并无其他资产。</string>
+    <string name="spac_first_part_title">第一部分：评价客户对SPAC的认识的条件及投资取向</string>
+    <string name="spac_first_part_first_option_text">本人/我们曾在香港交易所或其他认可股票市场(即由受香港以外任何地方法律监管的认可交易所公司经营的任何股票市场)执行 SPAC 交易</string>
+    <string name="spac_first_part_second_option_text">本人/我们于现时或过去拥有与SPAC相关的工作经验</string>
+    <string name="spac_first_part_third_option_text">本人/我们已经接受及/或参加由学术机构或金融机构所提供有关SPAC的在线或教室形式培训及/课程</string>
+    <string name="spac_first_part_fourth_option_text">本人/我们投资SPAC的投资额占本人/我们的资产比例少于50%。此外，本人/我们的主要目标是从复杂或波动的投资产品（如SPAC）中获得更高的回报，及本人/我们可接受大幅度的价格波动</string>
+    <string name="spac_enter_market_hint">请输入有关股票市场</string>
+    <string name="spac_market_hint">有关股票市场</string>
+    <string name="spac_enter_spac_stock_hint">请输入SPAC股票名称</string>
+    <string name="spac_spac_stock_hint">SPAC股票名称</string>
+    <string name="spac_select_trade_date_hint">请选择交易日期</string>
+    <string name="spac_select_trade_date">选择交易日期</string>
+    <string name="spac_trade_date">交易日期</string>
+    <string name="spac_enter_company_name_hint">请输入公司名称</string>
+    <string name="spac_company_name">公司名称</string>
+    <string name="spac_enter_department_name_hint">请输入部门名称</string>
+    <string name="spac_department_name">部门名称</string>
+    <string name="spac_select_position_hint">请选择职位</string>
+    <string name="spac_position">职位</string>
+    <string name="spac_enter_training_course_name_hint">请输入相关培训或课程名称</string>
+    <string name="spac_training_course_name">相关培训或课程名称</string>
+    <string name="spac_enter_the_name_organisation_hint">请输入举办机构名称</string>
+    <string name="spac_name_organisation">举办机构名称</string>
+    <string name="spac_select_date_to_attend_hint">请选择出席日期</string>
+    <string name="spac_select_date_to_attend">选择出席日期</string>
+    <string name="spac_date_to_attend">出席日期</string>
+    <string name="spac_must_agree_any_of_first_part">您必须至少符合「第一部分」中任意一项评估条件并填写相关资料，才可进入「第二部分」</string>
+    <string name="spac_second_part_title">第二部分：SPAC认识及风险问卷</string>
+    <string name="spac_second_part_first_option_text">您是否明白，此证券的发售仅以配售方式进行且不涉及向香港公众人士发售？</string>
+    <string name="spac_second_part_second_option_text">您是否明白，此证券的发售、发行及买卖须仅限于专业投资者？</string>
+    <string name="spac_second_part_third_option_text">您是否明白，为确保发售证券将不会向香港公众人士出售或由香港公众人士进行交易（不禁止向专业投资者出售或由专业投资者进行交易），A类股分上市时及上市后，按照每股A类股分十港元的发行价计，A类股分的每手买卖单位不得少于构成最低每手买卖单位一百万港元的股分数目；或联交所为应对此SPAC招股公司（“此公司”）股本相关的任何拟定公司行动，而可能不时向此公司发出书面通知指明者，而该等行动将会或很有可能大幅减少此股分每手买卖单位的价值？</string>
+    <string name="spac_second_part_fourth_option_text">特殊目的收购公司并无经营或财务历史，可让您根据有关基准评价我们实现业务目标的能力</string>
+    <string name="spac_second_part_fifth_option_text">特殊目的收购公司之发起人及其联属公司、管理团队、董事及顾问委员会成员的过往表现并不反映他们的未来表现</string>
+    <string name="spac_second_part_sixth_option_text">特殊目的收购公司可能无法于上市日期后24个月内公布特殊目的收购公司并购交易或于上市日期后36个月内完成特殊目的收购公司并购交易</string>
+    <string name="spac_second_part_seventh_option_text">特殊目的收购公司可能并无完成特殊目的收购公司并购交易的充足资源</string>
+    <string name="spac_second_part_eighth_option_text">由于特殊目的收购公司现时并无选择任何特殊目的收购公司并购目标谋求与其进行特殊目的收购公司并购交易，亦并无局限评估特定行业、领域或地理区域内的特殊目的收购公司并购目标，您将无法确定任何特定特殊目的收购公司并购目标的经营优势或风险</string>
+    <string name="spac_second_professional_investor_explain_text">*「专业投资者」指具有证券及期货条例附表1第1部第1条所赋予的涵义</string>
+    <string name="spac_second_part_confirm_authenticity_text">本人/我们确认以上所提供的评估資料在提供当时均属真确\n本人/我们承诺于资料有任何变动时通知复星国际证券有限公司（“复星国际证券”）\n本人/我们已明白倘若以上评估内容不实，复星国际证券将不能够评估所要求服务对\n本人/我们的适合性本人/我们已完全明白交易特殊目的收购公司股票的风险</string>
+    <string name="spac_read_and_agree">本人已阅读并同意</string>
+    <string name="spac_pdf_transaction_customer_statement">《「特殊目的收购公司」交易-客户声明》</string>
+    <string name="spac_pdf_transaction_letter_of_commitment">《「特殊目的收购公司」交易-承诺函》</string>
+    <string name="spac_maximum_characters">最多50个字符</string>
+    <string name="spac_cannot_be_empty">此项不能为空</string>
+    <string name="spac_partner">合伙人</string>
+    <string name="spac_legal_person">法人</string>
+    <string name="spac_general_manager">总经理</string>
+    <string name="spac_senior_executive">高管</string>
+    <string name="spac_middle_level">中层</string>
+    <string name="spac_junior_manager">初级管理人</string>
+    <string name="spac_ordinary_staff">普通员工</string>
+    <string-array name="spac_position">
+        <item>合伙人</item>
+        <item>法人</item>
+        <item>总经理</item>
+        <item>高管</item>
+        <item>中层</item>
+        <item>初级管理人</item>
+        <item>普通员工</item>
+    </string-array>
+    <string name="spac_must_meet_all_second_part">您对SPAC的认识必须符合「第二部分」的全部评估条件，才可提交此签署并继续操作SPAC</string>
+    <string name="spac_only_professional_investors_can_trade">目前仅限专业投资者可开仓交易该股票</string>
+    <string name="spac_trade_tip">交易提示</string>
+    <string name="spac_decertification">去认证</string>
+    <string name="spac_not_sign">您未签署过《特殊目的收购公司(SPAC)认识评估》，为保障您的投资活动不受影响，请尽快进行签署</string>
+    <string name="spac_to_sign">去签署</string>
+    <string name="spac_sign_success">签署成功</string>
+    <string name="spac_sign_failed">签署失败</string>
+    <string name="spac_please_complete_the_questionnaire">请完成问卷填写</string>
+    <string name="spac_please_select_the_protocol_and_try_again">请勾选协议后重试</string>
+    <!--end region-->
+
+    <!--region usMarketState-->
+    <string name="hsgt_a_stock">A股通 (北向)</string>
+    <string name="hsgt_hk_stock">港股通 (南向)</string>
+    <string name="hsgt_sh_hk_stock">沪股通</string>
+    <string name="hsgt_sz_hk_stock">深股通</string>
+    <string name="hsgt_hk_sh_stock">港股通(沪)</string>
+    <string name="hsgt_hk_sz_stock">港股通(深)</string>
+    <string name="hsgt_a_hk_inflow">A股通资金流入</string>
+    <string name="hsgt_hk_a_inflow">港股通资金流入</string>
+    <string name="hsgt_netBuyVol">资金净流向</string>
+    <string name="hsgt_total_net_buy">累计净流向</string>
+    <string name="hsgt_deal_turnover_amount">成交买卖额</string>
+    <string name="hsgt_sh_net_buying">沪股通成交净买入</string>
+    <string name="hsgt_net_buying">成交净买入</string>
+    <string name="hsgt_remain_quota">剩余额度</string>
+    <string name="hsgt_remain_quota_enouth">额度充足</string>
+    <string name="hsgt_purchase_amount">买入额</string>
+    <string name="hsgt_sale_amount">卖出额</string>
+    <string name="hsgt_total_turnover_amount">总成交额</string>
+    <string name="hsgt_fund_trend">资金流向趋势</string>
+    <string name="hsgt_fund_trend_explain_content_hk">
+        1. 当日资金使用额度=当日总额度-剩余额度\n\n2. 当日成交净买入=当日买入金额-当日卖出金额
+    </string>
+    <string name="hsgt_fund_trend_explain_content_a">
+        沪深港通北向交易信息披露机制调整，不再实时公布沪深股通买入、卖出成交额。\n\n数据展示规则调整为：\n盘中：沪深股通当日额度余额≥30%时，显示“额度充足”；&lt;30%时，实时公布可使用的每日额度余额。\n盘后（北京时间17:30左右）：更新当日成交净买入。
+    </string>
+
+    <string name="hsgt_turnover_amount">成交额</string>
+    <string name="hsgt_turnover_time">更新: %s </string>
+    <string name="hsgt_fund_quota_rank">资金额度榜</string>
+    <string name="hsgt_chgval_rank">涨幅榜</string>
+    <string name="hsgt_turnover_activity_rank">成交活跃榜</string>
+    <string name="hsgt_holding_rank">持仓榜</string>
+    <string name="hsgt_title_netFlowCap">净买卖股数</string>
+    <string name="hsgt_title_netBuyVol">资金净流向</string>
+    <string name="hsgt_title_tradeRatio">买卖股数占\n流通股比例</string>
+    <string name="hsgt_title_buyAmt">买入额</string>
+    <string name="hsgt_title_sellAmt">卖出额</string>
+    <string name="hsgt_title_transAmt_absTransAmt">买卖总额\n资金净流向</string>
+    <string name="hsgt_title_holdVol">持股数</string>
+    <string name="hsgt_title_holdRatio">持股比例</string>
+    <string name="hsgt_title_holdAmt">持仓额</string>
+    <string name="hsgt_rank_updateTime_south">更新: %s(交易所数据T+2日结算)</string>
+    <string name="hsgt_rank_updateTime_north">更新: %s(交易所数据T日结算)</string>
+    <string name="hsgt_select_time">选择时间</string>
+    <string name="hsgt_capflow_real">实时</string>
+    <string name="hsgt_capflow_day">日</string>
+    <string name="hsgt_capflow_week">周</string>
+    <string name="hsgt_capflow_month">月</string>
+    <string name="hsgt_capflow_season">季</string>
+    <string name="hsgt_capflow_year">年</string>
+    <string name="hsgt_capflow_fund">资金</string>
+    <string name="hsgt_capflow_shindex">上证指数</string>
+    <string name="hsgt_capflow_szindex">深证成指</string>
+    <string name="hsgt_capflow_hsindex">恒生指数</string>
+    <string name="hsgt_capflow_SH510050">上证50ETF</string>
+    <string name="hsgt_capflow_SZ159901">深证100ETF</string>
+    <string name="hsgt_capflow_unit">单位:%s港元</string>
+    <!--end region-->
+
+    <!--region 人脸识别-->
+    <string name="face_recognition_failure">验证失败，请重新验证</string>
+    <string name="reset_trade_mim">重置交易密码</string>
+    <string name="face_recognition">人脸识别</string>
+    <string name="face_recognition_hint1">前置摄像头拍摄一段约2-5秒的本人面部视频。</string>
+    <string name="warm_prompt">温馨提示</string>
+    <string name="face_recognition_hint2">请点击开始拍摄按钮，上传视频进行身份验证，只需拍摄面部，无需做出任何动作。如有问题，请联系客服</string>
+    <string name="start_shooting">开始拍摄</string>
+    <string name="face_recognition_success">人脸验证通过</string>
+    <string name="face_recognition_fail">验证失败，请重新验证</string>
+    <string name="face_recognition_miss_permissions">缺少相机或存储所需的权限，请去对应用权限进行授权!</string>
+    <string name="examples">示例</string>
+    <!--end region-->
+
+    <!--region 权限管理-->
+    <string name="system_permission_management">系统权限管理</string>
+    <string name="permission_camera_hint">访问摄像头以提供拍摄图片或视频、人脸识别等功能</string>
+    <string name="permission_storage">存储</string>
+    <string name="permission_storage_hint">读写手机存储，用于发布、保存信息等功能</string>
+    <string name="permission_location">位置</string>
+    <string name="permission_location_hint">用于根据位置提供更好的服务</string>
+    <string name="permission_authorization_hint">仅展示能查询到的已授权的系统权限</string>
+    <string name="permission_to_setting">前往系统设置</string>
+    <string name="permission_nothing_hint">暂无允许访问的系统权限</string>
+    <string name="permission_relate">相关</string>
+    <string name="permission_camera">相机</string>
+    <string name="denied_can_not_use_camera">未开启相机权限</string>
+    <string name="permission_image_and_video">照片和视频</string>
+    <string name="permission_request_tip_title">功能使用提示</string>
+    <string name="permission_forever_denied_tip_head">请在【设置-应用-星财富-权限】中开启%s权限，%s</string>
+    <string name="permission_request_tip_head">请允许星财富获取您的访问%s权限，%s</string>
+    <string name="permission_purpose_save_image">用于保存和读取图片</string>
+    <string name="permission_purpose_upload_image">用于读取并上传图片</string>
+    <string name="permission_purpose_upload_image_video">用于读取并上传图片或视频</string>
+    <string name="permission_purpose_take_upload_image">用于拍摄并上传图片</string>
+    <string name="permission_purpose_take_upload_image_video">用于拍摄并上传图片或视频</string>
+    <string name="permission_purpose_upload_file">用于读取并上传文件</string>
+    <string name="permission_purpose_get_loacation">用于获取位置信息</string>
+    <!--endregion-->
+
+
+    <!--region 逐笔明细 成交统计-->
+    <string name="tick_detail">逐笔明细</string>
+    <string name="deal_statics">成交统计</string>
+    <string name="tick_time">时间</string>
+    <string name="tick_price">成交价</string>
+    <!--end region-->
+
+
+    <!--region 第三方账号绑定-->
+    <string name="account_bind">账号绑定</string>
+    <string name="account_bind_hint">绑定后可用该平台登录</string>
+    <string name="wx">微信</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">X</string>
+    <string name="google">Google</string>
+    <string name="unbind">解绑</string>
+    <string name="unbind_2">解除</string>
+    <string name="not_bind">未绑定</string>
+    <string name="unbind_confirm_tip">确定要解除%s绑定？</string>
+    <string name="unbind_account_tip">绑定其账号需要先解除绑定当前的账号，是否继续？</string>
+    <string name="bind_failure">绑定失败</string>
+    <string name="oauth_bind_failure">授权登录失败</string>
+    <string name="oauth_login_not_install">登录失败，请安装应用</string>
+    <string name="oauth_bind_not_install">尚未安装应用，绑定失败</string>
+    <string name="account_has_bind_tip">已绑定%s，直接登录解绑后再尝试绑定</string>
+    <string name="unbind_success">解绑成功</string>
+    <string name="bind_success">绑定成功</string>
+    <!--endregion-->
+
+    <!--region 基金开户指引-->
+    <string name="fund_open_account_guide_title">开通理财账户</string>
+    <string name="fund_open_account_guide_hint">开启您的财富管理之路</string>
+    <string name="open_account_now">立即开户</string>
+    <string name="upgrade_financial_account_title">升级理财账户</string>
+    <string name="upgrade_financial_account_hint">升级后，享有更多权限</string>
+    <!--endregion-->
+
+    <!--region 香港投资移居计划专户 指引-->
+    <string name="cies_open_account_guide_hint">为资本投资者设立的香港移居民通道</string>
+    <string name="cies_open_account_open_auditing">资料审核中</string>
+    <string name="cies_open_account_open_fail">审核未通过</string>
+    <!--endregion-->
+
+    <!--region 入金开户指引-->
+    <string name="deposit_guide_title">您已完成开户</string>
+    <string name="deposit_guide_hint">即刻开启全球投资</string>
+    <!--endregion-->
+
+    <!--region nps-->
+    <string name="nps_score_title">您愿意推荐他人使用星财富吗？</string> <!--TODO -->
+    <string name="nps_not_want_at_all">完全不想</string>
+    <string name="nps_very_would_like">十分愿意</string>
+    <string name="nps_how_to_opt">星财富如何优化您会更愿意推荐</string>
+    <string name="nps_why_to_recommend">您愿意推荐星财富的原因是</string>
+    <string name="nps_feedback_hint">请输入您的建议,不超过400字</string>
+    <string name="nps_select_up_to_three">最多选择3项</string>
+    <string name="nps_one_reason_at_least">请选择至少一个打分理由</string>
+    <string name="nps_thanks_for_evaluation">感谢您的反馈与评价</string>
+    <string name="nps_input_up_to_400">最多只能输入400字</string>
+    <string name="nps_submit">提交</string>
+    <string-array name="nps_opt_array">
+        <item>交易体验</item>
+        <item>客户服务</item>
+        <item>投资产品种类</item>
+        <item>品牌信誉</item>
+        <item>实时行情</item>
+        <item>优质基金产品</item>
+        <item>新闻资讯</item>
+        <item>融资额度</item>
+        <item>极速开户出入金</item>
+        <item>设计风格</item>
+        <item>福利活动</item>
+        <item>其他</item>
+    </string-array>
+    <!--endregion-->
+
+    <!--region 第三方授权手机号验证-->
+    <string name="phone_authentication">手机认证</string>
+    <string name="phone_authentication_hint">认证后您可以通过手机号登录和找回密码</string>
+    <!--endregion-->
+
+    <!--region 可交易市场-->
+    <string name="tradable_market">可交易市场</string>
+    <string name="financial_account">理财账户</string>
+    <string name="derivative_product_permissions">衍生品权限</string>
+    <string name="has_open">已开通</string>
+    <string name="immediately_opened">立即开通</string>
+    <string name="already_copy">复制成功</string>
+    <string name="to_risk_assessment">去风险测评</string>
+    <string name="in_open">开通中</string>
+    <string name="derivative_product_permissions_tip">您没有衍生品权限，无法交易该产品。</string>
+    <!--endregion-->
+
+    <!--region 合规提示-->
+    <string name="compliance_tip">证券相关服务由复星国际证券提供</string>
+    <string name="compliance_tip_match_text">复星国际证券</string>
+    <string name="virtual_assets_compliance_tips">虚拟资产相关服务由复星国际证券提供</string>
+    <!--endregion-->
+
+    <!--region 错误码对应的默认提示 -->
+    <string name="err_session2">解锁超时，请重新解锁交易</string>
+    <string name="err_kicked">账户已在其他地方登录</string>
+    <string name="err_user_status">账户状态异常</string>
+    <string name="err_verify_code">验证码错误或失效，请重新输入</string>
+    <string name="err_verify_limit">验证次数过多，请稍后重试</string>
+    <string name="err_captcha">captcha错误</string>
+    <string name="err_login_frequently">登录错误次数过多</string>
+    <string name="err_same_mim">新密码不能与当前密码相同</string>
+    <string name="err_mim_locked">密码已锁定</string>
+    <string name="err_mim_unset">未设置密码</string>
+    <string name="err_mim">登录失败，请确认用户名、密码是否正确</string>
+    <string name="err_email_bound">邮箱已被绑定</string>
+    <string name="err_user_email_bound">用户已绑定过邮箱</string>
+    <string name="err_phone_bound">手机号已绑定</string>
+    <string name="err_phone_same">手机号相同</string>
+    <string name="err_id_number">身份证号与账户不匹配</string>
+    <string name="err_mim_status">密码状态异常</string>
+    <string name="err_funding_account">用户uin对应的资金账户异常</string>
+    <string name="err_send_email">发送邮件异常</string>
+    <string name="err_send_code_60s">60s内无须重复获取验证码</string>
+    <string name="err_send_voice_code_60s">60s内无法重复获取语音验证码</string>
+    <string name="err_voice_captcha_is_overfrequency">语音验证码获取频率过高，请稍后再试</string>
+    <string name="err_third_info">获取第三方信息异常</string>
+    <string name="err_third_banding">第三方账户已被绑定</string>
+    <string name="err_white_list_mim_change">因为其它终端修改或重置过交易密码，需要再次验证</string>
+    <string name="err_mim_locked_by_counter">柜台密码锁定</string>
+    <string name="err_modify_order_fail">修改订单失败</string>
+    <string name="err_cancel_order_fail">撤回订单失败</string>
+    <string name="err_order_id_no_record">未找到该订单</string>
+    <string name="err_create_order_fail">下单价格不能为0</string>
+    <string name="err_trading_mim_not_set">未设置交易密码</string>
+    <string name="err_no_data">没有数据</string>
+    <string name="err_abnormal_retry">操作异常，请稍后重试</string>
+    <!--endregion-->
+
+    <!--region 交易主页 欠款、追保提示-->
+    <string name="trade_arrears_tip">当前账户欠款为 %s %s，避免产生罚息请尽快换汇或入金。</string>
+    <string name="trade_margin_call_tip">尊敬的用户，您已到达追缴保证金门槛，为避免触发强制平仓，请尽快入金</string>
+    <string name="trade_margin_call_title">追保通知</string>
+    <string name="view_details">查看详情</string>
+    <!--endregion-->
+
+    <!--region 多账户关联 -->
+    <string name="account_not_support">当前账户类型暂不支持此功能</string>
+    <!--endregion-->
+
+    <!--region 新手指引 -->
+    <string name="new_guide_trade_position_expire">新增常用仓位<!--、订单有效日期--></string>
+    <string name="new_guide_swipe_left_and_right_to_see_more">左右滑动查看更多内容</string>
+    <!--endregion-->
+
+    <!--region 开户成功提醒 -->
+    <string name="open_account_success_tips">因开户成功未设置登录密码，请退出重新登录</string>
+    <!--endregion-->
+
+    <!--region 成交统计 -->
+    <string name="deal_type_all">全部类型</string>
+    <string name="deal_type_buy">主动买入</string>
+    <string name="deal_type_sell">主动卖出</string>
+    <string name="deal_type_buy_sell">主动买入&amp;卖出</string>
+    <string name="deal_type_neutral">中性盘</string>
+    <string name="deal_period_all">全部时段</string>
+    <string name="deal_period_trading">盘中</string>
+    <string name="deal_period_pre_us">盘前</string>
+    <string name="deal_period_post_us">盘后</string>
+    <string name="deal_period_pre_hk">开盘竞价时间</string>
+    <string name="deal_period_post_hk">收市竞价时间</string>
+    <string name="deal_period_bidding_a">竞价时间</string>
+    <string name="deal_overview">总览</string>
+    <string name="deal_price_avg">平均成交价</string>
+    <string name="deal_count_sum">总成交笔数</string>
+    <string name="deal_volume_sum">总成交量%s</string>
+    <string name="deal_share_statics">股数统计</string>
+    <string name="deal_detail">成交明细</string>
+    <string name="deal_radio_buy">主买</string>
+    <string name="deal_radio_sell">主卖</string>
+    <string name="deal_today">今天</string>
+    <!--endregion-->
+
+    <!--region 供股权交易提醒-->
+    <string name="right_issue_apply_title">供股权交易提醒</string>
+    <string name="right_issue_apply_content">您当前拥有%s股%s，已申请供股%s股，剩余可卖出%s股；如卖出数量超过剩余股数，会导致已提交申请供股的部分失败。</string>
+    <!--endregion-->
+
+    <!--region 双柜台交易提醒-->
+    <string name="dual_counter_transfer_title">港币-人民币双币种交易</string>
+    <string name="dual_counter_transfer_content">因当前股票持仓不足，订单将自动进行双币种持仓转换，如订单未成交持仓将维持转换结果。（持仓转换不产生任何交易费用）\n转换过程因未产生实际买卖，导致持仓成本可能计算异常。</string>
+    <!--endregion-->
+
+    <!--region 断网提示-->
+    <string name="net_noticebar_content">网络已断开，请检查网络设置</string>
+    <string name="net_noticebar_to_set_permission">设置权限</string>
+    <string name="net_noticebar_dialog_title">无法连接网络</string>
+    <string name="net_noticebar_dialog_content">请确保手机网络畅通，且星财富的网络权限已开启。</string>
+    <string name="no_network_checking_network_settings">无网络，请检查网络设置</string>
+    <!--endregion-->
+
+    <!--region 香港标识符制度-->
+    <string name="identifier_title">重要提醒</string>
+    <string name="identifier_login_content_v1">尊敬的客户，「香港投资者识别码制度及场外证券交易汇报制度」实施前，您需阅读相关协议并作出授权，同意转移阁下个人资料予交易所/证监会。若未能及时完成，阁下账户只可执行卖出及转出指令，而不能转入证券或进行买入交易。请立即点击下方按钮完成签署。如有疑问，请联系客服。</string>
+    <string name="identifier_button">立即签署</string>
+    <string name="identifier_noticebar_content">为保障正常使用交易功能，请阅读相关协议并授权</string>
+    <string name="identifier_noticebar_button">去授权</string>
+
+    <string name="identifier_login_content_v2">尊敬的客户，「香港投资者识别码制度及场外证券交易汇报制度」已正式开始实施，因您未能及时阅读相关协议并完成授权，当前账户只可执行卖出及转出指令，不能执行股票转入或买入交易。请立即点击下方按钮完成授权，完成后将于下一个工作日解除账户锁定。如有疑问，请联系客服</string>
+    <string name="identifier_unsign_trade_msg">受「香港投资者识别码制度及场外证券交易汇报制度」影响，由于您尚未阅读相关协议并进行授权，当前账户无法执行转入证券或买入交易等操作。\n请前往授权，授权完成后将于下一个工作日解除账户锁定</string>
+    <string name="identifier_nobcan_trade_msg">您已完成有关「香港投资者识别码制度及场外证券交易汇报制度」资料收集声明的签署，交易账户将于下一个工作日解除锁定</string>
+    <string name="identifier_see_detail">前往查看</string>
+    <!--endregion-->
+
+
+    <!--region 行情对比-->
+    <string name="quote_cmp">行情对比</string>
+    <string name="his_sch_record">历史搜索记录</string>
+    <string name="fav_list">自选股列表</string>
+    <string name="cant_cancel_selection">该只股票不支持取消选择</string>
+    <string name="two_stock_least">至少添加2只股票</string>
+    <string name="has_reach_most">已达到最大添加数</string>
+    <string name="hide_main_tech">隐藏主图指标</string>
+    <string name="has_select">已选 %d 只</string>
+    <string name="up_to_3_stock">最多选择3只股票</string>
+    <string name="his_delete_confirm">确认删除全部历史记录？</string>
+    <string name="cant_cmp_other_market">不同市场仅支持K线对比</string>
+    <string name="start_cmp">开始对比</string>
+    <string name="cmp_search_hint">股票名称/代码</string>
+    <!--endregion-->
+
+
+    <!--region 结单查询-->
+    <string name="my_statement">"我的结单"</string>
+    <!--endregion-->
+
+    <!--region 股价提醒-->
+    <string name="stock_alert">股价提醒</string>
+    <string name="stock_alert_add">添加提醒</string>
+    <string name="stock_alert_permission_tip">您已关闭推送通知，将无法收到股价提醒</string>
+    <string name="stock_alert_permission_action">前往开启</string>
+    <string name="stock_alert_type">提醒类型</string>
+    <string name="stock_alert_frequency">提醒频率</string>
+    <string name="stock_alert_rise">股价涨到</string>
+    <string name="stock_alert_fall">股价跌到</string>
+    <string name="stock_alert_rise_percent">日涨幅超过</string>
+    <string name="stock_alert_fall_percent">日跌幅超过</string>
+    <string name="stock_alert_frequency_once">仅提醒一次</string>
+    <string name="stock_alert_frequency_once_desc">仅第一次到价后提醒，后续无效</string>
+    <string name="stock_alert_frequency_everyday">每日一次</string>
+    <string name="stock_alert_frequency_everyday_desc">每个交易日第一次到价提醒</string>
+    <string name="stock_alert_frequency_continuous">持续提醒</string>
+    <string name="stock_alert_frequency_continuous_desc">每次到价后提醒</string>
+    <string name="stock_alert_success">设置成功</string>
+    <string name="stock_alert_fail">设置失败</string>
+    <string name="stock_alert_exceed_price">高于当前价 +%s</string>
+    <string name="stock_alert_under_price">低于当前价 -%s</string>
+    <string name="stock_alert_price_target">股价到 %s</string>
+    <string name="stock_alert_closed">未开启</string>
+    <string name="stock_alert_closed_hint">开启后即可收到股价提醒消息推送</string>
+    <string name="stock_alert_delete_title">确认删除该股票的股价提醒？</string>
+    <string name="stock_alert_quote_permission_tip">股票为延时行情，无法设置股价提醒</string>
+    <string name="stock_alert_fall_percent_invalid">日跌幅设置范围在 0-100 之间</string>
+    <!--endregion-->
+
+    <!--region 历史分时-->
+    <string name="avg_price">均价</string>
+    <string name="last_day">前一日</string>
+    <string name="next_day">后一日</string>
+    <string name="see_that_day_ts">查看当日分时</string>
+    <!--endregion-->
+
+    <!--region 选股器-->
+    <string name="stock_screener">选股器</string>
+    <string name="stock_screener_permission_tip">延时行情不支持选股器功能。</string>
+    <!--endregion-->
+
+    <!--region 荣誉勋章-->
+    <string name="honor_medal_peacock">炫耀一下</string>
+    <string name="honor_medal_first_show">恭喜获得荣誉勋章</string>
+    <string name="honor_medal_fh_partner">复星全球合伙人</string>
+    <string name="honor_medal_fh_partner_desc">复星集团全球核心管理人员</string>
+    <string name="honor_medal_fh_people">复星仁儿</string>
+    <string name="honor_medal_fh_people_desc">复星集团员工</string>
+    <string name="honor_medal_famous_company_staff">名企员工</string>
+    <string name="honor_medal_famous_company_staff_desc">完成名企员工认证</string>
+    <string name="honor_medal_pro_inves">专业投资者</string>
+    <string name="honor_medal_pro_inves_desc">完成个人专业投资者认证</string>
+    <!--endregion-->
+
+    <!--region 换肤-->
+    <string name="skin_setting">皮肤设置</string>
+    <string name="skin_select">选择主题皮肤</string>
+    <string name="skin_light">简洁白</string>
+    <string name="skin_dark">魅力黑</string>
+    <string name="skin_follow_system">跟随系统</string>
+    <!--endregion-->
+
+    <!--region 公司行动打点-->
+    <string name="company_action">公司行动</string>
+    <string name="company_action_financial_income">营业收入：%s %s</string>
+    <string name="company_action_financial_eps">每股收益：%s %s</string>
+    <string name="company_action_financial_income_label">营业收入</string>
+    <string name="company_action_financial_eps_label">每股收益</string>
+    <string name="company_action_financial_publish">财务发布</string>
+    <string name="company_action_dividend">股权派息</string>
+    <string name="company_action_split">拆股合股</string>
+    <string name="company_action_ex_date">除净日 %s</string>
+    <!--endregion-->
+
+    <!--region 股票对比-->
+    <string name="stock_compare">股票对比</string>
+    <string name="compare">对比</string>
+    <string name="stock_compare_market_stock_name">腾讯控股,阿里巴巴,百度</string>
+    <!--endregion-->
+
+    <!--region 现金户跨币种交易提示-->
+    <string name="cross_currency_trade_reminder">跨币种交易</string>
+    <string name="cross_currency_trade_reminder_content">订单金额超出当前币种现金，其中%s股将使用其他币种作为购买力下单，如不及时换汇将产生利息。</string>
+    <string name="open_automatic_currency_exchange">开通自动换汇</string>
+    <string name="automatic_currency_exchange">自动换汇</string>
+    <string name="manual_currency_exchange">直接下单 (手动换汇)</string>
+    <!--endregion-->
+
+    <!--region 筹码分布-->
+    <string name="chip_distribution">筹码分布</string>
+    <string name="chip_distribution_prof_ratio">获利比例</string>
+    <string name="chip_distribution_avg_price">平均成本</string>
+    <string name="chip_distribution_support">支撑位</string>
+    <string name="chip_distribution_resist">压力位</string>
+    <string name="chip_distribution_overLap">区间重合度</string>
+    <string name="chip_distribution_chart">筹码图</string>
+    <string name="chip_distribution_to_kline">结合K线分析，切换横屏</string>
+    <string name="chip_distribution_data_analysis">数据分析</string>
+    <string name="chip_distribution_range">筹码区间</string>
+    <string name="chip_distribution_range_90">90%筹码区间</string>
+    <string name="chip_distribution_range_70">70%筹码区间</string>
+    <string name="chip_distribution_statement">以上所有数据与信息仅供参考，不构成投资建议</string>
+    <!--endregion-->
+
+    <!--region 新股弹窗-->
+    <string name="go_to_subscribe">前往认购</string>
+    <string name="price_admission">入场费</string>
+    <string name="time_subscribe_deadline">截止申购时间</string>
+    <string name="ipo_popup_more">更多招股信息前往新股中心查看</string>
+    <!--endregion-->
+
+    <!--region 云锋资产转移签署弹窗-->
+    <string name="yf_asset_tranform_content">尊敬的客户，根据阁下较早前提供予云锋证券的授权指示，阁下同意并授权云锋证券将阁下于云锋证券的全部或部分证券及/或现金自动转移至复星国际证券，本公司同样需要得到阁下的转移授权指示，请点击下方按钮并于%s前进行授权签署，逾期未完成授权签署，阁下随后需于app提交线上转仓申请。如有疑问，请联系客服。</string>
+    <string name="yf_asset_tranform_confirm">立即授权</string>
+    <string name="yf_asset_tranform_bar_content">请于%s前进行授权签署，逾期未完成授权签署，阁下随后需于app提交线上转仓申请</string>
+    <string name="date_format">%s年%s月%s日</string>
+    <!--endregion-->
+
+    <!--region mr测试-->
+    <string name="mr_test_tip">为提升系统体验，%s进行系统维护。\n开户、出入金、换汇、提交订单等操作将受影响无法使用。同时，系统可能不能正常查询您的资金、持仓、交易历史等，待系统维护后会恢复正常。如对阁下造成不便，为此深表歉意。</string>
+    <string name="mr_test_tip_duration">%s%s至%s%s</string>
+    <string name="mr_test_tip_highlight">系统维护</string>
+    <string name="mr_test_title">系统维护提示</string>
+    <!--endregion-->
+
+    <!--region 热力图-->
+    <string name="heat_map">热力图</string>
+    <string name="matket_value_top_30">市值前30</string>
+    <string name="matket_value_top_50">市值前50</string>
+    <string name="chg_pct_day_1">今日涨跌幅</string>
+    <string name="chg_pct_day_5">5日涨跌幅</string>
+    <string name="chg_pct_day_10">10日涨跌幅</string>
+    <string name="chg_pct_day_60">60日涨跌幅</string>
+    <string name="chg_pct_yeat_to_date">年初至今涨跌幅</string>
+    <string name="heat_map_tip">地图面积越大代表市值越大，地图红绿颜色深浅代表涨跌幅大小</string>
+    <!--endregion-->
+
+    <string name="expand">展开</string>
+    <string name="collapse">收起</string>
+
+    <!--region 账户首页-->
+    <string name="life_money_title">资产透视</string>
+    <string name="life_money_fold_content">助您科学规划资产</string>
+    <string name="cash_management">活钱管理</string>
+    <string name="flexible_financial_management">灵活理财</string>
+    <string name="wealth_investment">财富投资</string>
+    <string name="life_guarantee">人生保障</string>
+    <string name="cash_management_subtitle">账户现金及星财宝持仓资产</string>
+    <string name="flexible_financial_management_subtitle">理财产品投资资产</string>
+    <string name="wealth_investment_subtitle">三大市场证券产品投资资产</string>
+    <string name="special_service_subtitle">定期理财专户服务持仓资产</string>
+    <string name="investment_score">投资综合表现：%s分</string>
+    <string name="investment_score_ratio">累计投资综合表现超越了%s的投资者</string>
+    <string name="risk_control_status">风控状态</string>
+    <string name="go_to_see">去看看</string>
+    <string name="trade_entrust_record">交易记录</string>
+    <string name="buy_onway_balance">买入待确认</string>
+    <string name="sell_onway_balance">卖出将到账</string>
+    <string name="today_income">今日收益</string>
+    <string name="latest_income">最新收益</string>
+    <string name="life_money_tip">此处统计结果可能受日切时间和汇率等因素影响产生少量误差，仅供参考</string>
+    <string name="guide_trade_account">交易界面升级为账户，一览资金全景</string>
+    <string name="guide_trade_investment">财富规划必备，投资更有目标</string>
+    <string name="guide_trade_score">点击查看您的投资综合表现</string>
+    <string name="guide_trade_holding_cost_price">新增摊薄成本价，支持在“设置-交易设置-持仓展示”中切换成本选择</string>
+    <string name="guide_trade_overview_profit">点击展开查看更多盈利信息</string>
+    <string name="holding_amount">持有金额</string>
+    <string name="holding_earnings">持有收益</string>
+    <string name="today_income_tips">今日收益于每日9:00AM（北京时间）开始统计，包括今日盈亏、交易费用、利息扣款等资产变动，且以实时汇率将所有币种资产转化为统一币种展示。\n因此，今日收益不等于今日盈亏总和，点击了解更多。</string>
+    <string name="today_income_tips_key_word">了解更多</string>
+    <string name="wealth_latest_earnings_tips">此处显示当前理财账户持有星财宝、公募基金及私募基金的最新收益，按每自然日更新。私募基金的最新收益更新或不及时。\n最新收益=T日单位净值-T-1日单位净值</string>
+    <string name="open_entrust_account_title">开通星股宝账户</string>
+    <string name="open_entrust_account_tip">您的港股打新管家</string>
+    <string name="time_desposit_treasure">定存宝专户</string>
+    <string name="finance_product">理财产品</string>
+    <string name="special_service">专户服务</string>
+    <string name="special_service_desc">定期理财专户服务</string>
+    <string name="time_deposit_special_service">定存宝专户</string>
+    <string name="time_deposit_special_service_desc">现金管理服务</string>
+    <string name="time_deposit_open_desc">定存宝专户是专注于现金管理的定期理财服务。多银行询价，优选高性价比产品，分散风险</string>
+    <string name="star_treasure_special_service">星财宝专户</string>
+    <string name="star_treasure_special_service_desc">闲置长钱打理服务</string>
+    <string name="star_treasure_open_desc">星财宝专户是复星财富推出的专户服务，可用于闲置长钱打理，避免利率波动，有机会获取更高收益</string>
+    <string name="cash_management_service">现金管理服务</string>
+    <string name="goto_open">去开通</string>
+    <string name="name_maturity_date">名称/到期日</string>
+    <string name="holding_principal">持有本金</string>
+    <string name="holding_ratio">持有占比</string>
+    <string name="interest_due">到期利息(费后)</string>
+    <string name="subscribed">已认购</string>
+    <string name="invested">已入资</string>
+    <string name="interest_vested">已起息</string>
+    <string name="expired">已到期</string>
+    <string name="received_money">已回款</string>
+    <string name="interest_recognition">利息确认中</string>
+    <string name="today_interest">今日利息(费后)</string>
+    <string name="accum_interest">累计利息(费后)</string>
+    <string name="portfolio_rebalancing">组合调仓</string>
+    <string name="holding_details">持仓明细</string>
+    <string name="order_history">订单记录</string>
+    <string name="earnings_details">收益明细</string>
+    <!--endregion-->
+
+    <!--region 快捷交易-->
+    <string name="order_status">订单状态</string>
+    <string name="quick_trade_guide_click">点击报价唤起快捷交易，体验更丝滑</string>
+    <string name="quick_trade_guide_drag">拖动上滑，切换普通交易</string>
+    <!--endregion-->
+
+    <!--region 公司估值-->
+    <string name="company_value">公司估值</string>
+    <string name="price_to_sales_ratio">市销率</string>
+    <string name="current">当前</string>
+    <string name="historical_average">历史均值</string>
+    <string name="industry_average">行业均值</string>
+    <!--endregion-->
+
+    <!--region 美股盘前盘后排行榜-->
+    <string name="us_pre_post_rank_title">盘前盘后榜</string>
+    <string name="us_pre_today">盘前(今天)</string>
+    <string name="us_pre">盘前</string>
+    <string name="us_post_today">盘后(今天)</string>
+    <string name="us_post">盘后</string>
+    <string name="us_pre_last_price">盘前价/最新价</string>
+    <string name="us_pre_price">盘前价</string>
+    <string name="us_post_last_price">盘后价/最新价</string>
+    <string name="us_post_price">盘后价</string>
+    <string name="us_pre_chg_pct">盘前涨跌幅</string>
+    <string name="us_post_chg_pct">盘后涨跌幅</string>
+    <string name="us_pre_chg_val">盘前涨跌额</string>
+    <string name="us_post_chg_val">盘后涨跌额</string>
+    <string name="us_pre_vol">盘前成交量</string>
+    <string name="us_post_vol">盘后成交量</string>
+    <!--endregion-->
+
+    <!--region 虚拟资产-->
+    <string name="virtual_assets">虚拟资产</string>
+    <string name="virtual_assets_subscription">实物申购</string>
+    <string name="buying_crypto_coin">充币</string>
+    <string name="wallet_management">钱包管理</string>
+    <string name="buying_crypto_coin_record">充币记录</string>
+    <string name="asset_balance">资产余额</string>
+    <string name="frozen_quantity">冻结数量</string>
+    <string name="redeemable_quantity">可兑数量</string>
+    <string name="last_update_time">更新时间</string>
+    <string name="virtual_assets_subscription_orders_in_progress">您有 %s 笔实物申购订单进行中</string>
+    <string name="etf_exchange_quantity_request">ETF兑换数量(申请)</string>
+    <string name="etf_input_quantity_request">ETF兑入数量(申请)</string>
+    <string name="transaction_rules">交易规则</string>
+    <string name="estimated_output_quantity">兑出数量(预估)</string>
+    <string name="estimated_output_amount">兑出金额(预估)</string>
+    <string name="transaction_fee">交易费用</string>
+    <string name="needed">还需</string>
+    <string name="cash_available">现金可用</string>
+    <string name="virtual_assets_etf_warm_prompt1">实物交易当前仅支持申购。</string>
+    <string name="virtual_assets_etf_warm_prompt2">系统根据您输入的ETF兑入数量预估所需兑出数量及兑出金额，订单提交成功将自动冻结预估兑出数量及兑出金额。</string>
+    <string name="virtual_assets_etf_warm_prompt3">最终成交情况由ETF托管方独立决定，或与当前订单提交信息不同，请以订单实际确认结果为准。</string>
+    <string name="submit_order">提交订单</string>
+    <string name="select_physical_purchase_product">请选择实物申购产品</string>
+    <string name="purchase_result">申购结果</string>
+    <string name="transaction_final_confirmation">交易成功与否以最终确认结果为准</string>
+    <string name="etf_final_decision_notice">说明：最终成交情况由ETF托管方独立决定，或与当前订单提交信息不同，请以订单实际确认结果为准</string>
+    <string name="product_name">产品名称</string>
+    <string name="product_code">产品代码</string>
+    <string name="order_number">订单编号</string>
+    <string name="exchange_trading">场内交易</string>
+    <string name="virtual_assets_open_account_tip">实物申购需要开通虚拟资产账户，请前往开通。\n\n了解《什么是虚拟资产ETF实物申购》</string>
+    <string name="virtual_assets_open_account_agreement">《什么是虚拟资产ETF实物申购》</string>
+    <string name="etf_virtual_assets_supported">下方为支持实物申购的ETF</string>
+    <string name="current_holdings_quantity">您当前持有的%s数量</string>
+    <string name="available_funds_securities_account">您的证券账户可用金额</string>
+    <string name="min_virtual_assets_subscription_purchase_quantity">实物申购最小兑入数量为100,000</string>
+    <string name="non_whole_lot_not_supported">数量非整手，暂不支持碎股交易，一手为%d股</string>
+    <string name="please_select_product">请选择产品</string>
+    <string name="please_enter_etf_quantity">请输入ETF数量</string>
+    <string name="wallet_binding_required_message">您暂未绑定任何钱包，请先绑定钱包再充币</string>
+    <string name="bind_now">去绑定</string>
+    <string name="etf_subscription_instructions">根据基金发行人指示，实物ETF的认购，需要收取指定比例的虚拟货币和现金进行ETF兑换</string>
+    <string name="product_not_supported_physical_subscription">该产品暂不支持实物申购</string>
+    <string name="client_declaration_and_commitment">《客户声明及承诺》</string>
+    <string name="agree_to_terms_message">请勾选并同意相关协议</string>
+    <string name="trade_balance_statement_title">交易余额管理声明</string>
+    <string name="trade_balance_statement_content">本人同意在处理交易的过程中, 根据复星国际证券或复星国际证券的交易对手定下的余额管理方式进行交易, 所有交易以四舍五入方式保留到小数点后 6 位数。由此产生的余额由复星国际证券保留，并不会计入客户资产。</string>
+    <string name="withdraw_crypto">提币</string>
+    <string name="deposit_withdraw_record">充币记录</string>
+    <!--endregion-->
+
+    <!--股票收益计算器-->
+    <string name="profit_calculator">收益计算器</string>
+    <string name="stock_earnings_calculator">股票收益计算器</string>
+    <string name="estimated_buy_price">预计买入价格</string>
+    <string name="estimated_sell_price">预计卖出价格</string>
+    <string name="estimated_transaction_quantity">预计交易数量</string>
+    <string name="estimated_buy_transaction_amount">预估买入交易额</string>
+    <string name="estimated_sell_transaction_amount">预估卖出交易额</string>
+    <string name="estimated_profit_amount">预估收益金额</string>
+    <string name="estimated_profit_rate">预估收益率</string>
+    <string name="income_estimation_disclaimer_1">本页面为收益测算，并非真实收益，数据仅供参考；</string>
+    <string name="income_estimation_disclaimer_2">预计收益金额未剔除交易手续费，最终收益金额以实际交易为准。</string>
+    <string name="calculate">计算</string>
+    <!--endregion-->
+
+    <!--稳定币兑换-->
+    <string name="stablecoin_exchange">稳定币兑换</string>
+    <string name="buy_exchange_rate">兑入汇率</string>
+    <string name="sell_exchange_rate">兑出汇率</string>
+    <string name="fiat_to_stablecoin">法币兑换稳定币</string>
+    <string name="stablecoin_to_fiat">稳定币兑换法币</string>
+    <string name="exchange_in">兑入</string>
+    <string name="exchange_out">兑出</string>
+    <string name="etf_in_kind_subscription">虚拟资产ETF实物申购是指投资者使用持有的虚拟资产，如比特币或以太坊等加密货币，直接购买ETF的份额，而不是通过现金交易。</string>
+    <string name="regulated_fiat_stablecoin_service">合规版法币/稳定币互兑服务允许用户通过受监管的虚拟资产交易所进行法币与稳定币兑换。目前支持USD/HKD与USDT/USDT-TRC20/USDC互兑服务。</string>
+    <string name="regulated_fiat_stablecoin_service_not_pi">合规版法币/稳定币互兑服务允许用户通过受监管的虚拟资产交易所进行法币与稳定币兑换。目前支持USD/HKD与USDT/USDT-TRC20/USDC互兑服务，需要完成合规投资者认证。</string>
+    <string name="exchange_now">我要兑换</string>
+    <string name="go_complete_investor_certification">去完成合格投资者认证</string>
+    <string name="open_virtual_asset_account">开通虚拟资产账户</string>
+    <string name="check_account_opening_progress">查询开户进度</string>
+    <string name="no_products_support_physical_subscription">暂无支持实物申购的产品</string>
+    <string name="not_supported_stablecoin_deposit">暂不支持稳定币兑入</string>
+    <string name="not_supported_stablecoin_withdraw">暂不支持稳定币兑出</string>
+    <string name="open_virtual_currency">开通虚拟货币</string>
+    <string name="stock_market_trade_smooth">股票市场交易无阻碍</string>
+    <string name="ensure_virtual_asset_security_legality">保障虚拟资产交易的安全性和合法性</string>
+    <string name="compliant_fiat_stablecoin_exchange_service">合规版法币/稳定币互兑服务允许用户通过受监管的虚拟资产交易所进行法币与稳定币兑换。目前支持USD/HKD与USDT/USDT-TRC20/USDC互兑服务，需要完成合规投资者认证。</string>
+    <string name="payment">支付</string>
+    <string name="obtain">获得</string>
+    <string name="local_network">所在网络</string>
+    <!--endregion-->
+
+    <!-- AI -->
+    <string name="ai_test">AI测股</string>
+    <string name="estimated_future_5th_trading_day">预计今日</string>
+    <string name="closing_approximately">目标价约</string>
+    <string name="click_to_view">点击查看</string>
+    <string name="stock_rise">上涨</string>
+    <string name="stock_fall">下跌</string>
+    <string name="prediction_disclaimer_header">概率预测，仅供参考</string>
+    <string name="prediction_description_summary">在此呈现的该股票当日的上涨/下跌概率，以及当日股票能达到的目标价。通俗来讲，就是通过AI能力对当日股价上涨或下跌可能性的预估。</string>
+    <string name="prediction_rise_fall_definition">上涨/下跌：此为依托AI大模型能力生成的概率预测，向您直观展示股价上涨或下跌可能性的高低程度。</string>
+    <string name="prediction_closing_price_definition">目标价：同样基于 AI 大模型能力给出概率预测，为您推测股票可能达到的目标价。</string>
+    <string name="prediction_risk_warning">重要提示\n本预测由AI语言模型生成,仅供参考。股票市场受多种不可控及复杂因素影响,AI输出内容可能存在误差或不准确之处。请勿完全依赖此预测进行投资决策,建议结合自身判断及其他信息来源,谨慎评估风险,及综合判断其是否契合您的实际操作需求。</string>
+    <!--endregion-->
+</resources>

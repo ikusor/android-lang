@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<resources>
+    <string name="mim_locked_tip">密碼已被鎖定，請聯繫客服解鎖</string>
+    <string name="contact_customer_service">聯繫客服</string>
+    <string name="online_customer_service">在線客服</string>
+    <string name="verify_code_error">驗證碼錯誤，請確認後重試</string>
+    <string name="sync_error">同步失敗</string>
+    <string name="verify_code_expired">驗證碼已過期，請重新發送</string>
+    <string name="please_input_phone_to_reset_mim">請輸入手機號，重置您的密碼完成登錄</string>
+    <string name="please_input_email_to_reset_mim">請輸入郵箱，重置登錄密碼</string>
+    <string name="please_input_email_hint">請輸入郵箱</string>
+    <string name="send_email_verify_code">發送郵箱驗證碼</string>
+    <string name="send_verify_email">發送驗證郵件</string>
+    <string name="input_email_verify_code">輸入郵箱驗證碼</string>
+    <string name="email_verify_code_has_been_to">已發送郵箱驗證碼至：</string>
+    <string name="email_verify">郵箱驗證</string>
+    <string name="phone_verify">手機驗證</string>
+    <string name="phone_been_bound">该手机号无效或已被使用</string>
+    <string name="verify_success">驗證成功</string>
+    <string name="reset_login_mim">重置登錄密碼</string>
+    <string name="please_reset_your_login_mim">請重新設置您的登錄密碼</string>
+    <string name="old_login_mim_title">原密碼</string>
+    <string name="new_login_mim_title">新密碼</string>
+    <string name="confirm_new_login_mim_title">確認新密碼</string>
+    <string name="reset_new_login_mim_hint">新登錄密碼(8-20位組合)</string>
+    <string name="reset_confirm_new_login_mim_hint">確認新密碼</string>
+    <string name="old_login_mim_hint">輸入原密碼</string>
+    <string name="new_login_mim_hint">新密碼(8-20位組合)</string>
+    <string name="input_new_login_mim_hint">新登錄密碼(8-20位組合)</string>
+    <string name="confirm_new_login_mim_hint">確認新密碼</string>
+    <string name="two_new_mim_diff_tip">再次輸入的密碼不一致</string>
+    <string name="new_and_old_mim_same_tip">新密碼不能與當前密碼相同</string>
+    <!--<string name="please_input_account_idcard_num">請填寫完整復星恆利證券(香港)開戶證件號碼</string>-->
+    <string name="account_idcard_num_hint">開戶證件號</string>
+    <string name="account_idcard_num_input_guide">
+        開戶證件號不區分大小寫字母。如是香港身份證無須輸入括號。
+        \n示例如下：
+        \n香港身份證：G1234567
+        \n內地身份證：12345678901234123X
+        \n內地護照：E12345678
+    </string>
+    <string name="login_mim_invalid_tip">登錄密碼至少含大寫字母、小寫字母、數位或標點符號中的三種</string>
+    <string name="modify_mim_invalid_tip">大寫字母、小寫字母、數位或標點至少含三種</string>
+    <string name="set_mim_tip_title">補充資料</string>
+    <string name="set_mim_tip_content">您的資料沒有補全,無法進行下一步操作</string>
+    <string name="set_mim_tip_button">補充</string>
+
+    <string name="curr_verify_phone_title">當前驗證手機號：</string>
+    <string name="curr_verify_email_title">當前驗證郵箱號：</string>
+    <string name="no_authenticate">未認證</string>
+    <string name="next_step">下一步</string>
+    <string name="confirm_reset">確認重置</string>
+    <string name="again_login">重新登錄</string>
+    <string name="reset_success_tip">重置成功</string>
+    <string name="login_mim_reset_success_tip">登錄密碼重置成功</string>
+    <string name="please_remember_your_new_login_mim">請牢記您的新登錄密碼</string>
+    <string name="modify_mim_success_tip">您的登錄密碼已修改，請重新登錄</string>
+    <string name="modify_mim_failed_tip">操作失敗</string>
+    <string name="reset_mim_failed_tip">操作失敗</string>
+    <string name="reset_mim_code_error">操作超時，請重新驗證</string>
+    <string name="old_mim_error_tip">原密碼輸入錯誤</string>
+    <string name="modify_login_min">修改登錄密碼</string>
+    <string name="go_setting">去設置</string>
+    <string name="login_mim_unset_tip">您還未設置過密碼，請先去設置密碼</string>
+    <string name="logout_tip">確定要登出嗎？</string>
+    <string name="logout_autologin_setting_guide">如有需要可以關閉自動登錄。</string>
+    <string name="account_idcard_num_verify_failed_tip">開戶證件號碼校驗失敗，請確認輸入是否正確</string>
+
+    <string name="verify_login_mim">驗證登錄密碼</string>
+    <string name="verify_login_mim_hint">登錄密碼(8–20位組合)</string>
+    <string name="setting_login_min">設置登錄密碼</string>
+    <string name="setting_new_login_mim">設置新登錄密碼</string>
+    <string name="set_successfully">設置成功</string>
+    <string name="please_remember_your_login_mim">請牢記您的登錄密碼</string>
+    <string name="can_not_receive_verification_code">收不到驗證碼?</string>
+    <string name="login_mim_does_not_meet_the_rules_tip">8–20位字符，大小寫字母、數位和標點符號至少包含3種</string>
+    <string name="inconsistent_mims">密碼不一致</string>
+    <string name="login_mim_tip_title">為保障賬戶安全，首次登錄須設置登錄密碼</string>
+    <string name="login_min_tip_content">登錄密碼是指您登錄星財富APP時使用的密碼，該密碼僅作星財富APP內登錄使用
+        \n\n交易密碼是指您通過交易賬戶辦理復星國際證券業務時使用的密碼，該密碼可用於星財富APP內解鎖交易、提交訂單及與證券交易相關等行為，亦可用於登錄復星國際證券其他交易平台
+    </string>
+    <string name="multiAcc_login_deny_title">當前手機號綁定多個交易賬戶</string>
+    <string name="multiAcc_login_deny_content">為保障您的賬戶安全，該手機號暫不支持賬號密碼登錄，請選擇短訊驗證碼登錄</string>
+    <string name="multiAcc_login_to_phone">前往短訊驗證碼登錄</string>
+    <string name="multiAcc_modify_phone_deny">為保護您的賬戶安全，公司戶暫不支持線上修改認證手機號，如需修改，可聯繫線上客服</string>
+    <string name="multiAcc_modify_email_deny">為保護您的賬戶安全，公司戶暫不支持線上修改認證郵箱，如需修改，可聯繫線上客服</string>
+    <string name="multiAcc_permission_deny">當前賬戶類型暫不支持此功能</string>
+    <string name="login_openaccbutnomim_tip_title">為保障賬戶安全，首次登錄星財富須使用短訊驗證碼登錄，並設置登錄密碼</string>
+    <string name="login_to_set_mim">前往設置登錄密碼</string>
+    <string name="login_to_set_mim_success">登錄密碼設置成功</string>
+</resources>

@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh-rEN">
+    <string name="mim_locked_tip">Password has been locked, please contact customer service to unlock</string>
+    <string name="contact_customer_service">Contact Customer Service</string>
+    <string name="online_customer_service">Online Customer Service</string>
+    <string name="verify_code_error">Verification code error, please confirm and try again</string>
+    <string name="sync_error">Sync failed</string>
+    <string name="verify_code_expired">Verification code expired, please resend</string>
+    <string name="please_input_phone_to_reset_mim">Please enter your phone number to reset your login password</string>
+    <string name="please_input_email_to_reset_mim">Please enter your email to reset your password and complete login</string>
+    <string name="please_input_email_hint">Please enter your email</string>
+    <string name="send_email_verify_code">Send Email Verification Code</string>
+    <string name="send_verify_email">Send Verification Email</string>
+    <string name="input_email_verify_code">Enter Email Verification Code</string>
+    <string name="email_verify_code_has_been_to">Email verification code has been sent to:</string>
+    <string name="email_verify">Email Verification</string>
+    <string name="phone_verify">Phone Verification</string>
+    <string name="phone_been_bound">The phone number is invalid or already in use</string>
+    <string name="verify_success">Verification Successful</string>
+    <string name="reset_login_mim">Reset Login Password</string>
+    <string name="please_reset_your_login_mim">Please reset your login password</string>
+    <string name="old_login_mim_title">Old Password</string>
+    <string name="new_login_mim_title">New Password</string>
+    <string name="confirm_new_login_mim_title">Confirm New Password</string>
+    <string name="reset_new_login_mim_hint">New login password (8-20 character combination)</string>
+    <string name="reset_confirm_new_login_mim_hint">Confirm New Password</string>
+    <string name="old_login_mim_hint">Enter Old Password</string>
+    <string name="new_login_mim_hint">New Password (8-20 character combination)</string>
+    <string name="input_new_login_mim_hint">New login password (8-20 character combination)</string>
+    <string name="confirm_new_login_mim_hint">Confirm New Password</string>
+    <string name="two_new_mim_diff_tip">The re-entered password does not match</string>
+    <string name="new_and_old_mim_same_tip">The new password cannot be the same as the current password</string>
+    <string name="account_idcard_num_hint">Account ID Card Number</string>
+    <string name="account_idcard_num_input_guide">
+        Account ID card number is not case-sensitive. If it is a Hong Kong ID card, no need to enter brackets.
+        \nExamples are as follows:
+        \nHong Kong ID card: G1234567
+        \nMainland ID card: 12345678901234123X
+        \nMainland Passport: E12345678
+    </string>
+    <string name="login_mim_invalid_tip">The login password must contain at least three of the following: uppercase letters, lowercase letters, numbers, or punctuation marks</string>
+    <string name="modify_mim_invalid_tip">Must contain at least three of the following: uppercase letters, lowercase letters, numbers, or punctuation</string>
+    <string name="set_mim_tip_title">Supplementary Information</string>
+    <string name="set_mim_tip_content">Your information is incomplete and cannot proceed to the next step</string>
+    <string name="set_mim_tip_button">Supplement</string>
+
+    <string name="curr_verify_phone_title">Current Verified Phone Number:</string>
+    <string name="curr_verify_email_title">Current Verified Email:</string>
+    <string name="no_authenticate">Not Authenticated</string>
+    <string name="next_step">Next Step</string>
+    <string name="confirm_reset">Confirm Reset</string>
+    <string name="again_login">Login Again</string>
+    <string name="reset_success_tip">Reset Successful</string>
+    <string name="login_mim_reset_success_tip">Login Password Reset Successful</string>
+    <string name="please_remember_your_new_login_mim">Please remember your new login password</string>
+    <string name="modify_mim_success_tip">Your login password has been changed, please log in again</string>
+    <string name="modify_mim_failed_tip">Operation Failed</string>
+    <string name="reset_mim_failed_tip">Operation Failed</string>
+    <string name="reset_mim_code_error">Operation timed out, please re-verify</string>
+    <string name="old_mim_error_tip">Old password entered incorrectly</string>
+    <string name="modify_login_min">Change Login Password</string>
+    <string name="go_setting">Go to Settings</string>
+    <string name="login_mim_unset_tip">You have not set a password yet, please set a password first</string>
+    <string name="logout_tip">Are you sure you want to log out?</string>
+    <string name="logout_autologin_setting_guide">You can turn off auto-login if needed.</string>
+    <string name="account_idcard_num_verify_failed_tip">Account ID card number verification failed, please check if the input is correct</string>
+
+    <string name="verify_login_mim">Verify Login Password</string>
+    <string name="verify_login_mim_hint">Login password (8-20 character combination)</string>
+    <string name="setting_login_min">Set Login Password</string>
+    <string name="setting_new_login_mim">Set New Login Password</string>
+    <string name="set_successfully">Set Successfully</string>
+    <string name="please_remember_your_login_mim">Please remember your login password</string>
+    <string name="can_not_receive_verification_code">Can't receive verification code?</string>
+    <string name="login_mim_does_not_meet_the_rules_tip">8-20 characters, must include at least 3 of uppercase letters, lowercase letters, numbers, and punctuation marks</string>
+    <string name="inconsistent_mims">Passwords do not match</string>
+    <string name="login_mim_tip_title">To ensure account security, you must set a login password on your first login</string>
+    <string name="login_min_tip_content">The login password is the password you use to log in to the Star Wealth APP, and it is only used for logging into the Star Wealth APP
+        \n\nThe transaction password is the password you use to handle Fosun International Securities business through the trading account. This password can be used to unlock transactions, submit orders, and perform securities trading-related actions within the Star Wealth APP, and can also be used to log in to other trading platforms of Fosun International Securities
+    </string>
+    <string name="multiAcc_login_deny_title">The current phone number is bound to multiple trading accounts</string>
+    <string name="multiAcc_login_deny_content">To ensure the security of your account, this phone number does not support account password login for now. Please choose SMS verification code login</string>
+    <string name="multiAcc_login_to_phone">Go to SMS Verification Code Login</string>
+    <string name="multiAcc_modify_phone_deny">To protect your account security, corporate accounts do not support online modification of the verified phone number. If you need to modify it, please contact online customer service</string>
+    <string name="multiAcc_modify_email_deny">To protect your account security, corporate accounts do not support online modification of the verified email. If you need to modify it, please contact online customer service</string>
+    <string name="multiAcc_permission_deny">The current account type does not support this function</string>
+    <string name="login_openaccbutnomim_tip_title">To ensure account security, the first login to Star Wealth must use SMS verification code login and set a login password</string>
+    <string name="login_to_set_mim">Go to Set Login Password</string>
+    <string name="login_to_set_mim_success">Login Password Set Successfully</string>
+</resources>
